@@ -1,0 +1,4 @@
+-- Run after ../ingestion/postgres_import.sql loads rigveda_pdf_page_staging.
+-- Run from content/reconciliation. Imported rows remain blocked from publication.
+\copy rigveda_mantra_identity(identity_key,mandala,sukta,mantra,source_presence,occurrences_by_profile,identity_status,uncertainty_flags,publication_allowed) FROM 'mantra_identities.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy rigveda_tradition_variant(variant_id,identity_key,profile,source_pdf,source_url,source_sha256,source_page,license_status,source_text_segment,devanagari_candidate,rccs_candidate,iast_candidate,svara_marks,rccs_visual_cues_location,extraction_method,extraction_confidence,uncertainty_flags,variant_relation,text_comparison_status,publication_blockers,publication_allowed) FROM 'tradition_variants.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');

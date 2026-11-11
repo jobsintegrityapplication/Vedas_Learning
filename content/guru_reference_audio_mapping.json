@@ -1,0 +1,123 @@
+{
+  "mapping_basis": "User-provided numbered filenames (1–9), mapped to the corresponding lesson number.",
+  "lessons": [
+    {
+      "order": 1,
+      "lesson_id": "rigveda-01",
+      "lesson_title": "Truth – Righteousness",
+      "reference": "Rigveda 10.85.1",
+      "asset": "assets/audio/guru_reference/rigveda-01.ogg",
+      "format": "ogg",
+      "source_filename": "1.Truth – Righteousness.ogg",
+      "source_title": "Truth – Righteousness",
+      "title_matches_lesson": true,
+      "sha256": "b1a989a8dc5514ec16fb84fa658488b8d94749348088b8799e8581bd44dee159",
+      "bytes": 43915
+    },
+    {
+      "order": 2,
+      "lesson_id": "rigveda-02",
+      "lesson_title": "Everyone should walk together",
+      "reference": "Rigveda 10.191.2",
+      "asset": "assets/audio/guru_reference/rigveda-02.ogg",
+      "format": "ogg",
+      "source_filename": "2.Everyone should walk together.ogg",
+      "source_title": "Everyone should walk together",
+      "title_matches_lesson": true,
+      "sha256": "da15cd07035c6ca85fa9b002bcae6164c237db1b4840772ad85f99a8be8c6b36",
+      "bytes": 20274
+    },
+    {
+      "order": 3,
+      "lesson_id": "rigveda-03",
+      "lesson_title": "Our thoughts should be united",
+      "reference": "Rigveda 10.191.4",
+      "asset": "assets/audio/guru_reference/rigveda-03.ogg",
+      "format": "ogg",
+      "source_filename": "3.Our thoughts should be united..ogg",
+      "source_title": "Our thoughts should be united.",
+      "title_matches_lesson": true,
+      "sha256": "d06e02583a1eb1c27631fe16f51e0ab98ef0f454679c36d7b7917e5eddf939d9",
+      "bytes": 34786
+    },
+    {
+      "order": 4,
+      "lesson_id": "rigveda-04",
+      "lesson_title": "Good ideas should come from all directions",
+      "reference": "Rigveda 1.89.1",
+      "asset": "assets/audio/guru_reference/rigveda-04.ogg",
+      "format": "ogg",
+      "source_filename": "4.Good ideas should come from all direction.ogg",
+      "source_title": "Good ideas should come from all direction",
+      "title_matches_lesson": false,
+      "sha256": "8adf7832b676d73e57cc200d6299b49de3f330163b1dadd8cc773f92305e17b3",
+      "bytes": 15168
+    },
+    {
+      "order": 5,
+      "lesson_id": "rigveda-05",
+      "lesson_title": "We should see each morning as a new opportunity",
+      "reference": "Rigveda 1.48.15",
+      "asset": "assets/audio/guru_reference/rigveda-05.ogg",
+      "format": "ogg",
+      "source_filename": "5.We should see each morning as a new opportunity.ogg",
+      "source_title": "We should see each morning as a new opportunity",
+      "title_matches_lesson": true,
+      "sha256": "98397dbafb7adb9d2eb1d4b4756b0b838506181799c42250a9c04bf9ad2738a6",
+      "bytes": 21146
+    },
+    {
+      "order": 6,
+      "lesson_id": "rigveda-06",
+      "lesson_title": "Mutual Love and Friendship",
+      "reference": "Rigveda 10.191.4",
+      "asset": "assets/audio/guru_reference/rigveda-06.ogg",
+      "format": "ogg",
+      "source_filename": "6.Mutual Love and Friendship.ogg",
+      "source_title": "Mutual Love and Friendship",
+      "title_matches_lesson": true,
+      "sha256": "2eb828b93f3311eb9d0571c8c707e2b84546c0b67f9417dbf591f4dd57c165a2",
+      "bytes": 15485
+    },
+    {
+      "order": 7,
+      "lesson_id": "rigveda-07",
+      "lesson_title": "Pursuit of Knowledge",
+      "reference": "Rigveda 1.164.39",
+      "asset": "assets/audio/guru_reference/rigveda-07.ogg",
+      "format": "ogg",
+      "source_filename": "7.Pursuit of Knowledge.ogg",
+      "source_title": "Pursuit of Knowledge",
+      "title_matches_lesson": true,
+      "sha256": "f6a3c88b4b3f2b73b2faddc94dca7feca69c511a0b8fdb440fde8c881ccbbebd",
+      "bytes": 29244
+    },
+    {
+      "order": 8,
+      "lesson_id": "rigveda-08",
+      "lesson_title": "The True Value of Sharing",
+      "reference": "Rigveda 10.117.6",
+      "asset": "assets/audio/guru_reference/rigveda-08.ogg",
+      "format": "ogg",
+      "source_filename": "8.The True Value of Sharingogg.ogg",
+      "source_title": "The True Value of Sharingogg",
+      "title_matches_lesson": false,
+      "sha256": "92dee02a1636770239214a8b60489862af7cdfe77c150933381d54e9f62890ca",
+      "bytes": 26371
+    },
+    {
+      "order": 9,
+      "lesson_id": "rigveda-09",
+      "lesson_title": "A Prayer for Universal Peace and Well-being",
+      "reference": "Rigveda 1.90.9",
+      "asset": "assets/audio/guru_reference/rigveda-09.ogg",
+      "format": "ogg",
+      "source_filename": "9.A Prayer for Universal Peace and Well-being.ogg",
+      "source_title": "A Prayer for Universal Peace and Well-being",
+      "title_matches_lesson": true,
+      "sha256": "304d54b370576d800e74dcbe62132df62839ead441e39c6601285e47abfb5d34",
+      "bytes": 39495
+    }
+  ],
+  "review_note": "Lesson 3 uses the corrected title-specific source file supplied after the initial numbered batch."
+}

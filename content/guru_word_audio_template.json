@@ -1,0 +1,590 @@
+{
+  "note": "These are word timing rows, not required separate recordings. Mark each start_ms/end_ms in Admin · Guru content using the whole-shloka recording; the API validates the word sequence against the published lesson.",
+  "lessons": [
+    {
+      "lesson_id": "rigveda-01",
+      "lesson_title": "Truth – Righteousness",
+      "reference": "Rigveda 10.85.1",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "सत्येनोत्तभिता",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "भूमिः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "सूर्येणोत्तभिता",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "द्यौः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "ऋतेनादित्यास्तिष्ठन्ति",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "दिवि",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 7,
+          "word": "सोमो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 8,
+          "word": "अधि",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 9,
+          "word": "श्रितः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 10,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-02",
+      "lesson_title": "Everyone should walk together",
+      "reference": "Rigveda 10.191.2",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "संगच्छध्वं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "संवदध्वं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "सं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "वो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "मनांसि",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "जानताम्",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-03",
+      "lesson_title": "Our thoughts should be united",
+      "reference": "Rigveda 10.191.4",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "समानी",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "व",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "आकूतिः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "समाना",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "हृदयानि",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "वः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 7,
+          "word": "समानमस्तु",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 8,
+          "word": "वो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 9,
+          "word": "मनो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 10,
+          "word": "यथा",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 11,
+          "word": "वः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 12,
+          "word": "सुसहासति",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 13,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-04",
+      "lesson_title": "Good ideas should come from all directions",
+      "reference": "Rigveda 1.89.1",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "आ",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "नो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "भद्राः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "क्रतवो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "यन्तु",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "विश्वतः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-05",
+      "lesson_title": "We should see each morning as a new opportunity",
+      "reference": "Rigveda 1.48.15",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "उषो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "यदद्य",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "भानुना",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "वि",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "द्वारावृणवो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "दिवः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-06",
+      "lesson_title": "Mutual Love and Friendship",
+      "reference": "Rigveda 10.191.4",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "समानं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "मनः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "सहचित्तमेषाम्",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-07",
+      "lesson_title": "Pursuit of Knowledge",
+      "reference": "Rigveda 1.164.39",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "ऋचो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "अक्षरे",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "परमे",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "व्योमन्",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "यस्मिन्",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "देवा",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "अधि",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 7,
+          "word": "विश्वे",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 8,
+          "word": "निषेदुः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 9,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-08",
+      "lesson_title": "The True Value of Sharing",
+      "reference": "Rigveda 10.117.6",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "मोघमन्नं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "विन्दते",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "अप्रचेताः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "सत्यं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "ब्रवीमि",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "वध",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "इत्",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 7,
+          "word": "स",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 8,
+          "word": "तस्य",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 9,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    },
+    {
+      "lesson_id": "rigveda-09",
+      "lesson_title": "A Prayer for Universal Peace and Well-being",
+      "reference": "Rigveda 1.90.9",
+      "words": [
+        {
+          "word_order": 0,
+          "word": "शं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 1,
+          "word": "नो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 2,
+          "word": "मित्रः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 3,
+          "word": "शं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 4,
+          "word": "वरुणः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 5,
+          "word": "शं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 6,
+          "word": "नो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 7,
+          "word": "भवत्वर्यमा",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 8,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 9,
+          "word": "शं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 10,
+          "word": "न",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 11,
+          "word": "इन्द्रो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 12,
+          "word": "बृहस्पतिः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 13,
+          "word": "शं",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 14,
+          "word": "नो",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 15,
+          "word": "विष्णुरुरुक्रमः",
+          "start_ms": null,
+          "end_ms": null
+        },
+        {
+          "word_order": 16,
+          "word": "",
+          "start_ms": null,
+          "end_ms": null
+        }
+      ]
+    }
+  ]
+}

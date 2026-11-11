@@ -1,0 +1,628 @@
+{
+  "generated_at": "2026-11-06T20:16:03.377993+00:00",
+  "schema_version": "1.0",
+  "source_structure": {
+    "recension": "Rigveda Shakala Samhita",
+    "expected_totals": {
+      "mandalas": 10,
+      "anuvakas": 85,
+      "suktas": 1028,
+      "mantras": 10552
+    },
+    "expected_by_mandala": {
+      "1": {
+        "suktas": 191,
+        "mantras": 2006
+      },
+      "2": {
+        "suktas": 43,
+        "mantras": 429
+      },
+      "3": {
+        "suktas": 62,
+        "mantras": 617
+      },
+      "4": {
+        "suktas": 58,
+        "mantras": 589
+      },
+      "5": {
+        "suktas": 87,
+        "mantras": 727
+      },
+      "6": {
+        "suktas": 75,
+        "mantras": 765
+      },
+      "7": {
+        "suktas": 104,
+        "mantras": 841
+      },
+      "8": {
+        "suktas": 103,
+        "mantras": 1716
+      },
+      "9": {
+        "suktas": 114,
+        "mantras": 1108
+      },
+      "10": {
+        "suktas": 191,
+        "mantras": 1754
+      }
+    },
+    "expected_totals_sum_check": "passed",
+    "authority_url": "https://vedicheritage.gov.in/samhitas/rigveda/shakala-samhita/",
+    "accessed_date": "2026-11-07",
+    "definition_note": "Includes the portal's Mandala VIII total as published; numbering/count conventions must remain edition-specific."
+  },
+  "source_files": {
+    "pdf_count": 20,
+    "pdfs_by_profile": {
+      "Kanchi": 10,
+      "Sringeri": 10
+    },
+    "pages": 4130,
+    "ocr_required_pages": 4130,
+    "ocr_unavailable_pages": 4130,
+    "inventory": [
+      {
+        "profile": "Kanchi",
+        "mandala": 1,
+        "source_url": "https://www.saiveda.net/textes/maNDala_01_kp.pdf",
+        "source_sha256": "5ca6353a52e724dec733d20ce3c5258da946b5043c1c0588f70ba0c722444aba",
+        "page_count": 397,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 2,
+        "source_url": "https://www.saiveda.net/textes/maNDala_02_kp.pdf",
+        "source_sha256": "7b149fba3dd1b4398713f9049d40873fc1ca2bfff772521849d08d53ed625f46",
+        "page_count": 88,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 3,
+        "source_url": "https://www.saiveda.net/textes/maNDala_03_kp.pdf",
+        "source_sha256": "10890bea871626d0dbcc0450f1ffa3b2fe57080897d70f232876e01b80ca22a4",
+        "page_count": 122,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 4,
+        "source_url": "https://www.saiveda.net/textes/maNDala_04_kp.pdf",
+        "source_sha256": "1a2f76d3069ad6cd32ac3541c40fe4456b41f7d22217439777141b5eaf4ff30f",
+        "page_count": 120,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 5,
+        "source_url": "https://www.saiveda.net/textes/maNDala_05_kp.pdf",
+        "source_sha256": "92e4c6a45076045cd9743f55343241937832776d11725bf8713d24160b2a8640",
+        "page_count": 152,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 6,
+        "source_url": "https://www.saiveda.net/textes/maNDala_06_kp.pdf",
+        "source_sha256": "efdaee599fe728271cc8a95a676317f96931358b14835af2cdadfae0d63f4693",
+        "page_count": 148,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 7,
+        "source_url": "https://www.saiveda.net/textes/maNDala_07_kp.pdf",
+        "source_sha256": "859675d01f4d8ae9dec92c2d1a1f74efa6222f64389dfc256738564bd0000a96",
+        "page_count": 174,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 8,
+        "source_url": "https://www.saiveda.net/textes/maNDala_08_kp.pdf",
+        "source_sha256": "854613c9ff9b8c9ed1cae61dd945af52b942f50774a02a4b37e5b60e812f9a61",
+        "page_count": 300,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 9,
+        "source_url": "https://www.saiveda.net/textes/maNDala_09_kp.pdf",
+        "source_sha256": "056aac4b6dcb5061ea0092a72dbe33424acced90df8a8001ad2482c3f7b94cf4",
+        "page_count": 204,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 10,
+        "source_url": "https://www.saiveda.net/textes/maNDala_10_kp.pdf",
+        "source_sha256": "1109d6a68378f438eb103554c63b96f4582e670b7959e1bde72cdc491342f9eb",
+        "page_count": 364,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 1,
+        "source_url": "https://www.saiveda.net/textes/maNDala_01_sp.pdf",
+        "source_sha256": "acd1cbc1de4b384702e73c104323ae6de6ad948c6424df9f90ca731b4b482a84",
+        "page_count": 395,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 2,
+        "source_url": "https://www.saiveda.net/textes/maNDala_02_sp.pdf",
+        "source_sha256": "3441a2450f4cf31dd24c23006aa3e94496df6dfd2afa894f3f58237263d381c5",
+        "page_count": 87,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 3,
+        "source_url": "https://www.saiveda.net/textes/maNDala_03_sp.pdf",
+        "source_sha256": "3efdce78f3be118f4f6154e8a98ad80edeed32497fa37f86a8225d83852efe5a",
+        "page_count": 121,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 4,
+        "source_url": "https://www.saiveda.net/textes/maNDala_04_sp.pdf",
+        "source_sha256": "7fc64926750e4b7eeed63d988852201ab1bd2e94aec669d2d03c8d376dc8b140",
+        "page_count": 119,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 5,
+        "source_url": "https://www.saiveda.net/textes/maNDala_05_sp.pdf",
+        "source_sha256": "8ac328653c180c925253d55c4ba8a449ea0fe2d26af72b1543937a4c31a621ff",
+        "page_count": 151,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 6,
+        "source_url": "https://www.saiveda.net/textes/maNDala_06_sp.pdf",
+        "source_sha256": "9c95ef6ecd4f727639e7239713ff3424210e3ade5c372947dfb1c13b14a57d29",
+        "page_count": 148,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 7,
+        "source_url": "https://www.saiveda.net/textes/maNDala_07_sp.pdf",
+        "source_sha256": "d7089d4117215ae288e34afa07f7140de2e51bc17a8bb97a136a814d3510ebaf",
+        "page_count": 173,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 8,
+        "source_url": "https://www.saiveda.net/textes/maNDala_08_sp.pdf",
+        "source_sha256": "a9eaa50e38977cde003567170b0776d28db53b6198f9f1d2011609c806b0e2f0",
+        "page_count": 300,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 9,
+        "source_url": "https://www.saiveda.net/textes/maNDala_09_sp.pdf",
+        "source_sha256": "69cda6f150ba68f835973b496309a4b43dbd88fda4ef2b8c943ff6739e71c6d9",
+        "page_count": 203,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 10,
+        "source_url": "https://www.saiveda.net/textes/maNDala_10_sp.pdf",
+        "source_sha256": "0b72d7755857205fedc437d88a700cd0d55022a20b8061092e740faa1255997c",
+        "page_count": 364,
+        "edition": "SaiVeda-hosted Rigveda Samhita, Shakala; precise underlying editorial/print edition is not stated",
+        "license_status": "SaiVeda site copyright footer © 2013–2026; no reuse license identified on reviewed pages; PDF metadata says copy:no and print:yes; written permission required before redistribution"
+      }
+    ]
+  },
+  "structure_comparison": {
+    "per_mandala_expected_counts_arithmetic": "passed",
+    "expected_anukavas": 85,
+    "anuvaka_coverage_status": "not_extracted",
+    "explicit_marker_candidates_by_profile": {
+      "Kanchi": 10557,
+      "Sringeri": 10535
+    },
+    "candidate_count_delta_from_10552": {
+      "Kanchi": 5,
+      "Sringeri": -17
+    },
+    "coverage_validation_status": "blocked_uncertain_extraction"
+  },
+  "summary": {
+    "source_pdf_count": 20,
+    "page_records": 4130,
+    "provisional_common_identities": 6963,
+    "provisional_profile_only_identities": 98,
+    "duplicate_identity_groups": 233,
+    "provisional_order_conflicts": 0,
+    "kendall_order_inversions_on_common_candidates": 0,
+    "text_comparisons_blocked": 6963,
+    "confirmed_textual_differences": 0,
+    "text_difference_status": "not_evaluated_due_uncertain_extraction",
+    "publishable_records": 0,
+    "publication_gate": "blocked_uncertain_extraction"
+  },
+  "profile_candidate_summary": {
+    "Kanchi": {
+      "candidate_rows": 10617,
+      "unique_explicit_identity_candidates": 7049,
+      "duplicate_address_groups": 230,
+      "duplicate_extra_rows": 233,
+      "unassigned_candidates": 3335,
+      "all_candidates_uncertain": true
+    },
+    "Sringeri": {
+      "candidate_rows": 10574,
+      "unique_explicit_identity_candidates": 6975,
+      "duplicate_address_groups": 3,
+      "duplicate_extra_rows": 3,
+      "unassigned_candidates": 3596,
+      "all_candidates_uncertain": true
+    }
+  },
+  "mandala_coverage": [
+    {
+      "mandala": 1,
+      "expected_suktas": 191,
+      "expected_mantras": 2006,
+      "Kanchi": {
+        "candidate_rows": 2023,
+        "explicit_number_candidates": 2016,
+        "unique_address_candidates": 595,
+        "candidate_suktas_seen": 181,
+        "expected_suktas_missing_from_candidate_labels": 10,
+        "ambiguous_or_unassigned": 1349,
+        "extraction_uncertain_pages": 397
+      },
+      "Sringeri": {
+        "candidate_rows": 2008,
+        "explicit_number_candidates": 2002,
+        "unique_address_candidates": 584,
+        "candidate_suktas_seen": 192,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 1424,
+        "extraction_uncertain_pages": 395
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 2,
+      "expected_suktas": 43,
+      "expected_mantras": 429,
+      "Kanchi": {
+        "candidate_rows": 428,
+        "explicit_number_candidates": 428,
+        "unique_address_candidates": 258,
+        "candidate_suktas_seen": 44,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 170,
+        "extraction_uncertain_pages": 88
+      },
+      "Sringeri": {
+        "candidate_rows": 428,
+        "explicit_number_candidates": 428,
+        "unique_address_candidates": 258,
+        "candidate_suktas_seen": 44,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 170,
+        "extraction_uncertain_pages": 87
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 3,
+      "expected_suktas": 62,
+      "expected_mantras": 617,
+      "Kanchi": {
+        "candidate_rows": 623,
+        "explicit_number_candidates": 622,
+        "unique_address_candidates": 262,
+        "candidate_suktas_seen": 58,
+        "expected_suktas_missing_from_candidate_labels": 4,
+        "ambiguous_or_unassigned": 328,
+        "extraction_uncertain_pages": 122
+      },
+      "Sringeri": {
+        "candidate_rows": 617,
+        "explicit_number_candidates": 617,
+        "unique_address_candidates": 251,
+        "candidate_suktas_seen": 63,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 366,
+        "extraction_uncertain_pages": 121
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 4,
+      "expected_suktas": 58,
+      "expected_mantras": 589,
+      "Kanchi": {
+        "candidate_rows": 623,
+        "explicit_number_candidates": 617,
+        "unique_address_candidates": 306,
+        "candidate_suktas_seen": 53,
+        "expected_suktas_missing_from_candidate_labels": 5,
+        "ambiguous_or_unassigned": 267,
+        "extraction_uncertain_pages": 120
+      },
+      "Sringeri": {
+        "candidate_rows": 593,
+        "explicit_number_candidates": 588,
+        "unique_address_candidates": 280,
+        "candidate_suktas_seen": 59,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 313,
+        "extraction_uncertain_pages": 119
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 5,
+      "expected_suktas": 87,
+      "expected_mantras": 727,
+      "Kanchi": {
+        "candidate_rows": 728,
+        "explicit_number_candidates": 726,
+        "unique_address_candidates": 723,
+        "candidate_suktas_seen": 87,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 2,
+        "extraction_uncertain_pages": 152
+      },
+      "Sringeri": {
+        "candidate_rows": 730,
+        "explicit_number_candidates": 728,
+        "unique_address_candidates": 725,
+        "candidate_suktas_seen": 87,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 2,
+        "extraction_uncertain_pages": 151
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 6,
+      "expected_suktas": 75,
+      "expected_mantras": 765,
+      "Kanchi": {
+        "candidate_rows": 769,
+        "explicit_number_candidates": 764,
+        "unique_address_candidates": 764,
+        "candidate_suktas_seen": 75,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 5,
+        "extraction_uncertain_pages": 148
+      },
+      "Sringeri": {
+        "candidate_rows": 772,
+        "explicit_number_candidates": 764,
+        "unique_address_candidates": 764,
+        "candidate_suktas_seen": 75,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 8,
+        "extraction_uncertain_pages": 148
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 7,
+      "expected_suktas": 104,
+      "expected_mantras": 841,
+      "Kanchi": {
+        "candidate_rows": 839,
+        "explicit_number_candidates": 836,
+        "unique_address_candidates": 836,
+        "candidate_suktas_seen": 104,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 3,
+        "extraction_uncertain_pages": 174
+      },
+      "Sringeri": {
+        "candidate_rows": 842,
+        "explicit_number_candidates": 837,
+        "unique_address_candidates": 837,
+        "candidate_suktas_seen": 104,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 5,
+        "extraction_uncertain_pages": 173
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 8,
+      "expected_suktas": 103,
+      "expected_mantras": 1716,
+      "Kanchi": {
+        "candidate_rows": 1714,
+        "explicit_number_candidates": 1713,
+        "unique_address_candidates": 1713,
+        "candidate_suktas_seen": 103,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 1,
+        "extraction_uncertain_pages": 300
+      },
+      "Sringeri": {
+        "candidate_rows": 1715,
+        "explicit_number_candidates": 1714,
+        "unique_address_candidates": 1714,
+        "candidate_suktas_seen": 103,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 1,
+        "extraction_uncertain_pages": 300
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 9,
+      "expected_suktas": 114,
+      "expected_mantras": 1108,
+      "Kanchi": {
+        "candidate_rows": 1107,
+        "explicit_number_candidates": 1106,
+        "unique_address_candidates": 1106,
+        "candidate_suktas_seen": 114,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 1,
+        "extraction_uncertain_pages": 204
+      },
+      "Sringeri": {
+        "candidate_rows": 1107,
+        "explicit_number_candidates": 1107,
+        "unique_address_candidates": 1107,
+        "candidate_suktas_seen": 114,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 0,
+        "extraction_uncertain_pages": 203
+      },
+      "status": "not_validated_uncertain_extraction"
+    },
+    {
+      "mandala": 10,
+      "expected_suktas": 191,
+      "expected_mantras": 1754,
+      "Kanchi": {
+        "candidate_rows": 1763,
+        "explicit_number_candidates": 1751,
+        "unique_address_candidates": 486,
+        "candidate_suktas_seen": 181,
+        "expected_suktas_missing_from_candidate_labels": 10,
+        "ambiguous_or_unassigned": 1209,
+        "extraction_uncertain_pages": 364
+      },
+      "Sringeri": {
+        "candidate_rows": 1762,
+        "explicit_number_candidates": 1750,
+        "unique_address_candidates": 455,
+        "candidate_suktas_seen": 192,
+        "expected_suktas_missing_from_candidate_labels": 0,
+        "ambiguous_or_unassigned": 1307,
+        "extraction_uncertain_pages": 364
+      },
+      "status": "not_validated_uncertain_extraction"
+    }
+  ],
+  "apparent_missing_candidate_files": [
+    "profile_only_candidates.jsonl"
+  ],
+  "duplicate_candidate_file": "duplicate_identity_candidates.jsonl",
+  "order_conflict_file": "order_conflicts.jsonl",
+  "text_comparison_queue_file": "text_comparison_queue.jsonl",
+  "identity_file": "mantra_identities.jsonl",
+  "variant_file": "tradition_variants.jsonl",
+  "unresolved_file": "unresolved_candidates.jsonl",
+  "limitations": [
+    "All 4,130 pages are flagged for unreliable text extraction and OCR was unavailable; reference labels are provisional.",
+    "Apparent missing/duplicate/reordered counts are candidate-set comparisons, not verified textual findings.",
+    "Textual equality/difference was not classified. Every common-reference comparison is blocked until clean OCR and review.",
+    "The source structure supplies per-Mandala totals but not a fully reviewed mantra-count inventory for each Sukta; no absent mantra IDs are synthesized.",
+    "Profile-specific text, RCCS/svara cues, and source provenance remain in separate variant rows. No variant is overwritten or merged.",
+    "The PDF source license is not established; check the source manifest before reuse or publication."
+  ],
+  "output_checksums": [
+    {
+      "file": "duplicate_identity_candidates.jsonl",
+      "sha256": "1b94b483b4221ddd317b022b91c28add1bbc23850ed2e6b626cca1ac3d20028f",
+      "size_bytes": 41263
+    },
+    {
+      "file": "mantra_identities.csv",
+      "sha256": "a250c696c68996b6a8cc287a3c9af6d69594e0ec268e08ebd17484e92945e5fc",
+      "size_bytes": 1356999
+    },
+    {
+      "file": "mantra_identities.jsonl",
+      "sha256": "b9076652417d08db2f0c904810371c17f171f1808c514c5cabecd2c2245fb62e",
+      "size_bytes": 2197387
+    },
+    {
+      "file": "order_conflicts.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "file": "profile_only_candidates.jsonl",
+      "sha256": "237b2eb2fbd527192f63905391306e26bf9394b3eccc267f103e626d66d9e14f",
+      "size_bytes": 18620
+    },
+    {
+      "file": "reconciliation_import.sql",
+      "sha256": "b9c306290bcffce41083934d645f58ee6d72b65e4b540ba682e8bac3159beba6",
+      "size_bytes": 856
+    },
+    {
+      "file": "reconciliation_report.md",
+      "sha256": "9e612c783e610feaea4562229019a2472be632dcdc744d7927cf2594bb4a9361",
+      "size_bytes": 3755
+    },
+    {
+      "file": "reconciliation_schema.sql",
+      "sha256": "29147fabc54e2efd0a3890d4f61e23dccabb7965c17d2d7a7d15d0ad5565fd9f",
+      "size_bytes": 2960
+    },
+    {
+      "file": "shakala_structure.json",
+      "sha256": "145a995968935d1df6d7fc978abe350b108ecaae82cfba1d75826ebcd3f2b558",
+      "size_bytes": 1136
+    },
+    {
+      "file": "source_coverage_dashboard.html",
+      "sha256": "da3cb8138f48c5d2738eb1666e6318acf992f0410dd90334691f0d37d9bd45e5",
+      "size_bytes": 4798
+    },
+    {
+      "file": "text_comparison_queue.jsonl",
+      "sha256": "2f26b3da71bc841b4558d1a121c5aa31d7153d5a6d48e620fe6ab0db3cb62407",
+      "size_bytes": 2465448
+    },
+    {
+      "file": "tradition_variants.csv",
+      "sha256": "61986cf3299134dcfbc2d6069695d6954ab21d477c032bade616c94df4676b29",
+      "size_bytes": 41722631
+    },
+    {
+      "file": "tradition_variants.jsonl",
+      "sha256": "09682a4d939f7da2a41d6e63a5ea9df1ff3a0815a74fbd3bca9e5bfbb86e1d4e",
+      "size_bytes": 46598537
+    },
+    {
+      "file": "unresolved_candidates.jsonl",
+      "sha256": "cd99b903d1377546ba9c831f3dc7ea0486e7b6931750f7f10ba5171188b2484a",
+      "size_bytes": 24697350
+    }
+  ]
+}

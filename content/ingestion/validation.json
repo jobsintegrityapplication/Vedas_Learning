@@ -1,0 +1,50 @@
+{
+  "page_records": 4130,
+  "page_csv_rows": 4130,
+  "mantra_candidate_records": 21191,
+  "mantra_candidates_by_profile": {
+    "Kanchi": 10617,
+    "Sringeri": 10574
+  },
+  "multi_sukta_pages_by_profile": {
+    "Kanchi": 658,
+    "Sringeri": 717
+  },
+  "mantra_candidate_csv_rows": 21191,
+  "pages_by_profile": {
+    "Kanchi": 2069,
+    "Sringeri": 2061
+  },
+  "source_pdf_count": 20,
+  "pages_with_ocr_needed": 4130,
+  "pages_ocr_unavailable": 4130,
+  "pages_with_cid_glyphs": 4088,
+  "duplicate_source_page_keys": 0,
+  "ocr_available": false,
+  "status": "structural checks passed; extracted content is unreviewed staging data",
+  "explicit_mantra_number_candidates_by_profile": {
+    "Kanchi": 10557,
+    "Sringeri": 10535
+  },
+  "unique_resolved_mantra_references_by_profile": {
+    "Kanchi": 7038,
+    "Sringeri": 6975
+  },
+  "ambiguous_number_candidates_by_profile": {
+    "Kanchi": 3287,
+    "Sringeri": 3557
+  },
+  "unsegmented_page_candidates_by_profile": {
+    "Kanchi": 38,
+    "Sringeri": 39
+  },
+  "resolved_number_candidates_by_profile": {
+    "Kanchi": 7270,
+    "Sringeri": 6978
+  },
+  "duplicate_resolved_address_candidates_by_profile": {
+    "Kanchi": 232,
+    "Sringeri": 3
+  },
+  "source_pdf_checksums_verified": true
+}

@@ -1,0 +1,10 @@
+{
+  "record_count": 14260,
+  "status_counts": {
+    "unavailable": 14260
+  },
+  "publishable_count": 0,
+  "source_padapatha_input": null,
+  "method": "Only explicit source Padapāṭha tokens are accepted. Samhita text is never segmented by whitespace or inferred sandhi reversal.",
+  "scope_note": "Records cover existing provisional source-address variants; unobserved mantra addresses are not synthesized."
+}

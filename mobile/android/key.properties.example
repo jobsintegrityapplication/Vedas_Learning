@@ -1,0 +1,5 @@
+# Copy to key.properties (gitignored). Never commit the real file or the .jks.
+storePassword=REPLACE_ME
+keyPassword=REPLACE_ME
+keyAlias=veda
+storeFile=veda-release.jks

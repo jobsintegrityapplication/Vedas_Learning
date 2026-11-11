@@ -1,0 +1,1524 @@
+{
+  "dataset_name": "Life Values in Rigveda – Multilingual Learning Content",
+  "version": "0.1-draft",
+  "source_document": "Life values in Rigveda(1).docx",
+  "scope": "Nine selections/fragments from the uploaded document; not the complete Rigveda.",
+  "languages": [
+    {
+      "code": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari"
+    },
+    {
+      "code": "kn",
+      "name": "Kannada",
+      "script": "Kannada"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "script": "Devanagari"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "script": "Roman / IAST"
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "script": "Telugu"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil",
+      "script": "Tamil"
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam",
+      "script": "Malayalam"
+    },
+    {
+      "code": "mr",
+      "name": "Marathi",
+      "script": "Devanagari"
+    },
+    {
+      "code": "bn",
+      "name": "Bengali",
+      "script": "Bengali"
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati",
+      "script": "Gujarati"
+    },
+    {
+      "code": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi"
+    },
+    {
+      "code": "or",
+      "name": "Odia",
+      "script": "Odia"
+    }
+  ],
+  "important_notes": [
+    "Sanskrit lines and references are transcribed from the supplied document. The visible spacing in आकू तिः is retained as source text pending editorial normalization.",
+    "Regional-script mantra renderings are mechanical learner aids, not certified scholarly transliterations; Tamil/Gurmukhi and conjunct handling especially require review.",
+    "Non-English translations are draft learner-facing translations. English and Kannada meanings/applications follow the supplied document or closely preserve its framing.",
+    "Word alignment is pedagogical and context-sensitive, not a certified padapāṭha; consult a Sanskrit scholar for sandhi and morphology.",
+    "Do not use draft text as pronunciation ground truth until the Sanskrit recension, Vedic accents, and guru audio are verified."
+  ],
+  "records": [
+    {
+      "id": "RV-10.85.1",
+      "veda": "Rigveda",
+      "reference": "10.85.1",
+      "title_en": "Truth – Righteousness",
+      "source_sanskrit": "सत्येनोत्तभिता भूमिः सूर्येणोत्तभिता द्यौः । ऋतेनादित्यास्तिष्ठन्ति दिवि सोमो अधि श्रितः ॥",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "सत्येनोत्तभिता भूमिः सूर्येणोत्तभिता द्यौः । ऋतेनादित्यास्तिष्ठन्ति दिवि सोमो अधि श्रितः ॥",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಸತ್ಯೇನೋತ್ತಭಿತಾ ಭೂಮಿಃ ಸೂರ್ಯೇಣೋತ್ತಭಿತಾ ದ್ಯೌಃ । ಋತೇನಾದಿತ್ಯಾಸ್ತಿಷ್ಠನ್ತಿ ದಿವಿ ಸೋಮೋ ಅಧಿ ಶ್ರಿತಃ ॥",
+          "meaning": "ಸತ್ಯದಿಂದ ಭೂಮಿಯು ಸ್ಥಿರವಾಗಿದೆ; ಸತ್ಯದಿಂದ ಆಕಾಶವು ಸ್ಥಿರವಾಗಿದೆ. ಋತದ ಮೂಲಕ ಆದಿತ್ಯರು ಸ್ಥಿರರಾಗಿದ್ದಾರೆ; ಸೋಮನು ದಿವ್ಯ ಲೋಕದಲ್ಲಿ ನೆಲೆಸಿದ್ದಾನೆ.",
+          "application": "ಸತ್ಯ, ಧರ್ಮನಿಷ್ಠೆ ಮತ್ತು ನೈತಿಕತೆ ಜೀವನದ ಅಡಿಪಾಯಗಳಾಗಿವೆ. ಸಣ್ಣ ವಿಷಯಗಳಲ್ಲಿಯೂ ಪ್ರಾಮಾಣಿಕವಾಗಿರುವುದು ವ್ಯಕ್ತಿತ್ವವನ್ನು ಬಲಪಡಿಸುತ್ತದೆ."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "सत्येनोत्तभिता भूमिः सूर्येणोत्तभिता द्यौः । ऋतेनादित्यास्तिष्ठन्ति दिवि सोमो अधि श्रितः ॥",
+          "meaning": "सत्य से पृथ्वी और आकाश स्थिर हैं। ऋत अर्थात् ब्रह्मांडीय व्यवस्था से आदित्य स्थिर रहते हैं और सोम दिव्य लोक में स्थित है।",
+          "application": "सत्य, धर्मनिष्ठा और नैतिकता जीवन की नींव हैं। छोटी-छोटी बातों में भी ईमानदार रहना हमारे चरित्र को मजबूत बनाता है।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "satyenottabhitā bhūmiḥ sūryeṇottabhitā dyauḥ । ṛtenādityāstiṣṭhanti divi somo adhi śritaḥ ॥",
+          "meaning": "By Truth the Earth is upheld; by Truth the heavens are upheld. By Ṛta (cosmic order), the Ādityas stand firm; Soma abides in the celestial realm.",
+          "application": "Truth, righteousness, and morality are foundations of life. Honesty even in small matters strengthens character."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "సత్యేనోత్తభితా భూమిః సూర్యేణోత్తభితా ద్యౌః । ఋతేనాదిత్యాస్తిష్ఠన్తి దివి సోమో అధి శ్రితః ॥",
+          "meaning": "సత్యం వల్ల భూమి, ఆకాశం నిలిచి ఉన్నాయి. ఋతం అనే విశ్వక్రమం వల్ల ఆదిత్యులు స్థిరంగా ఉంటారు; సోముడు దివ్యలోకంలో నివసిస్తాడు.",
+          "application": "సత్యం, ధర్మం, నైతికత జీవనానికి పునాదులు. చిన్న విషయాల్లో కూడా నిజాయితీగా ఉండటం వ్యక్తిత్వాన్ని బలపరుస్తుంది."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "சத்யேநோத்தபிதா பூமிஃ சூர்யேணோத்தபிதா த்யௌஃ । ரதேநாதித்யாச்திச்டந்தி திவி சோமோ அதி ச்ரிதஃ ॥",
+          "meaning": "உண்மையால் பூமியும் வானமும் நிலைபெறுகின்றன. Ṛta எனும் பிரபஞ்ச ஒழுங்கால் ஆதித்யர்கள் நிலைபெறுகின்றனர்; சோமன் தெய்வீக உலகில் உறைகிறார்.",
+          "application": "உண்மை, நேர்மை, அறநெறி ஆகியவை வாழ்க்கையின் அடித்தளங்கள். சிறிய விஷயங்களிலும் நேர்மையாக இருப்பது நற்பண்பை வலுப்படுத்தும்."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "സത്യേനോത്തഭിതാ ഭൂമിഃ സൂര്യേണോത്തഭിതാ ദ്യൌഃ । ഋതേനാദിത്യാസ്തിഷ്ഠന്തി ദിവി സോമോ അധി ശ്രിതഃ ॥",
+          "meaning": "സത്യത്താൽ ഭൂമിയും ആകാശവും നിലനിൽക്കുന്നു. ഋതം എന്ന പ്രപഞ്ചക്രമത്താൽ ആദിത്യർ ഉറച്ചുനിൽക്കുന്നു; സോമൻ ദിവ്യലോകത്തിൽ വസിക്കുന്നു.",
+          "application": "സത്യം, ധാർമ്മികത, നീതിബോധം എന്നിവയാണ് ജീവിതത്തിന്റെ അടിസ്ഥാനം. ചെറിയ കാര്യങ്ങളിലും സത്യസന്ധത പുലർത്തുന്നത് വ്യക്തിത്വത്തെ ശക്തിപ്പെടുത്തുന്നു."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "सत्येनोत्तभिता भूमिः सूर्येणोत्तभिता द्यौः । ऋतेनादित्यास्तिष्ठन्ति दिवि सोमो अधि श्रितः ॥",
+          "meaning": "सत्यामुळे पृथ्वी आणि आकाश टिकून आहेत. ऋत म्हणजे विश्वव्यवस्थेमुळे आदित्य स्थिर राहतात आणि सोम दिव्य लोकात वास करतो.",
+          "application": "सत्य, नीतिमत्ता आणि नैतिकता हा जीवनाचा पाया आहे. छोट्या गोष्टींतही प्रामाणिक राहिल्याने आपले चारित्र्य मजबूत होते."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "সত্যেনোত্তভিতা ভূমিঃ সূর্যেণোত্তভিতা দ্যৌঃ । ঋতেনাদিত্যাস্তিষ্ঠন্তি দিবি সোমো অধি শ্রিতঃ ॥",
+          "meaning": "সত্যের দ্বারা পৃথিবী ও আকাশ প্রতিষ্ঠিত। ঋত অর্থাৎ বিশ্বনিয়মের দ্বারা আদিত্যগণ স্থির থাকেন এবং সোম দিব্যলোকে অবস্থান করেন।",
+          "application": "সত্য, ন্যায়নিষ্ঠা ও নৈতিকতা জীবনের ভিত্তি। ছোট বিষয়েও সৎ থাকা চরিত্রকে দৃঢ় করে।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "સત્યેનોત્તભિતા ભૂમિઃ સૂર્યેણોત્તભિતા દ્યૌઃ । ઋતેનાદિત્યાસ્તિષ્ઠન્તિ દિવિ સોમો અધિ શ્રિતઃ ॥",
+          "meaning": "સત્યથી પૃથ્વી અને આકાશ ટકેલાં છે. ઋત એટલે વિશ્વવ્યવસ્થાથી આદિત્યો સ્થિર રહે છે અને સોમ દિવ્ય લોકમાં નિવાસ કરે છે.",
+          "application": "સત્ય, સદાચાર અને નૈતિકતા જીવનના પાયા છે. નાની બાબતોમાં પણ પ્રામાણિક રહેવું ચરિત્રને મજબૂત બનાવે છે."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਸਤ੍ਯ੍ਨੇਤ੍ਤਭਿਤਾ ਭੂਮਿਃ ਸੂਰ੍ਯ੍ਣੇਤ੍ਤਭਿਤਾ ਦ੍ਯੈਃ । ਰਤ੍ਨਾਦਿਤ੍ਯਾਸ੍ਤਿ਼੍ਠਨ੍ਤਿ ਦਿਵਿ ਸੇਮੇ ਅਧਿ ਸ੍ਰਿਤਃ ॥",
+          "meaning": "ਸੱਚ ਨਾਲ ਧਰਤੀ ਅਤੇ ਆਕਾਸ਼ ਕਾਇਮ ਹਨ। ਰਿਤ ਅਰਥਾਤ ਬ੍ਰਹਿਮੰਡੀ ਕ੍ਰਮ ਨਾਲ ਆਦਿੱਤਿਆ ਸਥਿਰ ਰਹਿੰਦੇ ਹਨ ਅਤੇ ਸੋਮ ਦਿਵਯ ਲੋਕ ਵਿੱਚ ਵੱਸਦਾ ਹੈ।",
+          "application": "ਸੱਚ, ਨੇਕਚਾਰੀ ਅਤੇ ਨੈਤਿਕਤਾ ਜੀਵਨ ਦੀ ਨੀਂਹ ਹਨ। ਛੋਟੀਆਂ ਗੱਲਾਂ ਵਿੱਚ ਵੀ ਇਮਾਨਦਾਰ ਰਹਿਣਾ ਚਰਿੱਤਰ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ସତ୍ଯେନୋତ୍ତଭିତା ଭୂମିଃ ସୂର୍ଯେଣୋତ୍ତଭିତା ଦ୍ଯୌଃ । ଋତେନାଦିତ୍ଯାସ୍ତିଷ୍ଠନ୍ତି ଦିବି ସୋମୋ ଅଧି ଶ୍ରିତଃ ॥",
+          "meaning": "ସତ୍ୟ ଦ୍ୱାରା ପୃଥିବୀ ଓ ଆକାଶ ସ୍ଥିର ରହିଛି। ଋତ ଅର୍ଥାତ୍ ବିଶ୍ୱନିୟମ ଦ୍ୱାରା ଆଦିତ୍ୟମାନେ ସ୍ଥିର ରହନ୍ତି ଏବଂ ସୋମ ଦିବ୍ୟଲୋକରେ ବାସ କରନ୍ତି।",
+          "application": "ସତ୍ୟ, ନ୍ୟାୟନିଷ୍ଠା ଓ ନୈତିକତା ଜୀବନର ମୂଳଦୁଆ। ଛୋଟ କଥାରେ ମଧ୍ୟ ସତ୍ୟବାଦୀ ରହିବା ଚରିତ୍ରକୁ ଦୃଢ଼ କରେ।"
+        }
+      },
+      "meaning_en": "By Truth the Earth is upheld; by Truth the heavens are upheld. By Ṛta (cosmic order), the Ādityas stand firm; Soma abides in the celestial realm.",
+      "meaning_kn": "ಸತ್ಯದಿಂದ ಭೂಮಿಯು ಸ್ಥಿರವಾಗಿದೆ; ಸತ್ಯದಿಂದ ಆಕಾಶವು ಸ್ಥಿರವಾಗಿದೆ. ಋತದ ಮೂಲಕ ಆದಿತ್ಯರು ಸ್ಥಿರರಾಗಿದ್ದಾರೆ; ಸೋಮನು ದಿವ್ಯ ಲೋಕದಲ್ಲಿ ನೆಲೆಸಿದ್ದಾನೆ.",
+      "daily_life_application_en": "Truth, righteousness, and morality are foundations of life. Honesty even in small matters strengthens character.",
+      "daily_life_application_kn": "ಸತ್ಯ, ಧರ್ಮನಿಷ್ಠೆ ಮತ್ತು ನೈತಿಕತೆ ಜೀವನದ ಅಡಿಪಾಯಗಳಾಗಿವೆ. ಸಣ್ಣ ವಿಷಯಗಳಲ್ಲಿಯೂ ಪ್ರಾಮಾಣಿಕವಾಗಿರುವುದು ವ್ಯಕ್ತಿತ್ವವನ್ನು ಬಲಪಡಿಸುತ್ತದೆ.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "सत्येन",
+          "meaning_en": "by truth",
+          "meaning_kn": "ಸತ್ಯದಿಂದ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "उत्तभिता",
+          "meaning_en": "is upheld",
+          "meaning_kn": "ಎತ್ತಿಹಿಡಿಯಲ್ಪಟ್ಟಿದೆ"
+        },
+        {
+          "position": 3,
+          "sanskrit": "भूमिः",
+          "meaning_en": "the Earth",
+          "meaning_kn": "ಭೂಮಿ"
+        },
+        {
+          "position": 4,
+          "sanskrit": "सूर्येण",
+          "meaning_en": "by the Sun",
+          "meaning_kn": "ಸೂರ್ಯನಿಂದ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "द्यौः",
+          "meaning_en": "heaven / sky",
+          "meaning_kn": "ಆಕಾಶ"
+        },
+        {
+          "position": 6,
+          "sanskrit": "ऋतेन",
+          "meaning_en": "by Ṛta / cosmic order",
+          "meaning_kn": "ಋತದಿಂದ"
+        },
+        {
+          "position": 7,
+          "sanskrit": "आदित्याः",
+          "meaning_en": "the Ādityas",
+          "meaning_kn": "ಆದಿತ್ಯರು"
+        },
+        {
+          "position": 8,
+          "sanskrit": "तिष्ठन्ति",
+          "meaning_en": "stand / remain",
+          "meaning_kn": "ನಿಲ್ಲುತ್ತಾರೆ"
+        },
+        {
+          "position": 9,
+          "sanskrit": "दिवि",
+          "meaning_en": "in heaven",
+          "meaning_kn": "ದಿವಿಯಲ್ಲಿ"
+        },
+        {
+          "position": 10,
+          "sanskrit": "सोमः",
+          "meaning_en": "Soma",
+          "meaning_kn": "ಸೋಮ"
+        },
+        {
+          "position": 11,
+          "sanskrit": "अधि",
+          "meaning_en": "upon / in",
+          "meaning_kn": "ಮೇಲೆ"
+        },
+        {
+          "position": 12,
+          "sanskrit": "श्रितः",
+          "meaning_en": "abides / rests",
+          "meaning_kn": "ನೆಲೆಸಿದ್ದಾನೆ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [
+        "Reference and exact recension should be verified against an authoritative Vedic edition."
+      ],
+      "lesson_slug": "rigveda-01"
+    },
+    {
+      "id": "RV-10.191.2",
+      "veda": "Rigveda",
+      "reference": "10.191.2",
+      "title_en": "Everyone should walk together",
+      "source_sanskrit": "संगच्छध्वं संवदध्वं सं वो मनांसि जानताम् ।",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "संगच्छध्वं संवदध्वं सं वो मनांसि जानताम् ।",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಸಂಗಚ್ಛಧ್ವಂ ಸಂವದಧ್ವಂ ಸಂ ವೋ ಮನಾಂಸಿ ಜಾನತಾಮ್ ।",
+          "meaning": "ಒಟ್ಟಾಗಿ ನಡೆಯಿರಿ, ಒಟ್ಟಾಗಿ ಮಾತನಾಡಿರಿ ಮತ್ತು ನಿಮ್ಮ ಮನಸ್ಸುಗಳು ಒಂದಾಗಿರಲಿ.",
+          "application": "ಕುಟುಂಬ, ಕೆಲಸದ ಸ್ಥಳ, ಶಿಕ್ಷಣ ಸಂಸ್ಥೆ ಅಥವಾ ಸಮಾಜದಲ್ಲಿ ಸಮನ್ವಯ, ಪರಸ್ಪರ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವಿಕೆ ಮತ್ತು ಸಹಕಾರ ಅತ್ಯಗತ್ಯ."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "संगच्छध्वं संवदध्वं सं वो मनांसि जानताम् ।",
+          "meaning": "एक साथ चलें, एक साथ बोलें और हमारे मन एक हों।",
+          "application": "परिवार, कार्यस्थल, शिक्षण संस्थान और समाज में समन्वय, आपसी समझ और सहयोग आवश्यक हैं।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "saṃgacchadhvaṃ saṃvadadhvaṃ saṃ vo manāṃsi jānatām ।",
+          "meaning": "Move together, speak together, and let your minds be united.",
+          "application": "Coordination, mutual understanding, and cooperation are essential in families, workplaces, educational institutions, and society."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "సంగచ్ఛధ్వం సంవదధ్వం సం వో మనాంసి జానతామ్ ।",
+          "meaning": "కలిసి నడవండి, కలిసి మాట్లాడండి, మన మనసులు ఏకమవ్వాలి.",
+          "application": "కుటుంబం, కార్యాలయం, విద్యాసంస్థ, సమాజంలో సమన్వయం, పరస్పర అవగాహన, సహకారం అవసరం."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "சம்கச்சத்வம் சம்வதத்வம் சம் வோ மநாம்சி ஜாநதாம் ।",
+          "meaning": "ஒன்றாக நடப்போம், ஒன்றாகப் பேசுவோம்; நம் மனங்கள் ஒன்றுபடட்டும்.",
+          "application": "குடும்பம், பணியிடம், கல்வி நிறுவனம், சமூகம் ஆகியவற்றில் ஒருங்கிணைப்பு, பரஸ்பரப் புரிதல், ஒத்துழைப்பு அவசியம்."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "സംഗച്ഛധ്വം സംവദധ്വം സം വോ മനാംസി ജാനതാമ് ।",
+          "meaning": "ഒരുമിച്ച് നടക്കുക, ഒരുമിച്ച് സംസാരിക്കുക; നമ്മുടെ മനസ്സുകൾ ഒന്നാകട്ടെ.",
+          "application": "കുടുംബം, ജോലി സ്ഥലം, വിദ്യാഭ്യാസ സ്ഥാപനം, സമൂഹം എന്നിവിടങ്ങളിൽ ഏകോപനവും പരസ്പര ധാരണയും സഹകരണവും അനിവാര്യമാണ്."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "संगच्छध्वं संवदध्वं सं वो मनांसि जानताम् ।",
+          "meaning": "एकत्र चला, एकत्र बोला आणि आपली मने एक होऊ द्या.",
+          "application": "कुटुंब, कामाचे ठिकाण, शैक्षणिक संस्था आणि समाजात समन्वय, परस्पर समजूतदारपणा आणि सहकार्य आवश्यक आहे."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "সংগচ্ছধ্বং সংবদধ্বং সং বো মনাংসি জানতাম্ ।",
+          "meaning": "একসঙ্গে চলি, একসঙ্গে কথা বলি এবং আমাদের মন এক হোক।",
+          "application": "পরিবার, কর্মক্ষেত্র, শিক্ষাপ্রতিষ্ঠান ও সমাজে সমন্বয়, পারস্পরিক বোঝাপড়া এবং সহযোগিতা অপরিহার্য।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "સંગચ્છધ્વં સંવદધ્વં સં વો મનાંસિ જાનતામ્ ।",
+          "meaning": "સાથે ચાલો, સાથે બોલો અને આપણાં મન એક થાઓ.",
+          "application": "પરિવાર, કાર્યસ્થળ, શૈક્ષણિક સંસ્થા અને સમાજમાં સંકલન, પરસ્પર સમજણ અને સહકાર જરૂરી છે."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਸੰਗਚ੍ਛਧ੍ਵੰ ਸੰਵਦਧ੍ਵੰ ਸੰ ਵੇ ਮਨਾੰਸਿ ਜਾਨਤਾਮ੍ ।",
+          "meaning": "ਇਕੱਠੇ ਚੱਲੋ, ਇਕੱਠੇ ਬੋਲੋ ਅਤੇ ਸਾਡੇ ਮਨ ਇਕ ਹੋਣ।",
+          "application": "ਪਰਿਵਾਰ, ਕੰਮ ਵਾਲੀ ਥਾਂ, ਸਿੱਖਿਆ ਸੰਸਥਾ ਅਤੇ ਸਮਾਜ ਵਿੱਚ ਤਾਲਮੇਲ, ਆਪਸੀ ਸਮਝ ਅਤੇ ਸਹਿਯੋਗ ਲਾਜ਼ਮੀ ਹਨ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ସଂଗଚ୍ଛଧ୍ବଂ ସଂବଦଧ୍ବଂ ସଂ ବୋ ମନାଂସି ଜାନତାମ୍ ।",
+          "meaning": "ଏକାଠି ଚାଲିବା, ଏକାଠି କଥା ହେବା ଏବଂ ଆମ ମନ ଏକ ହେଉ।",
+          "application": "ପରିବାର, କାର୍ଯ୍ୟସ୍ଥଳ, ଶିକ୍ଷାନୁଷ୍ଠାନ ଓ ସମାଜରେ ସମନ୍ୱୟ, ପାରସ୍ପରିକ ବୁଝାମଣା ଓ ସହଯୋଗ ଆବଶ୍ୟକ।"
+        }
+      },
+      "meaning_en": "Move together, speak together, and let your minds be united.",
+      "meaning_kn": "ಒಟ್ಟಾಗಿ ನಡೆಯಿರಿ, ಒಟ್ಟಾಗಿ ಮಾತನಾಡಿರಿ ಮತ್ತು ನಿಮ್ಮ ಮನಸ್ಸುಗಳು ಒಂದಾಗಿರಲಿ.",
+      "daily_life_application_en": "Coordination, mutual understanding, and cooperation are essential in families, workplaces, educational institutions, and society.",
+      "daily_life_application_kn": "ಕುಟುಂಬ, ಕೆಲಸದ ಸ್ಥಳ, ಶಿಕ್ಷಣ ಸಂಸ್ಥೆ ಅಥವಾ ಸಮಾಜದಲ್ಲಿ ಸಮನ್ವಯ, ಪರಸ್ಪರ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವಿಕೆ ಮತ್ತು ಸಹಕಾರ ಅತ್ಯಗತ್ಯ.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "संगच्छध्वम्",
+          "meaning_en": "move / come together",
+          "meaning_kn": "ಒಟ್ಟಾಗಿ ನಡೆಯಿರಿ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "संवदध्वम्",
+          "meaning_en": "speak together",
+          "meaning_kn": "ಒಟ್ಟಾಗಿ ಮಾತನಾಡಿರಿ"
+        },
+        {
+          "position": 3,
+          "sanskrit": "सम्",
+          "meaning_en": "together / in harmony",
+          "meaning_kn": "ಒಟ್ಟಾಗಿ"
+        },
+        {
+          "position": 4,
+          "sanskrit": "वः",
+          "meaning_en": "your / of you",
+          "meaning_kn": "ನಿಮ್ಮ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "मनांसि",
+          "meaning_en": "minds",
+          "meaning_kn": "ಮನಸ್ಸುಗಳು"
+        },
+        {
+          "position": 6,
+          "sanskrit": "जानताम्",
+          "meaning_en": "let them know / be in accord",
+          "meaning_kn": "ತಿಳಿದುಕೊಳ್ಳಲಿ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [],
+      "lesson_slug": "rigveda-02"
+    },
+    {
+      "id": "RV-10.191.4",
+      "veda": "Rigveda",
+      "reference": "10.191.4",
+      "title_en": "Our thoughts should be united",
+      "source_sanskrit": "समानी व आकू तिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "समानी व आकूतिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಸಮಾನೀ ವ ಆಕೂತಿಃ ಸಮಾನಾ ಹೃದಯಾನಿ ವಃ । ಸಮಾನಮಸ್ತು ವೋ ಮನೋ ಯಥಾ ವಃ ಸುಸಹಾಸತಿ ॥",
+          "meaning": "ನಿಮ್ಮ ಸಂಕಲ್ಪಗಳು ಒಂದಾಗಿರಲಿ; ನಿಮ್ಮ ಹೃದಯಗಳು ಒಂದಾಗಿರಲಿ. ನಿಮ್ಮ ಮನಸ್ಸು ಒಂದಾಗಿರಲಿ, ಆಗ ನೀವು ಸೌಹಾರ್ದದಿಂದ ಒಟ್ಟಾಗಿ ಬದುಕಬಹುದು.",
+          "application": "ಅಭಿಪ್ರಾಯಗಳಲ್ಲಿ ಭಿನ್ನತೆ ಇದ್ದರೂ, ಸಾಮಾನ್ಯ ಗುರಿಗಾಗಿ ಸೌಹಾರ್ದದಿಂದ ಕೆಲಸ ಮಾಡುವುದು ಕುಟುಂಬ ಮತ್ತು ಸಮಾಜಕ್ಕೆ ಮುಖ್ಯ."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "समानी व आकूतिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥",
+          "meaning": "आपके संकल्प समान हों, आपके हृदय एक हों और आपके मन में एकता हो, ताकि आप सद्भाव से साथ रह सकें।",
+          "application": "विचारों में मतभेद होने पर भी परिवार और समाज के साझा लक्ष्य के लिए मिल-जुलकर काम करना महत्वपूर्ण है।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "samānī va ākūtiḥ samānā hṛdayāni vaḥ । samānamastu vo mano yathā vaḥ susahāsati ॥",
+          "meaning": "Let your intentions be common; let your hearts be united. Let your minds be one, so that you may live together in harmony.",
+          "application": "Even when opinions differ, working harmoniously toward a common goal is important for families and society."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "సమానీ వ ఆకూతిః సమానా హృదయాని వః । సమానమస్తు వో మనో యథా వః సుసహాసతి ॥",
+          "meaning": "మీ సంకల్పాలు ఒకటిగా ఉండాలి, హృదయాలు ఏకమవ్వాలి, మనసులు ఒక్కటై మీరు సామరస్యంగా కలిసి జీవించాలి.",
+          "application": "అభిప్రాయ భేదాలు ఉన్నప్పటికీ కుటుంబం, సమాజం ఉమ్మడి లక్ష్యం కోసం కలసి పనిచేయడం ముఖ్యం."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "சமாநீ வ ஆகூதிஃ சமாநா ஹ்தயாநி வஃ । சமாநமச்து வோ மநோ யதா வஃ சுசஹாசதி ॥",
+          "meaning": "உங்கள் நோக்கங்கள் ஒன்றாகவும் இதயங்கள் ஒன்றுபட்டும் இருக்கட்டும்; உங்கள் மனம் ஒன்றாகி நீங்கள் நல்லிணக்கத்துடன் வாழட்டும்.",
+          "application": "கருத்து வேறுபாடுகள் இருந்தாலும் குடும்பம் மற்றும் சமூகத்தின் பொதுவான இலக்குக்காக இணைந்து செயல்படுவது முக்கியம்."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "സമാനീ വ ആകൂതിഃ സമാനാ ഹൃദയാനി വഃ । സമാനമസ്തു വോ മനോ യഥാ വഃ സുസഹാസതി ॥",
+          "meaning": "നിങ്ങളുടെ ഉദ്ദേശ്യങ്ങൾ ഒന്നായിരിക്കട്ടെ, ഹൃദയങ്ങൾ ഐക്യപ്പെടട്ടെ, മനസ്സുകൾ ഒന്നായി നിങ്ങൾ സൗഹാർദ്ദത്തോടെ ജീവിക്കട്ടെ.",
+          "application": "അഭിപ്രായവ്യത്യാസങ്ങൾ ഉണ്ടായാലും പൊതുലക്ഷ്യത്തിനായി കുടുംബവും സമൂഹവും ഒരുമിച്ച് പ്രവർത്തിക്കണം."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "समानी व आकूतिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥",
+          "meaning": "तुमचे संकल्प समान असू देत, तुमची हृदये एक होऊ देत आणि तुमची मने एकरूप होऊन तुम्ही सौहार्दाने एकत्र राहा.",
+          "application": "मतभेद असले तरी कुटुंब आणि समाजाच्या समान ध्येयासाठी एकत्रितपणे काम करणे महत्त्वाचे आहे."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "সমানী ব আকূতিঃ সমানা হৃদযানি বঃ । সমানমস্তু বো মনো যথা বঃ সুসহাসতি ॥",
+          "meaning": "তোমাদের সংকল্প এক হোক, হৃদয় এক হোক এবং মন এক হয়ে তোমরা সম্প্রীতিতে একসঙ্গে বাস করো।",
+          "application": "মতভেদ থাকলেও পরিবার ও সমাজের সাধারণ লক্ষ্যে মিলেমিশে কাজ করা গুরুত্বপূর্ণ।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "સમાની વ આકૂતિઃ સમાના હૃદયાનિ વઃ । સમાનમસ્તુ વો મનો યથા વઃ સુસહાસતિ ॥",
+          "meaning": "તમારા સંકલ્પો એકસરખા હોય, હૃદયો એક થાય અને મન એક થઈ તમે સૌહાર્દથી સાથે જીવો.",
+          "application": "મતભેદ હોવા છતાં પરિવાર અને સમાજના સામાન્ય ધ્યેય માટે સાથે મળીને કામ કરવું જરૂરી છે."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਸਮਾਨੀ ਵ ਆਕੂਤਿਃ ਸਮਾਨਾ ਼੍ਦਯਾਨਿ ਵਃ । ਸਮਾਨਮਸ੍ਤੂ ਵੇ ਮਨੇ ਯਥਾ ਵਃ ਸੂਸ਼ਾਸਤਿ ॥",
+          "meaning": "ਤੁਹਾਡੇ ਇਰਾਦੇ ਸਾਂਝੇ ਹੋਣ, ਦਿਲ ਇਕ ਹੋਣ ਅਤੇ ਮਨ ਇਕ ਹੋ ਕੇ ਤੁਸੀਂ ਮਿਲਾਪ ਨਾਲ ਇਕੱਠੇ ਰਹੋ।",
+          "application": "ਵਿਚਾਰਾਂ ਦੇ ਫ਼ਰਕ ਹੋਣ ਦੇ ਬਾਵਜੂਦ ਸਾਂਝੇ ਟੀਚੇ ਲਈ ਪਰਿਵਾਰ ਅਤੇ ਸਮਾਜ ਨੂੰ ਮਿਲ ਕੇ ਕੰਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ସମାନୀ ବ ଆକୂତିଃ ସମାନା ହୃଦଯାନି ବଃ । ସମାନମସ୍ତୁ ବୋ ମନୋ ଯଥା ବଃ ସୁସହାସତି ॥",
+          "meaning": "ତୁମମାନଙ୍କର ସଂକଳ୍ପ ଏକ ହେଉ, ହୃଦୟ ଏକ ହେଉ ଏବଂ ମନ ଏକ ହୋଇ ସମନ୍ୱୟରେ ଏକାଠି ବାସ କର।",
+          "application": "ମତଭେଦ ଥିଲେ ମଧ୍ୟ ପରିବାର ଓ ସମାଜର ସାଧାରଣ ଲକ୍ଷ୍ୟ ପାଇଁ ମିଳିମିଶି କାମ କରିବା ଜରୁରୀ।"
+        }
+      },
+      "meaning_en": "Let your intentions be common; let your hearts be united. Let your minds be one, so that you may live together in harmony.",
+      "meaning_kn": "ನಿಮ್ಮ ಸಂಕಲ್ಪಗಳು ಒಂದಾಗಿರಲಿ; ನಿಮ್ಮ ಹೃದಯಗಳು ಒಂದಾಗಿರಲಿ. ನಿಮ್ಮ ಮನಸ್ಸು ಒಂದಾಗಿರಲಿ, ಆಗ ನೀವು ಸೌಹಾರ್ದದಿಂದ ಒಟ್ಟಾಗಿ ಬದುಕಬಹುದು.",
+      "daily_life_application_en": "Even when opinions differ, working harmoniously toward a common goal is important for families and society.",
+      "daily_life_application_kn": "ಅಭಿಪ್ರಾಯಗಳಲ್ಲಿ ಭಿನ್ನತೆ ಇದ್ದರೂ, ಸಾಮಾನ್ಯ ಗುರಿಗಾಗಿ ಸೌಹಾರ್ದದಿಂದ ಕೆಲಸ ಮಾಡುವುದು ಕುಟುಂಬ ಮತ್ತು ಸಮಾಜಕ್ಕೆ ಮುಖ್ಯ.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "समानी",
+          "meaning_en": "common / the same",
+          "meaning_kn": "ಒಂದೇ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "वः",
+          "meaning_en": "your",
+          "meaning_kn": "ನಿಮ್ಮ"
+        },
+        {
+          "position": 3,
+          "sanskrit": "आकूतिः",
+          "meaning_en": "intentions / resolve",
+          "meaning_kn": "ಸಂಕಲ್ಪಗಳು"
+        },
+        {
+          "position": 4,
+          "sanskrit": "समाना",
+          "meaning_en": "united / common",
+          "meaning_kn": "ಒಂದೇ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "हृदयानि",
+          "meaning_en": "hearts",
+          "meaning_kn": "ಹೃದಯಗಳು"
+        },
+        {
+          "position": 6,
+          "sanskrit": "समानम्",
+          "meaning_en": "one / common",
+          "meaning_kn": "ಒಂದೇ"
+        },
+        {
+          "position": 7,
+          "sanskrit": "अस्तु",
+          "meaning_en": "may it be",
+          "meaning_kn": "ಆಗಿರಲಿ"
+        },
+        {
+          "position": 8,
+          "sanskrit": "मनः",
+          "meaning_en": "mind",
+          "meaning_kn": "ಮನಸ್ಸು"
+        },
+        {
+          "position": 9,
+          "sanskrit": "यथा",
+          "meaning_en": "so that / as",
+          "meaning_kn": "ಹಾಗೆ"
+        },
+        {
+          "position": 10,
+          "sanskrit": "सुसहासति",
+          "meaning_en": "as printed; requires grammatical review",
+          "meaning_kn": "ವ್ಯಾಕರಣ ಪರಿಶೀಲನೆ ಅಗತ್ಯ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [
+        "Source has a spacing split in आकू तिः; displayed as supplied here. Verify normalization and exact pada text."
+      ],
+      "lesson_slug": "rigveda-03"
+    },
+    {
+      "id": "RV-1.89.1",
+      "veda": "Rigveda",
+      "reference": "1.89.1",
+      "title_en": "Good ideas should come from all directions",
+      "source_sanskrit": "आ नो भद्राः क्रतवो यन्तु विश्वतः ।",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "आ नो भद्राः क्रतवो यन्तु विश्वतः ।",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಆ ನೋ ಭದ್ರಾಃ ಕ್ರತವೋ ಯನ್ತು ವಿಶ್ವತಃ ।",
+          "meaning": "ಎಲ್ಲ ದಿಕ್ಕುಗಳಿಂದಲೂ ಉದಾತ್ತ ಮತ್ತು ಹಿತಕರವಾದ ಆಲೋಚನೆಗಳು ನಮ್ಮ ಬಳಿಗೆ ಬರಲಿ.",
+          "application": "ನಮ್ಮದೇ ಅಭಿಪ್ರಾಯಗಳಿಗೆ ಸೀಮಿತವಾಗದೆ, ಎಲ್ಲಿಂದ ಬಂದರೂ ಒಳ್ಳೆಯ ಆಲೋಚನೆಗಳನ್ನು ಸ್ವಾಗತಿಸಬೇಕು."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "आ नो भद्राः क्रतवो यन्तु विश्वतः ।",
+          "meaning": "सभी दिशाओं से हमारे पास श्रेष्ठ और कल्याणकारी विचार तथा प्रेरणाएँ आएँ।",
+          "application": "केवल अपने विचारों तक सीमित न रहें; जहाँ से भी अच्छे विचार मिलें, उन्हें खुले मन से स्वीकार करें।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "ā no bhadrāḥ kratavo yantu viśvataḥ ।",
+          "meaning": "May noble and beneficial thoughts or inspirations come to us from all directions.",
+          "application": "We should welcome good ideas from wherever they come, rather than limiting ourselves to our own opinions."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "ఆ నో భద్రాః క్రతవో యన్తు విశ్వతః ।",
+          "meaning": "అన్ని దిశల నుంచి శుభకరమైన, ఉన్నతమైన ఆలోచనలు మరియు ప్రేరణలు మనకు రావాలి.",
+          "application": "మన అభిప్రాయాలకే పరిమితం కాకుండా, ఎక్కడి నుంచైనా వచ్చే మంచి ఆలోచనలను స్వాగతించాలి."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "ஆ நோ பத்ராஃ க்ரதவோ யந்து விச்வதஃ ।",
+          "meaning": "எல்லாத் திசைகளிலிருந்தும் உயர்ந்த, நன்மை தரும் எண்ணங்களும் ஊக்கங்களும் நம்மிடம் வரட்டும்.",
+          "application": "நம் சொந்தக் கருத்துகளுக்குள் மட்டும் சுருங்காமல், எங்கிருந்து வந்தாலும் நல்ல கருத்துகளை திறந்த மனதுடன் ஏற்க வேண்டும்."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "ആ നോ ഭദ്രാഃ ക്രതവോ യന്തു വിശ്വതഃ ।",
+          "meaning": "എല്ലാ ദിശകളിൽ നിന്നും ഉന്നതവും നന്മയുള്ളതുമായ ചിന്തകളും പ്രചോദനങ്ങളും നമ്മിലേക്ക് വരട്ടെ.",
+          "application": "സ്വന്തം അഭിപ്രായങ്ങളിൽ മാത്രം ഒതുങ്ങാതെ എവിടെ നിന്നുള്ള നല്ല ആശയങ്ങളെയും തുറന്ന മനസ്സോടെ സ്വീകരിക്കണം."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "आ नो भद्राः क्रतवो यन्तु विश्वतः ।",
+          "meaning": "सर्व दिशांनी श्रेष्ठ आणि कल्याणकारी विचार व प्रेरणा आमच्याकडे येऊ देत.",
+          "application": "आपल्या मतांपुरते मर्यादित न राहता, कुठूनही आलेल्या चांगल्या विचारांचे खुले मनाने स्वागत करावे."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "আ নো ভদ্রাঃ ক্রতবো যন্তু বিশ্বতঃ ।",
+          "meaning": "সব দিক থেকে মহৎ ও কল্যাণকর চিন্তা এবং প্রেরণা আমাদের কাছে আসুক।",
+          "application": "নিজের মতের মধ্যে সীমাবদ্ধ না থেকে, যেখান থেকেই আসুক ভালো চিন্তাকে উদার মনে গ্রহণ করা উচিত।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "આ નો ભદ્રાઃ ક્રતવો યન્તુ વિશ્વતઃ ।",
+          "meaning": "બધી દિશાઓમાંથી ઉત્તમ અને કલ્યાણકારી વિચારો તથા પ્રેરણાઓ અમારી પાસે આવે.",
+          "application": "પોતાના વિચારો પૂરતા મર્યાદિત ન રહી, જ્યાંથી પણ સારા વિચારો આવે તેને ખુલ્લા મનથી સ્વીકારવા જોઈએ."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਆ ਨੇ ਭਦ੍ਰਾਃ ਕ੍ਰਤਵੇ ਯਨ੍ਤੂ ਵਿਸ੍ਵਤਃ ।",
+          "meaning": "ਸਾਰੀਆਂ ਦਿਸ਼ਾਵਾਂ ਤੋਂ ਨੇਕ ਅਤੇ ਭਲਾਈ ਵਾਲੇ ਵਿਚਾਰ ਤੇ ਪ੍ਰੇਰਨਾਵਾਂ ਸਾਡੇ ਕੋਲ ਆਉਣ।",
+          "application": "ਆਪਣੇ ਵਿਚਾਰਾਂ ਤੱਕ ਸੀਮਿਤ ਨਾ ਰਹੋ; ਜਿੱਥੋਂ ਵੀ ਚੰਗੇ ਵਿਚਾਰ ਮਿਲਣ, ਉਨ੍ਹਾਂ ਨੂੰ ਖੁੱਲ੍ਹੇ ਮਨ ਨਾਲ ਕਬੂਲ ਕਰੋ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ଆ ନୋ ଭଦ୍ରାଃ କ୍ରତବୋ ଯନ୍ତୁ ବିଶ୍ବତଃ ।",
+          "meaning": "ସମସ୍ତ ଦିଗରୁ ଉତ୍ତମ ଓ ମଙ୍ଗଳମୟ ଚିନ୍ତାଧାରା ଏବଂ ପ୍ରେରଣା ଆମ ପାଖକୁ ଆସୁ।",
+          "application": "ନିଜ ମତରେ ସୀମିତ ନ ରହି, ଯେଉଁଠାରୁ ଭଲ ଚିନ୍ତା ଆସେ ତାହାକୁ ଖୋଲା ମନରେ ଗ୍ରହଣ କରିବା ଉଚିତ।"
+        }
+      },
+      "meaning_en": "May noble and beneficial thoughts or inspirations come to us from all directions.",
+      "meaning_kn": "ಎಲ್ಲ ದಿಕ್ಕುಗಳಿಂದಲೂ ಉದಾತ್ತ ಮತ್ತು ಹಿತಕರವಾದ ಆಲೋಚನೆಗಳು ನಮ್ಮ ಬಳಿಗೆ ಬರಲಿ.",
+      "daily_life_application_en": "We should welcome good ideas from wherever they come, rather than limiting ourselves to our own opinions.",
+      "daily_life_application_kn": "ನಮ್ಮದೇ ಅಭಿಪ್ರಾಯಗಳಿಗೆ ಸೀಮಿತವಾಗದೆ, ಎಲ್ಲಿಂದ ಬಂದರೂ ಒಳ್ಳೆಯ ಆಲೋಚನೆಗಳನ್ನು ಸ್ವಾಗತಿಸಬೇಕು.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "आ",
+          "meaning_en": "toward / to",
+          "meaning_kn": "ಕಡೆಗೆ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "नः",
+          "meaning_en": "us / to us",
+          "meaning_kn": "ನಮಗೆ"
+        },
+        {
+          "position": 3,
+          "sanskrit": "भद्राः",
+          "meaning_en": "noble / auspicious",
+          "meaning_kn": "ಉದಾತ್ತ / ಶುಭಕರ"
+        },
+        {
+          "position": 4,
+          "sanskrit": "क्रतवः",
+          "meaning_en": "intentions / inspirations",
+          "meaning_kn": "ಸಂಕಲ್ಪಗಳು / ಪ್ರೇರಣೆಗಳು"
+        },
+        {
+          "position": 5,
+          "sanskrit": "यन्तु",
+          "meaning_en": "may they come",
+          "meaning_kn": "ಬರಲಿ"
+        },
+        {
+          "position": 6,
+          "sanskrit": "विश्वतः",
+          "meaning_en": "from all directions",
+          "meaning_kn": "ಎಲ್ಲ ದಿಕ್ಕುಗಳಿಂದ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [],
+      "lesson_slug": "rigveda-04"
+    },
+    {
+      "id": "RV-1.48.15",
+      "veda": "Rigveda",
+      "reference": "1.48.15",
+      "title_en": "A new opportunity each morning",
+      "source_sanskrit": "उषो यदद्य भानुना वि द्वारावृणवो दिवः ।",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "उषो यदद्य भानुना वि द्वारावृणवो दिवः ।",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಉಷೋ ಯದದ್ಯ ಭಾನುನಾ ವಿ ದ್ವಾರಾವೃಣವೋ ದಿವಃ ।",
+          "meaning": "ಓ ಉಷೆಯೇ, ಇಂದು ನೀನು ನಿನ್ನ ಪ್ರಕಾಶಮಾನ ಬೆಳಕಿನಿಂದ ಸ್ವರ್ಗದ ಬಾಗಿಲುಗಳನ್ನು ತೆರೆಯುತ್ತೀಯೆ.",
+          "application": "ಪ್ರತಿ ಬೆಳಗ್ಗೆಯೂ ಹೊಸ ಅವಕಾಶವಾಗಿದೆ. ಹಿಂದಿನ ತಪ್ಪುಗಳಿಂದ ಕಲಿತು, ಹೊಸ ಉತ್ಸಾಹದಿಂದ ದಿನವನ್ನು ಆರಂಭಿಸಬೇಕು."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "उषो यदद्य भानुना वि द्वारावृणवो दिवः ।",
+          "meaning": "हे उषा, आज तुम अपने प्रकाश से स्वर्ग के द्वार खोलती हो।",
+          "application": "हर सुबह एक नया अवसर है। पिछली गलतियों से सीखकर नए उत्साह के साथ दिन शुरू करें।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "uṣo yadadya bhānunā vi dvārāvṛṇavo divaḥ ।",
+          "meaning": "O Dawn, today you open the doors of heaven with your radiant light.",
+          "application": "Every morning is a new opportunity. Learn from past mistakes and begin the day with renewed enthusiasm."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "ఉషో యదద్య భానునా వి ద్వారావృణవో దివః ।",
+          "meaning": "ఓ ఉషస్సా, ఈ రోజు నీ ప్రకాశంతో స్వర్గ ద్వారాలను తెరుస్తావు.",
+          "application": "ప్రతి ఉదయం ఒక కొత్త అవకాశం. గత తప్పుల నుంచి నేర్చుకొని కొత్త ఉత్సాహంతో రోజును ప్రారంభించాలి."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "உசோ யதத்ய பாநுநா வி த்வாராவ்ணவோ திவஃ ।",
+          "meaning": "விடியலே, இன்று உன் ஒளியால் விண்ணுலகின் கதவுகளைத் திறக்கிறாய்.",
+          "application": "ஒவ்வொரு காலையும் ஒரு புதிய வாய்ப்பு. கடந்த தவறுகளிலிருந்து கற்று, புதிய உற்சாகத்துடன் நாளைத் தொடங்க வேண்டும்."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "ഉഷോ യദദ്യ ഭാനുനാ വി ദ്വാരാവൃണവോ ദിവഃ ।",
+          "meaning": "ഉഷസ്സേ, ഇന്ന് നിന്റെ പ്രകാശത്താൽ സ്വർഗ്ഗത്തിന്റെ വാതിലുകൾ തുറക്കുന്നു.",
+          "application": "ഓരോ പ്രഭാതവും ഒരു പുതിയ അവസരമാണ്. കഴിഞ്ഞ പിഴവുകളിൽ നിന്ന് പഠിച്ച് പുതുമയുള്ള ഉത്സാഹത്തോടെ ദിവസം ആരംഭിക്കണം."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "उषो यदद्य भानुना वि द्वारावृणवो दिवः ।",
+          "meaning": "हे उषे, आज तू तुझ्या प्रकाशाने स्वर्गाची द्वारे उघडतेस.",
+          "application": "प्रत्येक सकाळ ही नवी संधी असते. मागील चुकांतून शिकून नव्या उत्साहाने दिवस सुरू करावा."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "উষো যদদ্য ভানুনা বি দ্বারাবৃণবো দিবঃ ।",
+          "meaning": "হে ঊষা, আজ তুমি তোমার দীপ্ত আলোয় স্বর্গের দ্বার খুলে দাও।",
+          "application": "প্রতিটি সকাল একটি নতুন সুযোগ। অতীতের ভুল থেকে শিখে নতুন উদ্যমে দিন শুরু করা উচিত।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "ઉષો યદદ્ય ભાનુના વિ દ્વારાવૃણવો દિવઃ ।",
+          "meaning": "હે ઉષા, આજે તું તારા તેજસ્વી પ્રકાશથી સ્વર્ગનાં દ્વાર ખોલે છે.",
+          "application": "દરેક સવાર એક નવી તક છે. ભૂતકાળની ભૂલોમાંથી શીખીને નવા ઉત્સાહથી દિવસ શરૂ કરવો જોઈએ."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਉ਼ੇ ਯਦਦ੍ਯ ਭਾਨੂਨਾ ਵਿ ਦ੍ਵਾਰਾਵ੍ਣਵੇ ਦਿਵਃ ।",
+          "meaning": "ਹੇ ਉਸ਼ਾ, ਅੱਜ ਤੂੰ ਆਪਣੀ ਚਮਕਦਾਰ ਰੌਸ਼ਨੀ ਨਾਲ ਸਵਰਗ ਦੇ ਦਰਵਾਜ਼ੇ ਖੋਲ੍ਹਦੀ ਹੈਂ।",
+          "application": "ਹਰ ਸਵੇਰ ਇੱਕ ਨਵਾਂ ਮੌਕਾ ਹੈ। ਪਿਛਲੀਆਂ ਗਲਤੀਆਂ ਤੋਂ ਸਿੱਖ ਕੇ ਨਵੇਂ ਜੋਸ਼ ਨਾਲ ਦਿਨ ਸ਼ੁਰੂ ਕਰੋ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ଉଷୋ ଯଦଦ୍ଯ ଭାନୁନା ବି ଦ୍ବାରାବୃଣବୋ ଦିବଃ ।",
+          "meaning": "ହେ ଉଷା, ଆଜି ତୁମ ଉଜ୍ଜ୍ୱଳ ଆଲୋକରେ ସ୍ୱର୍ଗର ଦ୍ୱାର ଖୋଲୁଛ।",
+          "application": "ପ୍ରତ୍ୟେକ ସକାଳ ଏକ ନୂଆ ସୁଯୋଗ। ପୂର୍ବ ଭୁଲରୁ ଶିଖି ନୂଆ ଉତ୍ସାହରେ ଦିନ ଆରମ୍ଭ କରିବା ଉଚିତ।"
+        }
+      },
+      "meaning_en": "O Dawn, today you open the doors of heaven with your radiant light.",
+      "meaning_kn": "ಓ ಉಷೆಯೇ, ಇಂದು ನೀನು ನಿನ್ನ ಪ್ರಕಾಶಮಾನ ಬೆಳಕಿನಿಂದ ಸ್ವರ್ಗದ ಬಾಗಿಲುಗಳನ್ನು ತೆರೆಯುತ್ತೀಯೆ.",
+      "daily_life_application_en": "Every morning is a new opportunity. Learn from past mistakes and begin the day with renewed enthusiasm.",
+      "daily_life_application_kn": "ಪ್ರತಿ ಬೆಳಗ್ಗೆಯೂ ಹೊಸ ಅವಕಾಶವಾಗಿದೆ. ಹಿಂದಿನ ತಪ್ಪುಗಳಿಂದ ಕಲಿತು, ಹೊಸ ಉತ್ಸಾಹದಿಂದ ದಿನವನ್ನು ಆರಂಭಿಸಬೇಕು.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "उषः",
+          "meaning_en": "O Dawn",
+          "meaning_kn": "ಓ ಉಷೆಯೇ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "यत्",
+          "meaning_en": "when / that",
+          "meaning_kn": "ಯಾವಾಗ / ಅದು"
+        },
+        {
+          "position": 3,
+          "sanskrit": "अद्य",
+          "meaning_en": "today",
+          "meaning_kn": "ಇಂದು"
+        },
+        {
+          "position": 4,
+          "sanskrit": "भानुना",
+          "meaning_en": "with radiance / sunlight",
+          "meaning_kn": "ಪ್ರಕಾಶದಿಂದ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "वि",
+          "meaning_en": "open / apart (prefix)",
+          "meaning_kn": "ತೆರೆದು"
+        },
+        {
+          "position": 6,
+          "sanskrit": "द्वारा",
+          "meaning_en": "doors",
+          "meaning_kn": "ಬಾಗಿಲುಗಳು"
+        },
+        {
+          "position": 7,
+          "sanskrit": "आवृणवः",
+          "meaning_en": "you open / uncover (as printed)",
+          "meaning_kn": "ನೀನು ತೆರೆಯುತ್ತೀಯೆ"
+        },
+        {
+          "position": 8,
+          "sanskrit": "दिवः",
+          "meaning_en": "of heaven / sky",
+          "meaning_kn": "ಸ್ವರ್ಗದ / ಆಕಾಶದ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [
+        "Short excerpt; verify exact wording and reference."
+      ],
+      "lesson_slug": "rigveda-05"
+    },
+    {
+      "id": "RV-10.191.4-fragment",
+      "veda": "Rigveda",
+      "reference": "10.191.4",
+      "title_en": "Mutual love and friendship – source fragment",
+      "source_sanskrit": "समानं मनः सहचित्तमेषाम् ।",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "समानं मनः सहचित्तमेषाम् ।",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಸಮಾನಂ ಮನಃ ಸಹಚಿತ್ತಮೇಷಾಮ್ ।",
+          "meaning": "ಅವರಲ್ಲಿ ಮನಸ್ಸಿನ ಸಾಮರಸ್ಯ ಮತ್ತು ಏಕತೆ ಇರಲಿ.",
+          "application": "ಕುಟುಂಬ ಸಂಬಂಧಗಳಲ್ಲಿ ಅಹಂಕಾರಕ್ಕಿಂತ ಪ್ರೀತಿ, ವಾದಕ್ಕಿಂತ ಪರಸ್ಪರ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವಿಕೆ ಮತ್ತು ಭಿನ್ನತೆಗಳಿಗಿಂತ ಸಾಮರಸ್ಯ ಮುಖ್ಯ."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "समानं मनः सहचित्तमेषाम् ।",
+          "meaning": "उनके बीच मन की एकता और सामंजस्य बना रहे।",
+          "application": "पारिवारिक संबंधों में अहंकार से अधिक प्रेम, बहस से अधिक समझ और मतभेदों से अधिक सद्भाव महत्वपूर्ण है।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "samānaṃ manaḥ sahacittameṣām ।",
+          "meaning": "May there be harmony and unity of mind among them.",
+          "application": "In family relationships, love is more important than ego, understanding more important than arguments, and harmony more important than differences."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "సమానం మనః సహచిత్తమేషామ్ ।",
+          "meaning": "వారి మధ్య మనసుల ఐక్యత, సామరస్యం ఉండాలి.",
+          "application": "కుటుంబ సంబంధాల్లో అహంకారం కంటే ప్రేమ, వాదనల కంటే అవగాహన, భేదాల కంటే సామరస్యం ముఖ్యం."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "சமாநம் மநஃ சஹசித்தமேசாம் ।",
+          "meaning": "அவர்களிடையே மன ஒற்றுமையும் நல்லிணக்கமும் நிலவட்டும்.",
+          "application": "குடும்ப உறவுகளில் அகந்தையைவிட அன்பும், வாதத்தைவிட புரிதலும், வேறுபாடுகளைவிட நல்லிணக்கமும் முக்கியம்."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "സമാനം മനഃ സഹചിത്തമേഷാമ് ।",
+          "meaning": "അവർക്കിടയിൽ മനസ്സിന്റെ ഐക്യവും സൗഹാർദ്ദവും നിലനിൽക്കട്ടെ.",
+          "application": "കുടുംബബന്ധങ്ങളിൽ അഹങ്കാരത്തേക്കാൾ സ്നേഹവും തർക്കത്തേക്കാൾ പരസ്പരധാരണയും വ്യത്യാസങ്ങളേക്കാൾ ഐക്യവും പ്രധാനമാണ്."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "समानं मनः सहचित्तमेषाम् ।",
+          "meaning": "त्यांच्यामध्ये मनाची एकता आणि सलोखा नांदू दे.",
+          "application": "कौटुंबिक नात्यांत अहंकारापेक्षा प्रेम, वादापेक्षा समजूतदारपणा आणि मतभेदांपेक्षा सलोखा महत्त्वाचा आहे."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "সমানং মনঃ সহচিত্তমেষাম্ ।",
+          "meaning": "তাদের মধ্যে মনের ঐক্য ও সম্প্রীতি বজায় থাকুক।",
+          "application": "পারিবারিক সম্পর্কে অহংকারের চেয়ে ভালোবাসা, তর্কের চেয়ে বোঝাপড়া এবং মতভেদের চেয়ে সম্প্রীতি বেশি গুরুত্বপূর্ণ।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "સમાનં મનઃ સહચિત્તમેષામ્ ।",
+          "meaning": "તેમની વચ્ચે મનની એકતા અને સુમેળ જળવાઈ રહે.",
+          "application": "કૌટુંબિક સંબંધોમાં અહંકાર કરતાં પ્રેમ, દલીલ કરતાં સમજણ અને મતભેદ કરતાં સુમેળ વધુ મહત્વનો છે."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਸਮਾਨੰ ਮਨਃ ਸ਼ਚਿਤ੍ਤਮ਼੍ਾਮ੍ ।",
+          "meaning": "ਉਨ੍ਹਾਂ ਵਿਚ ਮਨ ਦੀ ਏਕਤਾ ਅਤੇ ਸਦਭਾਵਨਾ ਬਣੀ ਰਹੇ।",
+          "application": "ਪਰਿਵਾਰਕ ਰਿਸ਼ਤਿਆਂ ਵਿੱਚ ਹੰਕਾਰ ਨਾਲੋਂ ਪਿਆਰ, ਬਹਿਸ ਨਾਲੋਂ ਸਮਝ ਅਤੇ ਮਤਭੇਦਾਂ ਨਾਲੋਂ ਸਦਭਾਵਨਾ ਵੱਧ ਮਹੱਤਵਪੂਰਨ ਹੈ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ସମାନଂ ମନଃ ସହଚିତ୍ତମେଷାମ୍ ।",
+          "meaning": "ସେମାନଙ୍କ ମଧ୍ୟରେ ମନର ଏକତା ଓ ସମନ୍ୱୟ ରହୁ।",
+          "application": "ପାରିବାରିକ ସମ୍ପର୍କରେ ଅହଂକାରଠାରୁ ପ୍ରେମ, ଯୁକ୍ତିତର୍କଠାରୁ ବୁଝାମଣା ଏବଂ ମତଭେଦଠାରୁ ସମନ୍ୱୟ ଅଧିକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।"
+        }
+      },
+      "meaning_en": "May there be harmony and unity of mind among them.",
+      "meaning_kn": "ಅವರಲ್ಲಿ ಮನಸ್ಸಿನ ಸಾಮರಸ್ಯ ಮತ್ತು ಏಕತೆ ಇರಲಿ.",
+      "daily_life_application_en": "In family relationships, love is more important than ego, understanding more important than arguments, and harmony more important than differences.",
+      "daily_life_application_kn": "ಕುಟುಂಬ ಸಂಬಂಧಗಳಲ್ಲಿ ಅಹಂಕಾರಕ್ಕಿಂತ ಪ್ರೀತಿ, ವಾದಕ್ಕಿಂತ ಪರಸ್ಪರ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವಿಕೆ ಮತ್ತು ಭಿನ್ನತೆಗಳಿಗಿಂತ ಸಾಮರಸ್ಯ ಮುಖ್ಯ.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "समानम्",
+          "meaning_en": "common / united",
+          "meaning_kn": "ಒಂದೇ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "मनः",
+          "meaning_en": "mind",
+          "meaning_kn": "ಮನಸ್ಸು"
+        },
+        {
+          "position": 3,
+          "sanskrit": "सह",
+          "meaning_en": "together / with",
+          "meaning_kn": "ಜೊತೆ"
+        },
+        {
+          "position": 4,
+          "sanskrit": "चित्तम्",
+          "meaning_en": "consciousness / thought",
+          "meaning_kn": "ಚಿತ್ತ / ಆಲೋಚನೆ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "एषाम्",
+          "meaning_en": "of them",
+          "meaning_kn": "ಅವರ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [
+        "Fragment separately listed in source under the same reference; not treated as a complete independent verse."
+      ],
+      "lesson_slug": "rigveda-06"
+    },
+    {
+      "id": "RV-1.164.39",
+      "veda": "Rigveda",
+      "reference": "1.164.39",
+      "title_en": "Pursuit of knowledge",
+      "source_sanskrit": "ऋचो अक्षरे परमे व्योमन् यस्मिन् देवा अधि विश्वे निषेदुः ।",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "ऋचो अक्षरे परमे व्योमन् यस्मिन् देवा अधि विश्वे निषेदुः ।",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಋಚೋ ಅಕ್ಷರೇ ಪರಮೇ ವ್ಯೋಮನ್ ಯಸ್ಮಿನ್ ದೇವಾ ಅಧಿ ವಿಶ್ವೇ ನಿಷೇದುಃ ।",
+          "meaning": "ಈ ವೇದ ಮಂತ್ರಗಳು ಅಕ್ಷಯವಾದ ಪರಮ ಆಕಾಶದಲ್ಲಿ ನೆಲೆಸಿವೆ; ಅದರಲ್ಲಿ ಎಲ್ಲಾ ದೈವಿಕ ಶಕ್ತಿಗಳು ಸ್ಥಾಪಿತವಾಗಿವೆ.",
+          "application": "ವೇದಗಳು ಕೇವಲ ಪಠಣವನ್ನೇ ಅಲ್ಲ, ಜ್ಞಾನಾನ್ವೇಷಣೆ, ಆಳವಾದ ಚಿಂತನೆ ಮತ್ತು ಸತ್ಯದ ಅನ್ವೇಷಣೆಯನ್ನೂ ಕಲಿಸುತ್ತವೆ."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "ऋचो अक्षरे परमे व्योमन् यस्मिन् देवा अधि विश्वे निषेदुः ।",
+          "meaning": "ये वैदिक ऋचाएँ अविनाशी परम आकाश में स्थित हैं, जिसमें सभी दिव्य शक्तियाँ प्रतिष्ठित हैं।",
+          "application": "वेद केवल पाठ करना ही नहीं, बल्कि ज्ञान की खोज, गहन चिंतन और सत्य को जानने की प्रेरणा देते हैं।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "ṛco akṣare parame vyoman yasmin devā adhi viśve niṣeduḥ ।",
+          "meaning": "These Vedic verses abide in the imperishable Supreme realm, in which all the divine powers are established.",
+          "application": "The Vedas teach not merely recitation, but the pursuit of knowledge, deep thinking, and discovery of truth."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "ఋచో అక్షరే పరమే వ్యోమన్ యస్మిన్ దేవా అధి విశ్వే నిషేదుః ।",
+          "meaning": "ఈ వేద ఋక్కులు నాశనరహితమైన పరమ ఆకాశంలో నిలిచి ఉన్నాయి; అందులో దివ్యశక్తులన్నీ స్థిరపడ్డాయి.",
+          "application": "వేదాలు కేవలం పఠనమే కాకుండా జ్ఞానాన్వేషణ, లోతైన ఆలోచన, సత్యాన్వేషణను బోధిస్తాయి."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "ரசோ அக்சரே பரமே வ்யோமந் யச்மிந் தேவா அதி விச்வே நிசேதுஃ ।",
+          "meaning": "இந்த வேதப் பாடல்கள் அழிவற்ற உயர்ந்த விண்வெளியில் நிலைத்துள்ளன; அங்கு தெய்வீக ஆற்றல்கள் அனைத்தும் நிறுவப்பட்டுள்ளன.",
+          "application": "வேதங்கள் ஓதுதலை மட்டுமல்ல; அறிவைத் தேடுதல், ஆழ்ந்து சிந்தித்தல், உண்மையைக் கண்டறிதல் ஆகியவற்றையும் கற்பிக்கின்றன."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "ഋചോ അക്ഷരേ പരമേ വ്യോമന് യസ്മിന് ദേവാ അധി വിശ്വേ നിഷേദുഃ ।",
+          "meaning": "ഈ വേദമന്ത്രങ്ങൾ നശിക്കാത്ത പരമാകാശത്തിൽ നിലകൊള്ളുന്നു; അവിടെ എല്ലാ ദിവ്യശക്തികളും സ്ഥാപിതമാണ്.",
+          "application": "വേദങ്ങൾ പാരായണം മാത്രമല്ല, അറിവിന്റെ അന്വേഷണം, ആഴത്തിലുള്ള ചിന്ത, സത്യാന്വേഷണം എന്നിവയും പഠിപ്പിക്കുന്നു."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "ऋचो अक्षरे परमे व्योमन् यस्मिन् देवा अधि विश्वे निषेदुः ।",
+          "meaning": "या वेदऋचा अविनाशी परम आकाशात वास करतात, जिथे सर्व दैवी शक्ती स्थापित आहेत.",
+          "application": "वेद केवळ पठण नव्हे, तर ज्ञानाचा शोध, सखोल विचार आणि सत्य जाणून घेण्याची प्रेरणा देतात."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "ঋচো অক্ষরে পরমে ব্যোমন্ যস্মিন্ দেবা অধি বিশ্বে নিষেদুঃ ।",
+          "meaning": "এই বৈদিক ঋকগুলি অবিনশ্বর পরম আকাশে অবস্থান করে, যেখানে সব দৈবশক্তি প্রতিষ্ঠিত।",
+          "application": "বেদ শুধু আবৃত্তি নয়; জ্ঞানের অন্বেষণ, গভীর চিন্তা এবং সত্য আবিষ্কারের প্রেরণা দেয়।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "ઋચો અક્ષરે પરમે વ્યોમન્ યસ્મિન્ દેવા અધિ વિશ્વે નિષેદુઃ ।",
+          "meaning": "આ વેદમંત્રો અવિનાશી પરમ આકાશમાં સ્થિત છે, જ્યાં બધી દિવ્ય શક્તિઓ સ્થાપિત છે.",
+          "application": "વેદો માત્ર પાઠ જ નહીં, જ્ઞાનની શોધ, ઊંડા ચિંતન અને સત્યની શોધ માટે પ્રેરણા આપે છે."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਰਚੇ ਅਕ਼੍ਰ੍ ਪਰਮ੍ ਵ੍ਯੇਮਨ੍ ਯਸ੍ਮਿਨ੍ ਦ੍ਵਾ ਅਧਿ ਵਿਸ੍ਵ੍ ਨਿ਼੍ਦੂਃ ।",
+          "meaning": "ਇਹ ਵੇਦ ਮੰਤਰ ਅਵਿਨਾਸ਼ੀ ਪਰਮ ਆਕਾਸ਼ ਵਿੱਚ ਵੱਸਦੇ ਹਨ, ਜਿੱਥੇ ਸਾਰੀਆਂ ਦਿਵਯ ਸ਼ਕਤੀਆਂ ਸਥਾਪਿਤ ਹਨ।",
+          "application": "ਵੇਦ ਸਿਰਫ਼ ਪਾਠ ਨਹੀਂ, ਸਗੋਂ ਗਿਆਨ ਦੀ ਖੋਜ, ਡੂੰਘੀ ਸੋਚ ਅਤੇ ਸੱਚ ਦੀ ਤਲਾਸ਼ ਸਿਖਾਉਂਦੇ ਹਨ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ଋଚୋ ଅକ୍ଷରେ ପରମେ ବ୍ଯୋମନ୍ ଯସ୍ମିନ୍ ଦେବା ଅଧି ବିଶ୍ବେ ନିଷେଦୁଃ ।",
+          "meaning": "ଏହି ବେଦ ଋଚାଗୁଡ଼ିକ ଅବିନାଶୀ ପରମ ଆକାଶରେ ରହିଛି, ଯେଉଁଠାରେ ସମସ୍ତ ଦିବ୍ୟ ଶକ୍ତି ପ୍ରତିଷ୍ଠିତ।",
+          "application": "ବେଦ କେବଳ ପାଠ ନୁହେଁ; ଜ୍ଞାନର ଅନ୍ୱେଷଣ, ଗଭୀର ଚିନ୍ତନ ଓ ସତ୍ୟର ଆବିଷ୍କାର ପାଇଁ ପ୍ରେରଣା ଦିଏ।"
+        }
+      },
+      "meaning_en": "These Vedic verses abide in the imperishable Supreme realm, in which all the divine powers are established.",
+      "meaning_kn": "ಈ ವೇದ ಮಂತ್ರಗಳು ಅಕ್ಷಯವಾದ ಪರಮ ಆಕಾಶದಲ್ಲಿ ನೆಲೆಸಿವೆ; ಅದರಲ್ಲಿ ಎಲ್ಲಾ ದೈವಿಕ ಶಕ್ತಿಗಳು ಸ್ಥಾಪಿತವಾಗಿವೆ.",
+      "daily_life_application_en": "The Vedas teach not merely recitation, but the pursuit of knowledge, deep thinking, and discovery of truth.",
+      "daily_life_application_kn": "ವೇದಗಳು ಕೇವಲ ಪಠಣವನ್ನೇ ಅಲ್ಲ, ಜ್ಞಾನಾನ್ವೇಷಣೆ, ಆಳವಾದ ಚಿಂತನೆ ಮತ್ತು ಸತ್ಯದ ಅನ್ವೇಷಣೆಯನ್ನೂ ಕಲಿಸುತ್ತವೆ.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "ऋचः",
+          "meaning_en": "Vedic verses / Ṛks",
+          "meaning_kn": "ಋಕ್ಕುಗಳು"
+        },
+        {
+          "position": 2,
+          "sanskrit": "अक्षरे",
+          "meaning_en": "in the imperishable",
+          "meaning_kn": "ಅಕ್ಷಯದಲ್ಲಿ"
+        },
+        {
+          "position": 3,
+          "sanskrit": "परमे",
+          "meaning_en": "supreme",
+          "meaning_kn": "ಪರಮ"
+        },
+        {
+          "position": 4,
+          "sanskrit": "व्योमन्",
+          "meaning_en": "in the sky / space",
+          "meaning_kn": "ಆಕಾಶದಲ್ಲಿ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "यस्मिन्",
+          "meaning_en": "in which",
+          "meaning_kn": "ಯಾವುದರಲ್ಲಿ"
+        },
+        {
+          "position": 6,
+          "sanskrit": "देवाः",
+          "meaning_en": "the gods / divine powers",
+          "meaning_kn": "ದೇವತೆಗಳು"
+        },
+        {
+          "position": 7,
+          "sanskrit": "अधि",
+          "meaning_en": "upon / in",
+          "meaning_kn": "ಮೇಲೆ / ಒಳಗೆ"
+        },
+        {
+          "position": 8,
+          "sanskrit": "विश्वे",
+          "meaning_en": "all",
+          "meaning_kn": "ಎಲ್ಲಾ"
+        },
+        {
+          "position": 9,
+          "sanskrit": "निषेदुः",
+          "meaning_en": "have settled / are seated",
+          "meaning_kn": "ನೆಲೆಸಿದ್ದಾರೆ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [],
+      "lesson_slug": "rigveda-07"
+    },
+    {
+      "id": "RV-10.117.6",
+      "veda": "Rigveda",
+      "reference": "10.117.6",
+      "title_en": "The true value of sharing",
+      "source_sanskrit": "मोघमन्नं विन्दते अप्रचेताः सत्यं ब्रवीमि वध इत् स तस्य ।",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "मोघमन्नं विन्दते अप्रचेताः सत्यं ब्रवीमि वध इत् स तस्य ।",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಮೋಘಮನ್ನಂ ವಿನ್ದತೇ ಅಪ್ರಚೇತಾಃ ಸತ್ಯಂ ಬ್ರವೀಮಿ ವಧ ಇತ್ ಸ ತಸ್ಯ ।",
+          "meaning": "ಹಂಚಿಕೊಳ್ಳದ ಅರಿವಿಲ್ಲದವನು ಆಹಾರವನ್ನು ವ್ಯರ್ಥವಾಗಿ ಪಡೆಯುತ್ತಾನೆ; ನಿಜವಾಗಿ ಹೇಳುತ್ತೇನೆ, ಅದು ಅವನ ಪತನಕ್ಕೆ ಕಾರಣವಾಗುತ್ತದೆ.",
+          "application": "ಸಂಪತ್ತು, ಜ್ಞಾನ ಮತ್ತು ಸಾಮರ್ಥ್ಯಗಳನ್ನು ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಂಡಾಗಲೇ ಅವುಗಳ ನಿಜವಾದ ಮೌಲ್ಯ ವ್ಯಕ್ತವಾಗುತ್ತದೆ."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "मोघमन्नं विन्दते अप्रचेताः सत्यं ब्रवीमि वध इत् स तस्य ।",
+          "meaning": "जो बाँटता नहीं, वह भोजन व्यर्थ प्राप्त करता है। मैं सत्य कहता हूँ—यह उसके पतन का कारण है।",
+          "application": "धन, ज्ञान और क्षमताओं का वास्तविक मूल्य उन्हें दूसरों के साथ बाँटने में है।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "moghamannaṃ vindate apracetāḥ satyaṃ bravīmi vadha it sa tasya ।",
+          "meaning": "Food gained by one who does not share is gained in vain; truly, I say, it is his downfall.",
+          "application": "The true value of wealth, knowledge, and abilities comes from sharing them with others."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "మోఘమన్నం విన్దతే అప్రచేతాః సత్యం బ్రవీమి వధ ఇత్ స తస్య ।",
+          "meaning": "పంచుకోని వ్యక్తి ఆహారాన్ని వృథాగా పొందుతాడు. నిజం చెబుతున్నాను—అది అతని పతనానికి కారణం.",
+          "application": "సంపద, జ్ఞానం, సామర్థ్యాల నిజమైన విలువ వాటిని ఇతరులతో పంచుకోవడంలో ఉంది."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "மோகமந்நம் விந்ததே அப்ரசேதாஃ சத்யம் ப்ரவீமி வத இத் ச தச்ய ।",
+          "meaning": "பகிராதவன் உணவை வீணாகப் பெறுகிறான். உண்மையாகச் சொல்கிறேன்—அது அவனது வீழ்ச்சிக்குக் காரணம்.",
+          "application": "செல்வம், அறிவு, திறமைகள் ஆகியவற்றின் உண்மையான மதிப்பு அவற்றைப் பிறருடன் பகிர்வதில் உள்ளது."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "മോഘമന്നം വിന്ദതേ അപ്രചേതാഃ സത്യം ബ്രവീമി വധ ഇത് സ തസ്യ ।",
+          "meaning": "പങ്കിടാത്തവൻ ഭക്ഷണം വ്യർത്ഥമായി നേടുന്നു. സത്യം പറയുന്നു—അത് അവന്റെ പതനത്തിന് കാരണമാകുന്നു.",
+          "application": "സമ്പത്ത്, അറിവ്, കഴിവുകൾ എന്നിവയുടെ യഥാർത്ഥ മൂല്യം മറ്റുള്ളവരുമായി പങ്കിടുമ്പോഴാണ് പ്രകടമാകുന്നത്."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "मोघमन्नं विन्दते अप्रचेताः सत्यं ब्रवीमि वध इत् स तस्य ।",
+          "meaning": "जो वाटून खात नाही, त्याला अन्न व्यर्थ मिळते. मी सत्य सांगतो—हे त्याच्या पतनाचे कारण आहे.",
+          "application": "संपत्ती, ज्ञान आणि कौशल्यांचे खरे मूल्य ते इतरांसोबत वाटून घेण्यात आहे."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "মোঘমন্নং বিন্দতে অপ্রচেতাঃ সত্যং ব্রবীমি বধ ইত্ স তস্য ।",
+          "meaning": "যে ভাগ করে না, সে খাদ্য বৃথাই পায়। সত্যি বলছি—এটি তার পতনের কারণ।",
+          "application": "সম্পদ, জ্ঞান ও দক্ষতার প্রকৃত মূল্য অন্যদের সঙ্গে ভাগ করে নেওয়ার মধ্যে।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "મોઘમન્નં વિન્દતે અપ્રચેતાઃ સત્યં બ્રવીમિ વધ ઇત્ સ તસ્ય ।",
+          "meaning": "જે વહેંચતો નથી તે અન્ન વ્યર્થ મેળવે છે. હું સત્ય કહું છું—આ તેના પતનનું કારણ છે.",
+          "application": "સંપત્તિ, જ્ઞાન અને ક્ષમતાઓનું સાચું મૂલ્ય તેને બીજાઓ સાથે વહેંચવામાં છે."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਮੇਘਮਨ੍ਨੰ ਵਿਨ੍ਦਤ੍ ਅਪ੍ਰਚ੍ਤਾਃ ਸਤ੍ਯੰ ਬ੍ਰਵੀਮਿ ਵਧ ਇਤ੍ ਸ ਤਸ੍ਯ ।",
+          "meaning": "ਜੋ ਸਾਂਝਾ ਨਹੀਂ ਕਰਦਾ, ਉਹ ਭੋਜਨ ਵਿਅਰਥ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ। ਸੱਚ ਆਖਦਾ ਹਾਂ—ਇਹ ਉਸ ਦੇ ਪਤਨ ਦਾ ਕਾਰਨ ਹੈ।",
+          "application": "ਦੌਲਤ, ਗਿਆਨ ਅਤੇ ਯੋਗਤਾਵਾਂ ਦਾ ਅਸਲ ਮੁੱਲ ਉਨ੍ਹਾਂ ਨੂੰ ਹੋਰਨਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਵਿੱਚ ਹੈ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ମୋଘମନ୍ନଂ ବିନ୍ଦତେ ଅପ୍ରଚେତାଃ ସତ୍ଯଂ ବ୍ରବୀମି ବଧ ଇତ୍ ସ ତସ୍ଯ ।",
+          "meaning": "ଯିଏ ଭାଗ କରେନାହିଁ, ସେ ଖାଦ୍ୟକୁ ବୃଥା ପାଏ। ସତ କହୁଛି—ଏହା ତାହାର ପତନର କାରଣ।",
+          "application": "ଧନ, ଜ୍ଞାନ ଓ କ୍ଷମତାର ପ୍ରକୃତ ମୂଲ୍ୟ ଅନ୍ୟମାନଙ୍କ ସହିତ ବାଣ୍ଟିବାରେ ରହିଛି।"
+        }
+      },
+      "meaning_en": "Food gained by one who does not share is gained in vain; truly, I say, it is his downfall.",
+      "meaning_kn": "ಹಂಚಿಕೊಳ್ಳದ ಅರಿವಿಲ್ಲದವನು ಆಹಾರವನ್ನು ವ್ಯರ್ಥವಾಗಿ ಪಡೆಯುತ್ತಾನೆ; ನಿಜವಾಗಿ ಹೇಳುತ್ತೇನೆ, ಅದು ಅವನ ಪತನಕ್ಕೆ ಕಾರಣವಾಗುತ್ತದೆ.",
+      "daily_life_application_en": "The true value of wealth, knowledge, and abilities comes from sharing them with others.",
+      "daily_life_application_kn": "ಸಂಪತ್ತು, ಜ್ಞಾನ ಮತ್ತು ಸಾಮರ್ಥ್ಯಗಳನ್ನು ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಂಡಾಗಲೇ ಅವುಗಳ ನಿಜವಾದ ಮೌಲ್ಯ ವ್ಯಕ್ತವಾಗುತ್ತದೆ.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "मोघम्",
+          "meaning_en": "in vain / fruitlessly",
+          "meaning_kn": "ವ್ಯರ್ಥವಾಗಿ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "अन्नम्",
+          "meaning_en": "food",
+          "meaning_kn": "ಆಹಾರ"
+        },
+        {
+          "position": 3,
+          "sanskrit": "विन्दते",
+          "meaning_en": "obtains",
+          "meaning_kn": "ಪಡೆಯುತ್ತಾನೆ"
+        },
+        {
+          "position": 4,
+          "sanskrit": "अप्रचेताः",
+          "meaning_en": "unwise / unaware",
+          "meaning_kn": "ಅವಿವೇಕಿ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "सत्यम्",
+          "meaning_en": "truth",
+          "meaning_kn": "ಸತ್ಯ"
+        },
+        {
+          "position": 6,
+          "sanskrit": "ब्रवीमि",
+          "meaning_en": "I say",
+          "meaning_kn": "ನಾನು ಹೇಳುತ್ತೇನೆ"
+        },
+        {
+          "position": 7,
+          "sanskrit": "वधः",
+          "meaning_en": "destruction / downfall",
+          "meaning_kn": "ನಾಶ / ಪತನ"
+        },
+        {
+          "position": 8,
+          "sanskrit": "इत्",
+          "meaning_en": "indeed",
+          "meaning_kn": "ನಿಜವಾಗಿಯೂ"
+        },
+        {
+          "position": 9,
+          "sanskrit": "सः",
+          "meaning_en": "he / that",
+          "meaning_kn": "ಅವನು / ಅದು"
+        },
+        {
+          "position": 10,
+          "sanskrit": "तस्य",
+          "meaning_en": "of him / his",
+          "meaning_kn": "ಅವನ"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [
+        "Supplied line may be excerpted or textually corrupted; verify against a critical edition."
+      ],
+      "lesson_slug": "rigveda-08"
+    },
+    {
+      "id": "RV-1.90.9",
+      "veda": "Rigveda",
+      "reference": "1.90.9",
+      "title_en": "A prayer for universal peace and well-being",
+      "source_sanskrit": "शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः ॥",
+      "languages": {
+        "sa": {
+          "language": "Sanskrit",
+          "script": "Devanagari",
+          "mantra_text": "शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः ॥",
+          "meaning": null,
+          "application": null
+        },
+        "kn": {
+          "language": "Kannada",
+          "script": "Kannada",
+          "mantra_text": "ಶಂ ನೋ ಮಿತ್ರಃ ಶಂ ವರುಣಃ ಶಂ ನೋ ಭವತ್ವರ್ಯಮಾ । ಶಂ ನ ಇನ್ದ್ರೋ ಬೃಹಸ್ಪತಿಃ ಶಂ ನೋ ವಿಷ್ಣುರುರುಕ್ರಮಃ ॥",
+          "meaning": "ಮಿತ್ರ, ವರುಣ, ಅರ್ಯಮ, ಇಂದ್ರ, ಬೃಹಸ್ಪತಿ ಮತ್ತು ವಿಶಾಲವಾಗಿ ಹೆಜ್ಜೆ ಇಡುವ ವಿಷ್ಣು ನಮಗೆ ಕ್ಷೇಮವನ್ನು ಕರುಣಿಸಲಿ.",
+          "application": "ಮಾನವ ಜೀವನವು ಪ್ರಕೃತಿ, ಸಮಾಜ, ದೈವಿಕತೆ ಮತ್ತು ಎಲ್ಲಾ ಜೀವಿಗಳೊಂದಿಗೆ ಸಾಮರಸ್ಯದಿಂದ ಸಾಗಬೇಕು."
+        },
+        "hi": {
+          "language": "Hindi",
+          "script": "Devanagari",
+          "mantra_text": "शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः ॥",
+          "meaning": "मित्र, वरुण, अर्यमा, इन्द्र, बृहस्पति और विशाल चरणों वाले विष्णु हमारा कल्याण करें।",
+          "application": "मानव जीवन प्रकृति, समाज, दिव्यता और सभी जीवों के साथ सामंजस्य में होना चाहिए।"
+        },
+        "en": {
+          "language": "English",
+          "script": "Roman / IAST",
+          "mantra_text": "śaṃ no mitraḥ śaṃ varuṇaḥ śaṃ no bhavatvaryamā । śaṃ na indro bṛhaspatiḥ śaṃ no viṣṇururukramaḥ ॥",
+          "meaning": "May Mitra, Varuṇa, Aryaman, Indra, Bṛhaspati, and wide-striding Viṣṇu bring us well-being.",
+          "application": "Human life should be lived in harmony with nature, society, the divine, and all living beings."
+        },
+        "te": {
+          "language": "Telugu",
+          "script": "Telugu",
+          "mantra_text": "శం నో మిత్రః శం వరుణః శం నో భవత్వర్యమా । శం న ఇన్ద్రో బృహస్పతిః శం నో విష్ణురురుక్రమః ॥",
+          "meaning": "మిత్రుడు, వరుణుడు, అర్యమ, ఇంద్రుడు, బృహస్పతి, విశాల అడుగులు వేసే విష్ణువు మాకు శ్రేయస్సు కలిగించుగాక.",
+          "application": "ప్రకృతి, సమాజం, దైవత్వం, సమస్త జీవులతో సామరస్యంగా జీవించాలి."
+        },
+        "ta": {
+          "language": "Tamil",
+          "script": "Tamil",
+          "mantra_text": "சம் நோ மித்ரஃ சம் வருணஃ சம் நோ பவத்வர்யமா । சம் ந இந்த்ரோ ப்ஹச்பதிஃ சம் நோ விச்ணுருருக்ரமஃ ॥",
+          "meaning": "மித்ரன், வருணன், அர்யமன், இந்திரன், பிருஹஸ்பதி, அகன்ற அடியெடுத்து வைக்கும் விஷ்ணு ஆகியோர் நமக்கு நல்வாழ்வு அருளட்டும்.",
+          "application": "இயற்கை, சமூகம், இறைமை, அனைத்து உயிரினங்கள் ஆகியவற்றுடன் நல்லிணக்கமாக வாழ வேண்டும்."
+        },
+        "ml": {
+          "language": "Malayalam",
+          "script": "Malayalam",
+          "mantra_text": "ശം നോ മിത്രഃ ശം വരുണഃ ശം നോ ഭവത്വര്യമാ । ശം ന ഇന്ദ്രോ ബൃഹസ്പതിഃ ശം നോ വിഷ്ണുരുരുക്രമഃ ॥",
+          "meaning": "മിത്രൻ, വരുണൻ, അര്യമൻ, ഇന്ദ്രൻ, ബൃഹസ്പതി, വിശാലമായി ചുവടുവയ്ക്കുന്ന വിഷ്ണു എന്നിവർ നമുക്ക് ക്ഷേമം നൽകട്ടെ.",
+          "application": "പ്രകൃതി, സമൂഹം, ദൈവികത, എല്ലാ ജീവജാലങ്ങൾ എന്നിവയുമായി ഐക്യത്തോടെ ജീവിക്കണം."
+        },
+        "mr": {
+          "language": "Marathi",
+          "script": "Devanagari",
+          "mantra_text": "शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः ॥",
+          "meaning": "मित्र, वरुण, अर्यमा, इंद्र, बृहस्पती आणि विशाल पावले टाकणारा विष्णू आमचे कल्याण करो.",
+          "application": "मानवी जीवन निसर्ग, समाज, दैवी तत्त्व आणि सर्व सजीवांशी सुसंवादात असावे."
+        },
+        "bn": {
+          "language": "Bengali",
+          "script": "Bengali",
+          "mantra_text": "শং নো মিত্রঃ শং বরুণঃ শং নো ভবত্বর্যমা । শং ন ইন্দ্রো বৃহস্পতিঃ শং নো বিষ্ণুরুরুক্রমঃ ॥",
+          "meaning": "মিত্র, বরুণ, অর্যমা, ইন্দ্র, বৃহস্পতি ও বিস্তৃত পদক্ষেপকারী বিষ্ণু আমাদের মঙ্গল করুন।",
+          "application": "প্রকৃতি, সমাজ, দৈবসত্তা ও সব জীবের সঙ্গে সামঞ্জস্য রেখে জীবনযাপন করা উচিত।"
+        },
+        "gu": {
+          "language": "Gujarati",
+          "script": "Gujarati",
+          "mantra_text": "શં નો મિત્રઃ શં વરુણઃ શં નો ભવત્વર્યમા । શં ન ઇન્દ્રો બૃહસ્પતિઃ શં નો વિષ્ણુરુરુક્રમઃ ॥",
+          "meaning": "મિત્ર, વરુણ, અર્યમા, ઇન્દ્ર, બૃહસ્પતિ અને વિશાળ પગલાં ભરનાર વિષ્ણુ અમારું કલ્યાણ કરે.",
+          "application": "માનવજીવન પ્રકૃતિ, સમાજ, દિવ્યતા અને તમામ જીવસૃષ્ટિ સાથે સુમેળમાં જીવવું જોઈએ."
+        },
+        "pa": {
+          "language": "Punjabi",
+          "script": "Gurmukhi",
+          "mantra_text": "ਸੰ ਨੇ ਮਿਤ੍ਰਃ ਸੰ ਵਰੂਣਃ ਸੰ ਨੇ ਭਵਤ੍ਵਰ੍ਯਮਾ । ਸੰ ਨ ਇਨ੍ਦ੍ਰੇ ਬ਼੍ਸ੍ਪਤਿਃ ਸੰ ਨੇ ਵਿ਼੍ਣੂਰੂਰੂਕ੍ਰਮਃ ॥",
+          "meaning": "ਮਿੱਤਰ, ਵਰੁਣ, ਅਰਯਮਾ, ਇੰਦਰ, ਬ੍ਰਿਹਸਪਤੀ ਅਤੇ ਵਿਸ਼ਾਲ ਕਦਮਾਂ ਵਾਲਾ ਵਿਸ਼ਨੂ ਸਾਡਾ ਭਲਾ ਕਰਨ।",
+          "application": "ਮਨੁੱਖੀ ਜੀਵਨ ਕੁਦਰਤ, ਸਮਾਜ, ਦਿਵਯਤਾ ਅਤੇ ਸਾਰੇ ਜੀਵਾਂ ਨਾਲ ਸਦਭਾਵਨਾ ਵਿੱਚ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+        },
+        "or": {
+          "language": "Odia",
+          "script": "Odia",
+          "mantra_text": "ଶଂ ନୋ ମିତ୍ରଃ ଶଂ ବରୁଣଃ ଶଂ ନୋ ଭବତ୍ବର୍ଯମା । ଶଂ ନ ଇନ୍ଦ୍ରୋ ବୃହସ୍ପତିଃ ଶଂ ନୋ ବିଷ୍ଣୁରୁରୁକ୍ରମଃ ॥",
+          "meaning": "ମିତ୍ର, ବରୁଣ, ଅର୍ଯ୍ୟମା, ଇନ୍ଦ୍ର, ବୃହସ୍ପତି ଓ ବିଶାଳ ପଦକ୍ଷେପ ନେଉଥିବା ବିଷ୍ଣୁ ଆମର ମଙ୍ଗଳ କରନ୍ତୁ।",
+          "application": "ମାନବ ଜୀବନ ପ୍ରକୃତି, ସମାଜ, ଦୈବତ୍ୱ ଓ ସମସ୍ତ ଜୀବଙ୍କ ସହିତ ସମନ୍ୱୟରେ ହେବା ଉଚିତ।"
+        }
+      },
+      "meaning_en": "May Mitra, Varuṇa, Aryaman, Indra, Bṛhaspati, and wide-striding Viṣṇu bring us well-being.",
+      "meaning_kn": "ಮಿತ್ರ, ವರುಣ, ಅರ್ಯಮ, ಇಂದ್ರ, ಬೃಹಸ್ಪತಿ ಮತ್ತು ವಿಶಾಲವಾಗಿ ಹೆಜ್ಜೆ ಇಡುವ ವಿಷ್ಣು ನಮಗೆ ಕ್ಷೇಮವನ್ನು ಕರುಣಿಸಲಿ.",
+      "daily_life_application_en": "Human life should be lived in harmony with nature, society, the divine, and all living beings.",
+      "daily_life_application_kn": "ಮಾನವ ಜೀವನವು ಪ್ರಕೃತಿ, ಸಮಾಜ, ದೈವಿಕತೆ ಮತ್ತು ಎಲ್ಲಾ ಜೀವಿಗಳೊಂದಿಗೆ ಸಾಮರಸ್ಯದಿಂದ ಸಾಗಬೇಕು.",
+      "word_alignment": [
+        {
+          "position": 1,
+          "sanskrit": "शम्",
+          "meaning_en": "well-being / peace",
+          "meaning_kn": "ಕ್ಷೇಮ / ಶಾಂತಿ"
+        },
+        {
+          "position": 2,
+          "sanskrit": "नः",
+          "meaning_en": "for us",
+          "meaning_kn": "ನಮಗೆ"
+        },
+        {
+          "position": 3,
+          "sanskrit": "मित्रः",
+          "meaning_en": "Mitra",
+          "meaning_kn": "ಮಿತ್ರ"
+        },
+        {
+          "position": 4,
+          "sanskrit": "वरुणः",
+          "meaning_en": "Varuṇa",
+          "meaning_kn": "ವರುಣ"
+        },
+        {
+          "position": 5,
+          "sanskrit": "भवतु",
+          "meaning_en": "may there be",
+          "meaning_kn": "ಆಗಲಿ"
+        },
+        {
+          "position": 6,
+          "sanskrit": "अर्यमा",
+          "meaning_en": "Aryaman",
+          "meaning_kn": "ಅರ್ಯಮ"
+        },
+        {
+          "position": 7,
+          "sanskrit": "इन्द्रः",
+          "meaning_en": "Indra",
+          "meaning_kn": "ಇಂದ್ರ"
+        },
+        {
+          "position": 8,
+          "sanskrit": "बृहस्पतिः",
+          "meaning_en": "Bṛhaspati",
+          "meaning_kn": "ಬೃಹಸ್ಪತಿ"
+        },
+        {
+          "position": 9,
+          "sanskrit": "विष्णुः",
+          "meaning_en": "Viṣṇu",
+          "meaning_kn": "ವಿಷ್ಣು"
+        },
+        {
+          "position": 10,
+          "sanskrit": "उरुक्रमः",
+          "meaning_en": "wide-striding",
+          "meaning_kn": "ವಿಶಾಲ ಹೆಜ್ಜೆಯುಳ್ಳವನು"
+        }
+      ],
+      "pronunciation_guidance": {
+        "canonical_audio": "Use guru-verified reference audio as the canonical target.",
+        "learner_support": "Highlight aksharas and word boundaries; preserve vowel length, aspiration, retroflexion, anusvara and visarga.",
+        "romanization": "IAST is a reading aid, not a replacement for audio.",
+        "evaluation": "Align ASR output to the verified Sanskrit reference; evaluate phoneme/akshara sequence and word boundaries separately.",
+        "vedic_accent": "Add udātta, anudātta and svarita only from a verified edition/audio."
+      },
+      "content_status": "DRAFT_REQUIRES_SANSKRIT_AND_NATIVE_LANGUAGE_REVIEW",
+      "editorial_notes": [],
+      "lesson_slug": "rigveda-09"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tokens": ["संगच्छध्वं", "संवदध्वं", "सं", "वो", "मनांसि", "जानताम्", "।"],
+  "source": "scripted_fixture",
+  "pronunciation_mismatches": [
+    {
+      "token": "संगच्छध्वं",
+      "expected_units": ["sa", "nga", "ccha", "dhvam"],
+      "actual_units": ["sa", "nka", "ccha", "dhvam"],
+      "source": "scripted_fixture"
+    }
+  ]
+}

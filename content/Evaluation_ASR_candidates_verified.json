@@ -1,0 +1,284 @@
+{
+  "engine": "sushrota-indicconformer-ctc-onnx-int8",
+  "model_repository": "https://huggingface.co/gnumanth/sushrota-sanskrit-asr-onnx",
+  "model_version_claimed_by_repository": "v13b",
+  "model_sha256": "6a52c782ecbc3cfc389eac2832d069677c587b6693c2ca4e68ea7ad7d59f3e64",
+  "metric_scope": "transcription_only",
+  "accuracy_warning": "Candidate transcripts require Guru review; transcript similarity is not pronunciation accuracy.",
+  "mean_cer": 0.07408555143550886,
+  "mean_whitespace_wer": 0.7432098765432099,
+  "results": [
+    {
+      "lesson_id": "rigveda-01",
+      "transcript_candidate": "सत्येनोत्ताभिता भूमिः सूर्येणोत्ताभित द्यौः ऋ॒तेनदित्यास्तिष्ठन्ति दि॒वि सोमोधिश्रितः",
+      "candidate_words": [
+        "सत्येनोत्ताभिता",
+        "भूमिः",
+        "सूर्येणोत्ताभित",
+        "द्यौः",
+        "ऋ",
+        "तेनदित्यास्तिष्ठन्ति",
+        "दि",
+        "वि",
+        "सोमोधिश्रितः"
+      ],
+      "reference_words": [
+        "सत्येनोत्तभिता",
+        "भूमिः",
+        "सूर्येणोत्तभिता",
+        "द्यौः",
+        "ऋतेनादित्यास्तिष्ठन्ति",
+        "दिवि",
+        "सोमो",
+        "अधि",
+        "श्रितः"
+      ],
+      "reference_text": "सत्येनोत्तभिता भूमिः सूर्येणोत्तभिता द्यौः ।\nऋतेनादित्यास्तिष्ठन्ति दिवि सोमो अधि श्रितः ॥",
+      "cer": 0.0641025641025641,
+      "wer": 0.7777777777777778,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-02",
+      "transcript_candidate": "सङ्गच्छध्वं संवादध्वं संवो मनाांसि जानताम्",
+      "candidate_words": [
+        "सङ्गच्छध्वं",
+        "संवादध्वं",
+        "संवो",
+        "मनाांसि",
+        "जानताम्"
+      ],
+      "reference_words": [
+        "संगच्छध्वं",
+        "संवदध्वं",
+        "सं",
+        "वो",
+        "मनांसि",
+        "जानताम्"
+      ],
+      "reference_text": "संगच्छध्वं संवदध्वं सं वो मनांसि जानताम् ।",
+      "cer": 0.11428571428571428,
+      "wer": 0.8333333333333334,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-03",
+      "transcript_candidate": "समानीव आकूतिः समाना हृदायानिवः समानमस्तुवो मनो यथा वः सु सहासाति",
+      "candidate_words": [
+        "समानीव",
+        "आकूतिः",
+        "समाना",
+        "हृदायानिवः",
+        "समानमस्तुवो",
+        "मनो",
+        "यथा",
+        "वः",
+        "सु",
+        "सहासाति"
+      ],
+      "reference_words": [
+        "समानी",
+        "व",
+        "आकूतिः",
+        "समाना",
+        "हृदयानि",
+        "वः",
+        "समानमस्तु",
+        "वो",
+        "मनो",
+        "यथा",
+        "वः",
+        "सुसहासति"
+      ],
+      "reference_text": "समानी व आकूतिः समाना हृदयानि वः ।\nसमानमस्तु वो मनो यथा वः सुसहासति ॥",
+      "cer": 0.03773584905660377,
+      "wer": 0.6666666666666666,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-04",
+      "transcript_candidate": "आ नो भ॒द्राः क्र॒तावो यं तु वि॒श्वताः",
+      "candidate_words": [
+        "आ",
+        "नो",
+        "भ",
+        "द्राः",
+        "क्र",
+        "तावो",
+        "यं",
+        "तु",
+        "वि",
+        "श्वताः"
+      ],
+      "reference_words": [
+        "आ",
+        "नो",
+        "भद्राः",
+        "क्रतवो",
+        "यन्तु",
+        "विश्वतः"
+      ],
+      "reference_text": "आ नो भद्राः क्रतवो यन्तु विश्वतः ।",
+      "cer": 0.14814814814814814,
+      "wer": 1.3333333333333333,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-05",
+      "transcript_candidate": "उषो य दद्य भानुना वि॒द्वारा वृ॒णवो दि॒वः",
+      "candidate_words": [
+        "उषो",
+        "य",
+        "दद्य",
+        "भानुना",
+        "वि",
+        "द्वारा",
+        "वृ",
+        "णवो",
+        "दि",
+        "वः"
+      ],
+      "reference_words": [
+        "उषो",
+        "यदद्य",
+        "भानुना",
+        "वि",
+        "द्वारावृणवो",
+        "दिवः"
+      ],
+      "reference_text": "उषो यदद्य भानुना वि द्वारावृणवो दिवः ।",
+      "cer": 0.0,
+      "wer": 1.1666666666666667,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-06",
+      "transcript_candidate": "समानं मनः सहचित्तमेषाम्",
+      "candidate_words": [
+        "समानं",
+        "मनः",
+        "सहचित्तमेषाम्"
+      ],
+      "reference_words": [
+        "समानं",
+        "मनः",
+        "सहचित्तमेषाम्"
+      ],
+      "reference_text": "समानं मनः सहचित्तमेषाम् ।",
+      "cer": 0.0,
+      "wer": 0.0,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-07",
+      "transcript_candidate": "ऋचो अक्षरे परमे यो म॒न्यस्मि न दे॒वाा अधि॒ वि॒श्वे निषेदुः",
+      "candidate_words": [
+        "ऋचो",
+        "अक्षरे",
+        "परमे",
+        "यो",
+        "म",
+        "न्यस्मि",
+        "न",
+        "दे",
+        "वाा",
+        "अधि",
+        "वि",
+        "श्वे",
+        "निषेदुः"
+      ],
+      "reference_words": [
+        "ऋचो",
+        "अक्षरे",
+        "परमे",
+        "व्योमन्",
+        "यस्मिन्",
+        "देवा",
+        "अधि",
+        "विश्वे",
+        "निषेदुः"
+      ],
+      "reference_text": "ऋचो अक्षरे परमे व्योमन् यस्मिन् देवा अधि विश्वे निषेदुः ।",
+      "cer": 0.0851063829787234,
+      "wer": 0.8888888888888888,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-08",
+      "transcript_candidate": "मोघमन्नं विन्दते अप्राचेताः सत्यं ब्रावीमि वध इत् स तस्य",
+      "candidate_words": [
+        "मोघमन्नं",
+        "विन्दते",
+        "अप्राचेताः",
+        "सत्यं",
+        "ब्रावीमि",
+        "वध",
+        "इत्",
+        "स",
+        "तस्य"
+      ],
+      "reference_words": [
+        "मोघमन्नं",
+        "विन्दते",
+        "अप्रचेताः",
+        "सत्यं",
+        "ब्रवीमि",
+        "वध",
+        "इत्",
+        "स",
+        "तस्य"
+      ],
+      "reference_text": "मोघमन्नं विन्दते अप्रचेताः सत्यं ब्रवीमि वध इत् स तस्य ।",
+      "cer": 0.043478260869565216,
+      "wer": 0.2222222222222222,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    },
+    {
+      "lesson_id": "rigveda-09",
+      "transcript_candidate": "् शन्नो मित्रः शंवरूणः शन्नो भवत्वर्यमः शन्न इन्द्रो बृहस्पतिः॒ शन्नो विष्णरुरुक्रमः",
+      "candidate_words": [
+        "्",
+        "शन्नो",
+        "मित्रः",
+        "शंवरूणः",
+        "शन्नो",
+        "भवत्वर्यमः",
+        "शन्न",
+        "इन्द्रो",
+        "बृहस्पतिः",
+        "शन्नो",
+        "विष्णरुरुक्रमः"
+      ],
+      "reference_words": [
+        "शं",
+        "नो",
+        "मित्रः",
+        "शं",
+        "वरुणः",
+        "शं",
+        "नो",
+        "भवत्वर्यमा",
+        "शं",
+        "न",
+        "इन्द्रो",
+        "बृहस्पतिः",
+        "शं",
+        "नो",
+        "विष्णुरुरुक्रमः"
+      ],
+      "reference_text": "शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा ।\nशं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः ॥",
+      "cer": 0.17391304347826086,
+      "wer": 0.8,
+      "word_alignment_status": "not_forced_aligned",
+      "guru_review_status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "recension": "Rigveda Shakala Samhita",
+  "expected_totals": {
+    "mandalas": 10,
+    "anuvakas": 85,
+    "suktas": 1028,
+    "mantras": 10552
+  },
+  "expected_by_mandala": {
+    "1": {
+      "suktas": 191,
+      "mantras": 2006
+    },
+    "2": {
+      "suktas": 43,
+      "mantras": 429
+    },
+    "3": {
+      "suktas": 62,
+      "mantras": 617
+    },
+    "4": {
+      "suktas": 58,
+      "mantras": 589
+    },
+    "5": {
+      "suktas": 87,
+      "mantras": 727
+    },
+    "6": {
+      "suktas": 75,
+      "mantras": 765
+    },
+    "7": {
+      "suktas": 104,
+      "mantras": 841
+    },
+    "8": {
+      "suktas": 103,
+      "mantras": 1716
+    },
+    "9": {
+      "suktas": 114,
+      "mantras": 1108
+    },
+    "10": {
+      "suktas": 191,
+      "mantras": 1754
+    }
+  },
+  "expected_totals_sum_check": "passed",
+  "authority_url": "https://vedicheritage.gov.in/samhitas/rigveda/shakala-samhita/",
+  "accessed_date": "2026-11-07",
+  "definition_note": "Includes the portal's Mandala VIII total as published; numbering/count conventions must remain edition-specific."
+}

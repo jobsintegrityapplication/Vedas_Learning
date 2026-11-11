@@ -1,0 +1,2616 @@
+{
+  "engine": "wav2vec2-vedic-aligner-ctc",
+  "model_repository": "chiranjeevisagi/wav2vec2-vedic-aligner",
+  "model_card_claimed_license": "Apache-2.0",
+  "model_checkpoint_revision": "6d201fadeab60e1bcf037241106843a33a316636",
+  "model_weight_sha256": {
+    "model.safetensors": "a1dcd86cab78314eaf3492524c718c00cf4eb79e3beec614657a20c27e1918ce"
+  },
+  "sample_rate_hz": 16000,
+  "ctc_blank_id": 0,
+  "metric_scope": "asr_and_known_text_ctc_forced_alignment_candidate_only",
+  "accuracy_warning": "Guru transcript and manual timing review are pending. Forced fit and ASR transcript do not equal pronunciation scores.",
+  "mean_cer": 0.1264718434280455,
+  "mean_whitespace_wer": 0.65,
+  "mean_inference_ms_cpu": 3743.0666666666657,
+  "results": [
+    {
+      "lesson_id": "rigveda-01",
+      "audio_sha256": "b1a989a8dc5514ec16fb84fa658488b8d94749348088b8799e8581bd44dee159",
+      "audio_duration_ms": 18073.5,
+      "inference_ms_cpu": 9932.0,
+      "reference_text": "सत्येनोत्तभिता भूमिः सूर्येणोत्तभिता द्यौः ऋतेनादित्यास्तिष्ठन्ति दिवि सोमो अधि श्रितः",
+      "asr_transcript_candidate": "अूम्सत्येनोत्ताभिता भूमिः सूर्येणोत्ताभिता द्यौः ्रतेनादित्यास्तिष्ठन्ति दिवि सोमो अधि श्रितः",
+      "cer": 0.10256410256410256,
+      "whitespace_wer": 0.3333333333333333,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 903,
+        "target_label_count": 86,
+        "mean_forced_frame_log_probability": -0.0381,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "सत्येनोत्तभिता",
+            "status": "aligned",
+            "start_ms": 4083.0,
+            "end_ms": 6164.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9795
+          },
+          {
+            "text": "भूमिः",
+            "status": "aligned",
+            "start_ms": 6444.8,
+            "end_ms": 7005.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9971
+          },
+          {
+            "text": "सूर्येणोत्तभिता",
+            "status": "aligned",
+            "start_ms": 7105.3,
+            "end_ms": 9307.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9636
+          },
+          {
+            "text": "द्यौः",
+            "status": "aligned",
+            "start_ms": 9747.3,
+            "end_ms": 10567.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8758
+          },
+          {
+            "text": "ऋतेनादित्यास्तिष्ठन्ति",
+            "status": "aligned",
+            "start_ms": 11748.8,
+            "end_ms": 14871.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8985
+          },
+          {
+            "text": "दिवि",
+            "status": "aligned",
+            "start_ms": 14971.2,
+            "end_ms": 15211.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9885
+          },
+          {
+            "text": "सोमो",
+            "status": "aligned",
+            "start_ms": 15351.5,
+            "end_ms": 15831.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9973
+          },
+          {
+            "text": "अधि",
+            "status": "aligned",
+            "start_ms": 16312.2,
+            "end_ms": 16552.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9948
+          },
+          {
+            "text": "श्रितः",
+            "status": "aligned",
+            "start_ms": 16732.5,
+            "end_ms": 17152.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9379
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "सत्येनोत्तभिता",
+            "akshara": "स",
+            "start_ms": 4083.0,
+            "end_ms": 4103.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9752,
+            "status": "aligned"
+          },
+          {
+            "word": "सत्येनोत्तभिता",
+            "akshara": "त्ये",
+            "start_ms": 4383.3,
+            "end_ms": 4583.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9516,
+            "status": "aligned"
+          },
+          {
+            "word": "सत्येनोत्तभिता",
+            "akshara": "नो",
+            "start_ms": 4883.6,
+            "end_ms": 4983.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.996,
+            "status": "aligned"
+          },
+          {
+            "word": "सत्येनोत्तभिता",
+            "akshara": "त्त",
+            "start_ms": 5324.0,
+            "end_ms": 5464.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9915,
+            "status": "aligned"
+          },
+          {
+            "word": "सत्येनोत्तभिता",
+            "akshara": "भि",
+            "start_ms": 5824.4,
+            "end_ms": 5904.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9955,
+            "status": "aligned"
+          },
+          {
+            "word": "सत्येनोत्तभिता",
+            "akshara": "ता",
+            "start_ms": 6044.5,
+            "end_ms": 6164.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9868,
+            "status": "aligned"
+          },
+          {
+            "word": "भूमिः",
+            "akshara": "भू",
+            "start_ms": 6444.8,
+            "end_ms": 6524.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9947,
+            "status": "aligned"
+          },
+          {
+            "word": "भूमिः",
+            "akshara": "मिः",
+            "start_ms": 6825.1,
+            "end_ms": 7005.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9987,
+            "status": "aligned"
+          },
+          {
+            "word": "सूर्येणोत्तभिता",
+            "akshara": "सू",
+            "start_ms": 7105.3,
+            "end_ms": 7225.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9805,
+            "status": "aligned"
+          },
+          {
+            "word": "सूर्येणोत्तभिता",
+            "akshara": "र्ये",
+            "start_ms": 7685.7,
+            "end_ms": 7865.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.961,
+            "status": "aligned"
+          },
+          {
+            "word": "सूर्येणोत्तभिता",
+            "akshara": "णो",
+            "start_ms": 8166.1,
+            "end_ms": 8246.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9721,
+            "status": "aligned"
+          },
+          {
+            "word": "सूर्येणोत्तभिता",
+            "akshara": "त्त",
+            "start_ms": 8566.4,
+            "end_ms": 8666.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9258,
+            "status": "aligned"
+          },
+          {
+            "word": "सूर्येणोत्तभिता",
+            "akshara": "भि",
+            "start_ms": 8986.7,
+            "end_ms": 9066.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9927,
+            "status": "aligned"
+          },
+          {
+            "word": "सूर्येणोत्तभिता",
+            "akshara": "ता",
+            "start_ms": 9206.9,
+            "end_ms": 9307.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9712,
+            "status": "aligned"
+          },
+          {
+            "word": "द्यौः",
+            "akshara": "द्यौः",
+            "start_ms": 9747.3,
+            "end_ms": 10567.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8758,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "ऋ",
+            "start_ms": 11748.8,
+            "end_ms": 11768.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.0381,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "ते",
+            "start_ms": 11948.9,
+            "end_ms": 12049.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8744,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "ना",
+            "start_ms": 12309.2,
+            "end_ms": 12429.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9429,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "दि",
+            "start_ms": 13009.7,
+            "end_ms": 13069.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9491,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "त्या",
+            "start_ms": 13249.9,
+            "end_ms": 13470.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.945,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "स्ति",
+            "start_ms": 13870.4,
+            "end_ms": 14110.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9967,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "ष्ठ",
+            "start_ms": 14230.6,
+            "end_ms": 14390.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9947,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋतेनादित्यास्तिष्ठन्ति",
+            "akshara": "न्ति",
+            "start_ms": 14650.9,
+            "end_ms": 14871.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8613,
+            "status": "aligned"
+          },
+          {
+            "word": "दिवि",
+            "akshara": "दि",
+            "start_ms": 14971.2,
+            "end_ms": 15051.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9775,
+            "status": "aligned"
+          },
+          {
+            "word": "दिवि",
+            "akshara": "वि",
+            "start_ms": 15151.3,
+            "end_ms": 15211.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9994,
+            "status": "aligned"
+          },
+          {
+            "word": "सोमो",
+            "akshara": "सो",
+            "start_ms": 15351.5,
+            "end_ms": 15451.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9983,
+            "status": "aligned"
+          },
+          {
+            "word": "सोमो",
+            "akshara": "मो",
+            "start_ms": 15731.8,
+            "end_ms": 15831.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9964,
+            "status": "aligned"
+          },
+          {
+            "word": "अधि",
+            "akshara": "अ",
+            "start_ms": 16312.2,
+            "end_ms": 16332.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9907,
+            "status": "aligned"
+          },
+          {
+            "word": "अधि",
+            "akshara": "धि",
+            "start_ms": 16492.3,
+            "end_ms": 16552.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9969,
+            "status": "aligned"
+          },
+          {
+            "word": "श्रितः",
+            "akshara": "श्रि",
+            "start_ms": 16732.5,
+            "end_ms": 16912.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9127,
+            "status": "aligned"
+          },
+          {
+            "word": "श्रितः",
+            "akshara": "तः",
+            "start_ms": 17012.7,
+            "end_ms": 17152.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9882,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-02",
+      "audio_sha256": "da15cd07035c6ca85fa9b002bcae6164c237db1b4840772ad85f99a8be8c6b36",
+      "audio_duration_ms": 8153.5,
+      "inference_ms_cpu": 1886.3,
+      "reference_text": "संगच्छध्वं संवदध्वं सं वो मनांसि जानताम्",
+      "asr_transcript_candidate": "शं गच्छथ्वं सं वादथ्वं सं वो मनांशिजानताम्",
+      "cer": 0.14285714285714285,
+      "whitespace_wer": 1.0,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 407,
+        "target_label_count": 40,
+        "mean_forced_frame_log_probability": -0.0812,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "संगच्छध्वं",
+            "status": "aligned",
+            "start_ms": 941.6,
+            "end_ms": 2484.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7628
+          },
+          {
+            "text": "संवदध्वं",
+            "status": "aligned",
+            "start_ms": 2604.3,
+            "end_ms": 4106.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8738
+          },
+          {
+            "text": "सं",
+            "status": "aligned",
+            "start_ms": 4247.0,
+            "end_ms": 4567.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9717
+          },
+          {
+            "text": "वो",
+            "status": "aligned",
+            "start_ms": 4687.8,
+            "end_ms": 4767.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.999
+          },
+          {
+            "text": "मनांसि",
+            "status": "aligned",
+            "start_ms": 5068.4,
+            "end_ms": 6310.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8898
+          },
+          {
+            "text": "जानताम्",
+            "status": "aligned",
+            "start_ms": 6450.7,
+            "end_ms": 7993.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7777
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "संगच्छध्वं",
+            "akshara": "सं",
+            "start_ms": 941.6,
+            "end_ms": 1302.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4952,
+            "status": "aligned"
+          },
+          {
+            "word": "संगच्छध्वं",
+            "akshara": "ग",
+            "start_ms": 1402.3,
+            "end_ms": 1422.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5945,
+            "status": "aligned"
+          },
+          {
+            "word": "संगच्छध्वं",
+            "akshara": "च्छ",
+            "start_ms": 1662.8,
+            "end_ms": 1843.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9653,
+            "status": "aligned"
+          },
+          {
+            "word": "संगच्छध्वं",
+            "akshara": "ध्वं",
+            "start_ms": 2083.4,
+            "end_ms": 2484.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7868,
+            "status": "aligned"
+          },
+          {
+            "word": "संवदध्वं",
+            "akshara": "सं",
+            "start_ms": 2604.3,
+            "end_ms": 2904.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.987,
+            "status": "aligned"
+          },
+          {
+            "word": "संवदध्वं",
+            "akshara": "व",
+            "start_ms": 3005.0,
+            "end_ms": 3025.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9953,
+            "status": "aligned"
+          },
+          {
+            "word": "संवदध्वं",
+            "akshara": "द",
+            "start_ms": 3425.7,
+            "end_ms": 3445.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8801,
+            "status": "aligned"
+          },
+          {
+            "word": "संवदध्वं",
+            "akshara": "ध्वं",
+            "start_ms": 3686.1,
+            "end_ms": 4106.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7851,
+            "status": "aligned"
+          },
+          {
+            "word": "सं",
+            "akshara": "सं",
+            "start_ms": 4247.0,
+            "end_ms": 4567.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9717,
+            "status": "aligned"
+          },
+          {
+            "word": "वो",
+            "akshara": "वो",
+            "start_ms": 4687.8,
+            "end_ms": 4767.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.999,
+            "status": "aligned"
+          },
+          {
+            "word": "मनांसि",
+            "akshara": "म",
+            "start_ms": 5068.4,
+            "end_ms": 5088.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9924,
+            "status": "aligned"
+          },
+          {
+            "word": "मनांसि",
+            "akshara": "नां",
+            "start_ms": 5268.7,
+            "end_ms": 6110.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9939,
+            "status": "aligned"
+          },
+          {
+            "word": "मनांसि",
+            "akshara": "सि",
+            "start_ms": 6210.3,
+            "end_ms": 6310.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6823,
+            "status": "aligned"
+          },
+          {
+            "word": "जानताम्",
+            "akshara": "जा",
+            "start_ms": 6450.7,
+            "end_ms": 6550.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9772,
+            "status": "aligned"
+          },
+          {
+            "word": "जानताम्",
+            "akshara": "न",
+            "start_ms": 6831.3,
+            "end_ms": 6851.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6865,
+            "status": "aligned"
+          },
+          {
+            "word": "जानताम्",
+            "akshara": "ता",
+            "start_ms": 7011.6,
+            "end_ms": 7111.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7061,
+            "status": "aligned"
+          },
+          {
+            "word": "जानताम्",
+            "akshara": "म्",
+            "start_ms": 7913.1,
+            "end_ms": 7993.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6955,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-03",
+      "audio_sha256": "d06e02583a1eb1c27631fe16f51e0ab98ef0f454679c36d7b7917e5eddf939d9",
+      "audio_duration_ms": 13773.5,
+      "inference_ms_cpu": 4173.0,
+      "reference_text": "समानी व आकूतिः समाना हृदयानि वः समानमस्तु वो मनो यथा वः सुसहासति",
+      "asr_transcript_candidate": "समानीव आतिः समाना हृान वसमानमस्तुवो ोयथावःु",
+      "cer": 0.2830188679245283,
+      "whitespace_wer": 0.9166666666666666,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 688,
+        "target_label_count": 64,
+        "mean_forced_frame_log_probability": -0.0941,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "समानी",
+            "status": "aligned",
+            "start_ms": 1021.0,
+            "end_ms": 1801.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6936
+          },
+          {
+            "text": "व",
+            "status": "aligned",
+            "start_ms": 2162.1,
+            "end_ms": 2182.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9091
+          },
+          {
+            "text": "आकूतिः",
+            "status": "aligned",
+            "start_ms": 2422.4,
+            "end_ms": 3843.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.646
+          },
+          {
+            "text": "समाना",
+            "status": "aligned",
+            "start_ms": 3963.9,
+            "end_ms": 4784.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8086
+          },
+          {
+            "text": "हृदयानि",
+            "status": "aligned",
+            "start_ms": 5105.0,
+            "end_ms": 6246.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5547
+          },
+          {
+            "text": "वः",
+            "status": "aligned",
+            "start_ms": 6386.3,
+            "end_ms": 6586.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.448
+          },
+          {
+            "text": "समानमस्तु",
+            "status": "aligned",
+            "start_ms": 7827.7,
+            "end_ms": 9209.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7855
+          },
+          {
+            "text": "वो",
+            "status": "aligned",
+            "start_ms": 9389.2,
+            "end_ms": 9469.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8377
+          },
+          {
+            "text": "मनो",
+            "status": "aligned",
+            "start_ms": 9809.6,
+            "end_ms": 10149.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5534
+          },
+          {
+            "text": "यथा",
+            "status": "aligned",
+            "start_ms": 10490.3,
+            "end_ms": 10790.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6861
+          },
+          {
+            "text": "वः",
+            "status": "aligned",
+            "start_ms": 11551.3,
+            "end_ms": 11731.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9192
+          },
+          {
+            "text": "सुसहासति",
+            "status": "aligned",
+            "start_ms": 11911.7,
+            "end_ms": 13313.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.1867
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "समानी",
+            "akshara": "स",
+            "start_ms": 1021.0,
+            "end_ms": 1041.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5532,
+            "status": "aligned"
+          },
+          {
+            "word": "समानी",
+            "akshara": "मा",
+            "start_ms": 1261.2,
+            "end_ms": 1361.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7182,
+            "status": "aligned"
+          },
+          {
+            "word": "समानी",
+            "akshara": "नी",
+            "start_ms": 1721.7,
+            "end_ms": 1801.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7391,
+            "status": "aligned"
+          },
+          {
+            "word": "व",
+            "akshara": "व",
+            "start_ms": 2162.1,
+            "end_ms": 2182.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9091,
+            "status": "aligned"
+          },
+          {
+            "word": "आकूतिः",
+            "akshara": "आ",
+            "start_ms": 2422.4,
+            "end_ms": 2442.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8058,
+            "status": "aligned"
+          },
+          {
+            "word": "आकूतिः",
+            "akshara": "कू",
+            "start_ms": 2802.7,
+            "end_ms": 2882.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.2485,
+            "status": "aligned"
+          },
+          {
+            "word": "आकूतिः",
+            "akshara": "तिः",
+            "start_ms": 3643.6,
+            "end_ms": 3843.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8578,
+            "status": "aligned"
+          },
+          {
+            "word": "समाना",
+            "akshara": "स",
+            "start_ms": 3963.9,
+            "end_ms": 3983.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5666,
+            "status": "aligned"
+          },
+          {
+            "word": "समाना",
+            "akshara": "मा",
+            "start_ms": 4244.2,
+            "end_ms": 4344.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8395,
+            "status": "aligned"
+          },
+          {
+            "word": "समाना",
+            "akshara": "ना",
+            "start_ms": 4684.6,
+            "end_ms": 4784.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8988,
+            "status": "aligned"
+          },
+          {
+            "word": "हृदयानि",
+            "akshara": "हृ",
+            "start_ms": 5105.0,
+            "end_ms": 5205.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9153,
+            "status": "aligned"
+          },
+          {
+            "word": "हृदयानि",
+            "akshara": "द",
+            "start_ms": 5325.2,
+            "end_ms": 5345.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.3878,
+            "status": "aligned"
+          },
+          {
+            "word": "हृदयानि",
+            "akshara": "या",
+            "start_ms": 5765.7,
+            "end_ms": 5865.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.36,
+            "status": "aligned"
+          },
+          {
+            "word": "हृदयानि",
+            "akshara": "नि",
+            "start_ms": 6166.0,
+            "end_ms": 6246.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4723,
+            "status": "aligned"
+          },
+          {
+            "word": "वः",
+            "akshara": "वः",
+            "start_ms": 6386.3,
+            "end_ms": 6586.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.448,
+            "status": "aligned"
+          },
+          {
+            "word": "समानमस्तु",
+            "akshara": "स",
+            "start_ms": 7827.7,
+            "end_ms": 7847.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6764,
+            "status": "aligned"
+          },
+          {
+            "word": "समानमस्तु",
+            "akshara": "मा",
+            "start_ms": 8107.9,
+            "end_ms": 8208.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8885,
+            "status": "aligned"
+          },
+          {
+            "word": "समानमस्तु",
+            "akshara": "न",
+            "start_ms": 8508.3,
+            "end_ms": 8528.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7688,
+            "status": "aligned"
+          },
+          {
+            "word": "समानमस्तु",
+            "akshara": "म",
+            "start_ms": 8728.6,
+            "end_ms": 8748.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8176,
+            "status": "aligned"
+          },
+          {
+            "word": "समानमस्तु",
+            "akshara": "स्तु",
+            "start_ms": 8968.8,
+            "end_ms": 9209.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7574,
+            "status": "aligned"
+          },
+          {
+            "word": "वो",
+            "akshara": "वो",
+            "start_ms": 9389.2,
+            "end_ms": 9469.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8377,
+            "status": "aligned"
+          },
+          {
+            "word": "मनो",
+            "akshara": "म",
+            "start_ms": 9809.6,
+            "end_ms": 9829.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4459,
+            "status": "aligned"
+          },
+          {
+            "word": "मनो",
+            "akshara": "नो",
+            "start_ms": 10049.9,
+            "end_ms": 10149.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6071,
+            "status": "aligned"
+          },
+          {
+            "word": "यथा",
+            "akshara": "य",
+            "start_ms": 10490.3,
+            "end_ms": 10510.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5824,
+            "status": "aligned"
+          },
+          {
+            "word": "यथा",
+            "akshara": "था",
+            "start_ms": 10670.5,
+            "end_ms": 10790.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.738,
+            "status": "aligned"
+          },
+          {
+            "word": "वः",
+            "akshara": "वः",
+            "start_ms": 11551.3,
+            "end_ms": 11731.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9192,
+            "status": "aligned"
+          },
+          {
+            "word": "सुसहासति",
+            "akshara": "सु",
+            "start_ms": 11911.7,
+            "end_ms": 12031.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5083,
+            "status": "aligned"
+          },
+          {
+            "word": "सुसहासति",
+            "akshara": "स",
+            "start_ms": 12191.9,
+            "end_ms": 12212.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.0335,
+            "status": "aligned"
+          },
+          {
+            "word": "सुसहासति",
+            "akshara": "हा",
+            "start_ms": 12412.2,
+            "end_ms": 12512.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.1679,
+            "status": "aligned"
+          },
+          {
+            "word": "सुसहासति",
+            "akshara": "स",
+            "start_ms": 12812.6,
+            "end_ms": 12832.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.0116,
+            "status": "aligned"
+          },
+          {
+            "word": "सुसहासति",
+            "akshara": "ति",
+            "start_ms": 13253.0,
+            "end_ms": 13313.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.048,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-04",
+      "audio_sha256": "8adf7832b676d73e57cc200d6299b49de3f330163b1dadd8cc773f92305e17b3",
+      "audio_duration_ms": 6253.5,
+      "inference_ms_cpu": 1479.1,
+      "reference_text": "आ नो भद्राः क्रतवो यन्तु विश्वतः",
+      "asr_transcript_candidate": "आ नो भद्राः क्रतावो यन्तु विश्वताः",
+      "cer": 0.07407407407407407,
+      "whitespace_wer": 0.3333333333333333,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 312,
+        "target_label_count": 32,
+        "mean_forced_frame_log_probability": -0.042,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "आ",
+            "status": "aligned",
+            "start_ms": 701.5,
+            "end_ms": 721.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9983
+          },
+          {
+            "text": "नो",
+            "status": "aligned",
+            "start_ms": 1122.4,
+            "end_ms": 1242.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9301
+          },
+          {
+            "text": "भद्राः",
+            "status": "aligned",
+            "start_ms": 1944.2,
+            "end_ms": 2926.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9662
+          },
+          {
+            "text": "क्रतवो",
+            "status": "aligned",
+            "start_ms": 3046.6,
+            "end_ms": 3848.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9665
+          },
+          {
+            "text": "यन्तु",
+            "status": "aligned",
+            "start_ms": 4209.1,
+            "end_ms": 4650.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9992
+          },
+          {
+            "text": "विश्वतः",
+            "status": "aligned",
+            "start_ms": 4810.4,
+            "end_ms": 5752.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9976
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "आ",
+            "akshara": "आ",
+            "start_ms": 701.5,
+            "end_ms": 721.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9983,
+            "status": "aligned"
+          },
+          {
+            "word": "नो",
+            "akshara": "नो",
+            "start_ms": 1122.4,
+            "end_ms": 1242.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9301,
+            "status": "aligned"
+          },
+          {
+            "word": "भद्राः",
+            "akshara": "भ",
+            "start_ms": 1944.2,
+            "end_ms": 1964.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9999,
+            "status": "aligned"
+          },
+          {
+            "word": "भद्राः",
+            "akshara": "द्राः",
+            "start_ms": 2244.8,
+            "end_ms": 2926.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9594,
+            "status": "aligned"
+          },
+          {
+            "word": "क्रतवो",
+            "akshara": "क्र",
+            "start_ms": 3046.6,
+            "end_ms": 3186.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9331,
+            "status": "aligned"
+          },
+          {
+            "word": "क्रतवो",
+            "akshara": "त",
+            "start_ms": 3307.1,
+            "end_ms": 3327.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9999,
+            "status": "aligned"
+          },
+          {
+            "word": "क्रतवो",
+            "akshara": "वो",
+            "start_ms": 3768.1,
+            "end_ms": 3848.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9999,
+            "status": "aligned"
+          },
+          {
+            "word": "यन्तु",
+            "akshara": "य",
+            "start_ms": 4209.1,
+            "end_ms": 4229.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9997,
+            "status": "aligned"
+          },
+          {
+            "word": "यन्तु",
+            "akshara": "न्तु",
+            "start_ms": 4429.6,
+            "end_ms": 4650.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.999,
+            "status": "aligned"
+          },
+          {
+            "word": "विश्वतः",
+            "akshara": "वि",
+            "start_ms": 4810.4,
+            "end_ms": 4870.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9999,
+            "status": "aligned"
+          },
+          {
+            "word": "विश्वतः",
+            "akshara": "श्व",
+            "start_ms": 5010.8,
+            "end_ms": 5151.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9987,
+            "status": "aligned"
+          },
+          {
+            "word": "विश्वतः",
+            "akshara": "तः",
+            "start_ms": 5331.5,
+            "end_ms": 5752.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9936,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-05",
+      "audio_sha256": "98397dbafb7adb9d2eb1d4b4756b0b838506181799c42250a9c04bf9ad2738a6",
+      "audio_duration_ms": 8593.5,
+      "inference_ms_cpu": 2245.1,
+      "reference_text": "उषो यदद्य भानुना वि द्वारावृणवो दिवः",
+      "asr_transcript_candidate": "कुशो यदद्य भानुनावित्वारावृणवो दिवः",
+      "cer": 0.12903225806451613,
+      "whitespace_wer": 0.6666666666666666,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 429,
+        "target_label_count": 36,
+        "mean_forced_frame_log_probability": -0.0583,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "उषो",
+            "status": "aligned",
+            "start_ms": 961.5,
+            "end_ms": 1362.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4343
+          },
+          {
+            "text": "यदद्य",
+            "status": "aligned",
+            "start_ms": 1802.8,
+            "end_ms": 2584.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9806
+          },
+          {
+            "text": "भानुना",
+            "status": "aligned",
+            "start_ms": 2824.4,
+            "end_ms": 3725.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9784
+          },
+          {
+            "text": "वि",
+            "status": "aligned",
+            "start_ms": 4146.5,
+            "end_ms": 4206.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9988
+          },
+          {
+            "text": "द्वारावृणवो",
+            "status": "aligned",
+            "start_ms": 4507.1,
+            "end_ms": 6630.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8807
+          },
+          {
+            "text": "दिवः",
+            "status": "aligned",
+            "start_ms": 7451.7,
+            "end_ms": 7832.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9299
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "उषो",
+            "akshara": "उ",
+            "start_ms": 961.5,
+            "end_ms": 981.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.3205,
+            "status": "aligned"
+          },
+          {
+            "word": "उषो",
+            "akshara": "षो",
+            "start_ms": 1221.9,
+            "end_ms": 1362.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4912,
+            "status": "aligned"
+          },
+          {
+            "word": "यदद्य",
+            "akshara": "य",
+            "start_ms": 1802.8,
+            "end_ms": 1842.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9854,
+            "status": "aligned"
+          },
+          {
+            "word": "यदद्य",
+            "akshara": "द",
+            "start_ms": 2063.2,
+            "end_ms": 2083.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.994,
+            "status": "aligned"
+          },
+          {
+            "word": "यदद्य",
+            "akshara": "द्य",
+            "start_ms": 2383.7,
+            "end_ms": 2584.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9745,
+            "status": "aligned"
+          },
+          {
+            "word": "भानुना",
+            "akshara": "भा",
+            "start_ms": 2824.4,
+            "end_ms": 2924.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9494,
+            "status": "aligned"
+          },
+          {
+            "word": "भानुना",
+            "akshara": "नु",
+            "start_ms": 3325.2,
+            "end_ms": 3405.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9931,
+            "status": "aligned"
+          },
+          {
+            "word": "भानुना",
+            "akshara": "ना",
+            "start_ms": 3585.6,
+            "end_ms": 3725.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9926,
+            "status": "aligned"
+          },
+          {
+            "word": "वि",
+            "akshara": "वि",
+            "start_ms": 4146.5,
+            "end_ms": 4206.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9988,
+            "status": "aligned"
+          },
+          {
+            "word": "द्वारावृणवो",
+            "akshara": "द्वा",
+            "start_ms": 4507.1,
+            "end_ms": 4747.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7043,
+            "status": "aligned"
+          },
+          {
+            "word": "द्वारावृणवो",
+            "akshara": "रा",
+            "start_ms": 5108.0,
+            "end_ms": 5208.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9963,
+            "status": "aligned"
+          },
+          {
+            "word": "द्वारावृणवो",
+            "akshara": "वृ",
+            "start_ms": 6069.5,
+            "end_ms": 6169.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9976,
+            "status": "aligned"
+          },
+          {
+            "word": "द्वारावृणवो",
+            "akshara": "ण",
+            "start_ms": 6329.9,
+            "end_ms": 6350.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9988,
+            "status": "aligned"
+          },
+          {
+            "word": "द्वारावृणवो",
+            "akshara": "वो",
+            "start_ms": 6530.3,
+            "end_ms": 6630.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9422,
+            "status": "aligned"
+          },
+          {
+            "word": "दिवः",
+            "akshara": "दि",
+            "start_ms": 7451.7,
+            "end_ms": 7531.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9111,
+            "status": "aligned"
+          },
+          {
+            "word": "दिवः",
+            "akshara": "वः",
+            "start_ms": 7632.0,
+            "end_ms": 7832.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9487,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-06",
+      "audio_sha256": "2eb828b93f3311eb9d0571c8c707e2b84546c0b67f9417dbf591f4dd57c165a2",
+      "audio_duration_ms": 6533.5,
+      "inference_ms_cpu": 1714.1,
+      "reference_text": "समानं मनः सहचित्तमेषाम्",
+      "asr_transcript_candidate": "समानं मनः सह चित्तमेशाम्",
+      "cer": 0.047619047619047616,
+      "whitespace_wer": 0.6666666666666666,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 326,
+        "target_label_count": 23,
+        "mean_forced_frame_log_probability": -0.0465,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "समानं",
+            "status": "aligned",
+            "start_ms": 1042.2,
+            "end_ms": 2244.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9978
+          },
+          {
+            "text": "मनः",
+            "status": "aligned",
+            "start_ms": 2324.8,
+            "end_ms": 2825.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9921
+          },
+          {
+            "text": "सहचित्तमेषाम्",
+            "status": "aligned",
+            "start_ms": 3006.2,
+            "end_ms": 6152.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9041
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "समानं",
+            "akshara": "स",
+            "start_ms": 1042.2,
+            "end_ms": 1062.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9985,
+            "status": "aligned"
+          },
+          {
+            "word": "समानं",
+            "akshara": "मा",
+            "start_ms": 1302.7,
+            "end_ms": 1422.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9993,
+            "status": "aligned"
+          },
+          {
+            "word": "समानं",
+            "akshara": "नं",
+            "start_ms": 1863.9,
+            "end_ms": 2244.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9959,
+            "status": "aligned"
+          },
+          {
+            "word": "मनः",
+            "akshara": "म",
+            "start_ms": 2324.8,
+            "end_ms": 2344.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9876,
+            "status": "aligned"
+          },
+          {
+            "word": "मनः",
+            "akshara": "नः",
+            "start_ms": 2605.4,
+            "end_ms": 2825.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9943,
+            "status": "aligned"
+          },
+          {
+            "word": "सहचित्तमेषाम्",
+            "akshara": "स",
+            "start_ms": 3006.2,
+            "end_ms": 3026.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.997,
+            "status": "aligned"
+          },
+          {
+            "word": "सहचित्तमेषाम्",
+            "akshara": "ह",
+            "start_ms": 3266.7,
+            "end_ms": 3286.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9982,
+            "status": "aligned"
+          },
+          {
+            "word": "सहचित्तमेषाम्",
+            "akshara": "चि",
+            "start_ms": 3587.4,
+            "end_ms": 3667.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9982,
+            "status": "aligned"
+          },
+          {
+            "word": "सहचित्तमेषाम्",
+            "akshara": "त्त",
+            "start_ms": 3868.0,
+            "end_ms": 4008.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9838,
+            "status": "aligned"
+          },
+          {
+            "word": "सहचित्तमेषाम्",
+            "akshara": "मे",
+            "start_ms": 4228.7,
+            "end_ms": 4308.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9989,
+            "status": "aligned"
+          },
+          {
+            "word": "सहचित्तमेषाम्",
+            "akshara": "षा",
+            "start_ms": 5090.5,
+            "end_ms": 5230.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4099,
+            "status": "aligned"
+          },
+          {
+            "word": "सहचित्तमेषाम्",
+            "akshara": "म्",
+            "start_ms": 6092.6,
+            "end_ms": 6152.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9963,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-07",
+      "audio_sha256": "f6a3c88b4b3f2b73b2faddc94dca7feca69c511a0b8fdb440fde8c881ccbbebd",
+      "audio_duration_ms": 12253.5,
+      "inference_ms_cpu": 3917.8,
+      "reference_text": "ऋचो अक्षरे परमे व्योमन् यस्मिन् देवा अधि विश्वे निषेदुः",
+      "asr_transcript_candidate": "शुचोअक्षरे परमेव्योमन्यस्मिन् देवा अति विश्वे निशे",
+      "cer": 0.14893617021276595,
+      "whitespace_wer": 0.7777777777777778,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 612,
+        "target_label_count": 55,
+        "mean_forced_frame_log_probability": -0.1052,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "ऋचो",
+            "status": "aligned",
+            "start_ms": 720.8,
+            "end_ms": 1061.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6113
+          },
+          {
+            "text": "अक्षरे",
+            "status": "aligned",
+            "start_ms": 1822.0,
+            "end_ms": 2442.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9443
+          },
+          {
+            "text": "परमे",
+            "status": "aligned",
+            "start_ms": 3223.6,
+            "end_ms": 3724.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9979
+          },
+          {
+            "text": "व्योमन्",
+            "status": "aligned",
+            "start_ms": 4244.7,
+            "end_ms": 5686.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9777
+          },
+          {
+            "text": "यस्मिन्",
+            "status": "aligned",
+            "start_ms": 5726.3,
+            "end_ms": 6887.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9845
+          },
+          {
+            "text": "देवा",
+            "status": "aligned",
+            "start_ms": 6947.7,
+            "end_ms": 7508.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9971
+          },
+          {
+            "text": "अधि",
+            "status": "aligned",
+            "start_ms": 8129.0,
+            "end_ms": 8429.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5521
+          },
+          {
+            "text": "विश्वे",
+            "status": "aligned",
+            "start_ms": 8589.5,
+            "end_ms": 9090.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9968
+          },
+          {
+            "text": "निषेदुः",
+            "status": "aligned",
+            "start_ms": 10231.3,
+            "end_ms": 11272.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4571
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "ऋचो",
+            "akshara": "ऋ",
+            "start_ms": 720.8,
+            "end_ms": 740.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.0,
+            "status": "aligned"
+          },
+          {
+            "word": "ऋचो",
+            "akshara": "चो",
+            "start_ms": 961.1,
+            "end_ms": 1061.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9169,
+            "status": "aligned"
+          },
+          {
+            "word": "अक्षरे",
+            "akshara": "अ",
+            "start_ms": 1822.0,
+            "end_ms": 1842.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6964,
+            "status": "aligned"
+          },
+          {
+            "word": "अक्षरे",
+            "akshara": "क्ष",
+            "start_ms": 2042.3,
+            "end_ms": 2162.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9904,
+            "status": "aligned"
+          },
+          {
+            "word": "अक्षरे",
+            "akshara": "रे",
+            "start_ms": 2362.6,
+            "end_ms": 2442.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9992,
+            "status": "aligned"
+          },
+          {
+            "word": "परमे",
+            "akshara": "प",
+            "start_ms": 3223.6,
+            "end_ms": 3243.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9992,
+            "status": "aligned"
+          },
+          {
+            "word": "परमे",
+            "akshara": "र",
+            "start_ms": 3423.8,
+            "end_ms": 3443.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9985,
+            "status": "aligned"
+          },
+          {
+            "word": "परमे",
+            "akshara": "मे",
+            "start_ms": 3644.0,
+            "end_ms": 3724.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9969,
+            "status": "aligned"
+          },
+          {
+            "word": "व्योमन्",
+            "akshara": "व्यो",
+            "start_ms": 4244.7,
+            "end_ms": 4484.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9912,
+            "status": "aligned"
+          },
+          {
+            "word": "व्योमन्",
+            "akshara": "म",
+            "start_ms": 5265.8,
+            "end_ms": 5285.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9871,
+            "status": "aligned"
+          },
+          {
+            "word": "व्योमन्",
+            "akshara": "न्",
+            "start_ms": 5586.2,
+            "end_ms": 5686.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9458,
+            "status": "aligned"
+          },
+          {
+            "word": "यस्मिन्",
+            "akshara": "य",
+            "start_ms": 5726.3,
+            "end_ms": 5746.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9992,
+            "status": "aligned"
+          },
+          {
+            "word": "यस्मिन्",
+            "akshara": "स्मि",
+            "start_ms": 5926.5,
+            "end_ms": 6206.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9735,
+            "status": "aligned"
+          },
+          {
+            "word": "यस्मिन्",
+            "akshara": "न्",
+            "start_ms": 6807.5,
+            "end_ms": 6887.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9992,
+            "status": "aligned"
+          },
+          {
+            "word": "देवा",
+            "akshara": "दे",
+            "start_ms": 6947.7,
+            "end_ms": 7047.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9986,
+            "status": "aligned"
+          },
+          {
+            "word": "देवा",
+            "akshara": "वा",
+            "start_ms": 7388.1,
+            "end_ms": 7508.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9956,
+            "status": "aligned"
+          },
+          {
+            "word": "अधि",
+            "akshara": "अ",
+            "start_ms": 8129.0,
+            "end_ms": 8149.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6563,
+            "status": "aligned"
+          },
+          {
+            "word": "अधि",
+            "akshara": "धि",
+            "start_ms": 8349.2,
+            "end_ms": 8429.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5,
+            "status": "aligned"
+          },
+          {
+            "word": "विश्वे",
+            "akshara": "वि",
+            "start_ms": 8589.5,
+            "end_ms": 8649.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9991,
+            "status": "aligned"
+          },
+          {
+            "word": "विश्वे",
+            "akshara": "श्वे",
+            "start_ms": 8829.7,
+            "end_ms": 9090.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9956,
+            "status": "aligned"
+          },
+          {
+            "word": "निषेदुः",
+            "akshara": "नि",
+            "start_ms": 10231.3,
+            "end_ms": 10311.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9979,
+            "status": "aligned"
+          },
+          {
+            "word": "निषेदुः",
+            "akshara": "षे",
+            "start_ms": 10491.6,
+            "end_ms": 10611.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5907,
+            "status": "aligned"
+          },
+          {
+            "word": "निषेदुः",
+            "akshara": "दुः",
+            "start_ms": 11032.2,
+            "end_ms": 11272.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.0076,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-08",
+      "audio_sha256": "92dee02a1636770239214a8b60489862af7cdfe77c150933381d54e9f62890ca",
+      "audio_duration_ms": 10853.5,
+      "inference_ms_cpu": 3058.3,
+      "reference_text": "मोघमन्नं विन्दते अप्रचेताः सत्यं ब्रवीमि वध इत् स तस्य",
+      "asr_transcript_candidate": "मो घमन्नं विन्दते अप्राचेताः सत्यं ब्रावीमिवध इत्सय",
+      "cer": 0.10869565217391304,
+      "whitespace_wer": 0.8888888888888888,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 542,
+        "target_label_count": 54,
+        "mean_forced_frame_log_probability": -0.0745,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "मोघमन्नं",
+            "status": "aligned",
+            "start_ms": 1001.2,
+            "end_ms": 2983.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8637
+          },
+          {
+            "text": "विन्दते",
+            "status": "aligned",
+            "start_ms": 3103.9,
+            "end_ms": 3824.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9461
+          },
+          {
+            "text": "अप्रचेताः",
+            "status": "aligned",
+            "start_ms": 4465.6,
+            "end_ms": 6448.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9826
+          },
+          {
+            "text": "सत्यं",
+            "status": "aligned",
+            "start_ms": 6608.2,
+            "end_ms": 7369.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9929
+          },
+          {
+            "text": "ब्रवीमि",
+            "status": "aligned",
+            "start_ms": 7469.3,
+            "end_ms": 8470.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9965
+          },
+          {
+            "text": "वध",
+            "status": "aligned",
+            "start_ms": 8650.8,
+            "end_ms": 8911.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9552
+          },
+          {
+            "text": "इत्",
+            "status": "aligned",
+            "start_ms": 9131.4,
+            "end_ms": 9411.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8655
+          },
+          {
+            "text": "स",
+            "status": "aligned",
+            "start_ms": 9471.8,
+            "end_ms": 9491.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5834
+          },
+          {
+            "text": "तस्य",
+            "status": "aligned",
+            "start_ms": 9732.1,
+            "end_ms": 10172.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.3096
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "मोघमन्नं",
+            "akshara": "मो",
+            "start_ms": 1001.2,
+            "end_ms": 1121.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9518,
+            "status": "aligned"
+          },
+          {
+            "word": "मोघमन्नं",
+            "akshara": "घ",
+            "start_ms": 1501.9,
+            "end_ms": 1521.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5594,
+            "status": "aligned"
+          },
+          {
+            "word": "मोघमन्नं",
+            "akshara": "म",
+            "start_ms": 1742.2,
+            "end_ms": 1762.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8347,
+            "status": "aligned"
+          },
+          {
+            "word": "मोघमन्नं",
+            "akshara": "न्नं",
+            "start_ms": 2062.6,
+            "end_ms": 2983.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9029,
+            "status": "aligned"
+          },
+          {
+            "word": "विन्दते",
+            "akshara": "वि",
+            "start_ms": 3103.9,
+            "end_ms": 3163.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8717,
+            "status": "aligned"
+          },
+          {
+            "word": "विन्दते",
+            "akshara": "न्द",
+            "start_ms": 3384.2,
+            "end_ms": 3524.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9628,
+            "status": "aligned"
+          },
+          {
+            "word": "विन्दते",
+            "akshara": "ते",
+            "start_ms": 3744.7,
+            "end_ms": 3824.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9956,
+            "status": "aligned"
+          },
+          {
+            "word": "अप्रचेताः",
+            "akshara": "अ",
+            "start_ms": 4465.6,
+            "end_ms": 4485.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9893,
+            "status": "aligned"
+          },
+          {
+            "word": "अप्रचेताः",
+            "akshara": "प्र",
+            "start_ms": 4806.0,
+            "end_ms": 4946.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9712,
+            "status": "aligned"
+          },
+          {
+            "word": "अप्रचेताः",
+            "akshara": "चे",
+            "start_ms": 5326.6,
+            "end_ms": 5426.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9766,
+            "status": "aligned"
+          },
+          {
+            "word": "अप्रचेताः",
+            "akshara": "ताः",
+            "start_ms": 5767.2,
+            "end_ms": 6448.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9958,
+            "status": "aligned"
+          },
+          {
+            "word": "सत्यं",
+            "akshara": "स",
+            "start_ms": 6608.2,
+            "end_ms": 6628.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9886,
+            "status": "aligned"
+          },
+          {
+            "word": "सत्यं",
+            "akshara": "त्यं",
+            "start_ms": 6948.6,
+            "end_ms": 7369.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9939,
+            "status": "aligned"
+          },
+          {
+            "word": "ब्रवीमि",
+            "akshara": "ब्र",
+            "start_ms": 7469.3,
+            "end_ms": 7549.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9972,
+            "status": "aligned"
+          },
+          {
+            "word": "ब्रवीमि",
+            "akshara": "वी",
+            "start_ms": 7969.9,
+            "end_ms": 8050.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.999,
+            "status": "aligned"
+          },
+          {
+            "word": "ब्रवीमि",
+            "akshara": "मि",
+            "start_ms": 8410.5,
+            "end_ms": 8470.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9929,
+            "status": "aligned"
+          },
+          {
+            "word": "वध",
+            "akshara": "व",
+            "start_ms": 8650.8,
+            "end_ms": 8670.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9267,
+            "status": "aligned"
+          },
+          {
+            "word": "वध",
+            "akshara": "ध",
+            "start_ms": 8891.1,
+            "end_ms": 8911.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9838,
+            "status": "aligned"
+          },
+          {
+            "word": "इत्",
+            "akshara": "इ",
+            "start_ms": 9131.4,
+            "end_ms": 9151.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9986,
+            "status": "aligned"
+          },
+          {
+            "word": "इत्",
+            "akshara": "त्",
+            "start_ms": 9351.6,
+            "end_ms": 9411.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7989,
+            "status": "aligned"
+          },
+          {
+            "word": "स",
+            "akshara": "स",
+            "start_ms": 9471.8,
+            "end_ms": 9491.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5834,
+            "status": "aligned"
+          },
+          {
+            "word": "तस्य",
+            "akshara": "त",
+            "start_ms": 9732.1,
+            "end_ms": 9752.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.0223,
+            "status": "aligned"
+          },
+          {
+            "word": "तस्य",
+            "akshara": "स्य",
+            "start_ms": 10012.5,
+            "end_ms": 10172.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.4054,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    },
+    {
+      "lesson_id": "rigveda-09",
+      "audio_sha256": "304d54b370576d800e74dcbe62132df62839ead441e39c6601285e47abfb5d34",
+      "audio_duration_ms": 16033.5,
+      "inference_ms_cpu": 5281.9,
+      "reference_text": "शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा शं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः",
+      "asr_transcript_candidate": "शं नो मित्रः शं वरूणः शं नो भवत्वर्यमा शं न इंद्रो ब्रुहस्पतिः शं नो विष्णोरुरुक्रमः",
+      "cer": 0.10144927536231885,
+      "whitespace_wer": 0.26666666666666666,
+      "ctc_alignment": {
+        "status": "completed_candidate",
+        "blank_id": 0,
+        "source_frame_count": 801,
+        "target_label_count": 83,
+        "mean_forced_frame_log_probability": -0.0614,
+        "frame_score_interpretation": "Uncalibrated model fit diagnostic; not pronunciation accuracy or a percent score.",
+        "words": [
+          {
+            "text": "शं",
+            "status": "aligned",
+            "start_ms": 1080.9,
+            "end_ms": 1441.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9687
+          },
+          {
+            "text": "नो",
+            "status": "aligned",
+            "start_ms": 1541.3,
+            "end_ms": 1641.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9996
+          },
+          {
+            "text": "मित्रः",
+            "status": "aligned",
+            "start_ms": 2482.1,
+            "end_ms": 3182.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9659
+          },
+          {
+            "text": "शं",
+            "status": "aligned",
+            "start_ms": 3322.8,
+            "end_ms": 3743.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9811
+          },
+          {
+            "text": "वरुणः",
+            "status": "aligned",
+            "start_ms": 3843.2,
+            "end_ms": 4704.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8137
+          },
+          {
+            "text": "शं",
+            "status": "aligned",
+            "start_ms": 4844.1,
+            "end_ms": 5304.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9788
+          },
+          {
+            "text": "नो",
+            "status": "aligned",
+            "start_ms": 5404.6,
+            "end_ms": 5504.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9989
+          },
+          {
+            "text": "भवत्वर्यमा",
+            "status": "aligned",
+            "start_ms": 6345.3,
+            "end_ms": 7786.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9477
+          },
+          {
+            "text": "शं",
+            "status": "aligned",
+            "start_ms": 9247.8,
+            "end_ms": 9628.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9969
+          },
+          {
+            "text": "न",
+            "status": "aligned",
+            "start_ms": 9728.2,
+            "end_ms": 9748.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9991
+          },
+          {
+            "text": "इन्द्रो",
+            "status": "aligned",
+            "start_ms": 10008.4,
+            "end_ms": 10548.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7098
+          },
+          {
+            "text": "बृहस्पतिः",
+            "status": "aligned",
+            "start_ms": 10929.2,
+            "end_ms": 12070.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8732
+          },
+          {
+            "text": "शं",
+            "status": "aligned",
+            "start_ms": 12210.3,
+            "end_ms": 12650.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9056
+          },
+          {
+            "text": "नो",
+            "status": "aligned",
+            "start_ms": 12730.7,
+            "end_ms": 12830.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9997
+          },
+          {
+            "text": "विष्णुरुरुक्रमः",
+            "status": "aligned",
+            "start_ms": 13231.1,
+            "end_ms": 15192.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9355
+          }
+        ],
+        "aksharas": [
+          {
+            "word": "शं",
+            "akshara": "शं",
+            "start_ms": 1080.9,
+            "end_ms": 1441.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9687,
+            "status": "aligned"
+          },
+          {
+            "word": "नो",
+            "akshara": "नो",
+            "start_ms": 1541.3,
+            "end_ms": 1641.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9996,
+            "status": "aligned"
+          },
+          {
+            "word": "मित्रः",
+            "akshara": "मि",
+            "start_ms": 2482.1,
+            "end_ms": 2562.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9565,
+            "status": "aligned"
+          },
+          {
+            "word": "मित्रः",
+            "akshara": "त्रः",
+            "start_ms": 2862.4,
+            "end_ms": 3182.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9707,
+            "status": "aligned"
+          },
+          {
+            "word": "शं",
+            "akshara": "शं",
+            "start_ms": 3322.8,
+            "end_ms": 3743.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9811,
+            "status": "aligned"
+          },
+          {
+            "word": "वरुणः",
+            "akshara": "व",
+            "start_ms": 3843.2,
+            "end_ms": 3863.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9998,
+            "status": "aligned"
+          },
+          {
+            "word": "वरुणः",
+            "akshara": "रु",
+            "start_ms": 4063.4,
+            "end_ms": 4143.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.566,
+            "status": "aligned"
+          },
+          {
+            "word": "वरुणः",
+            "akshara": "णः",
+            "start_ms": 4523.8,
+            "end_ms": 4704.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9685,
+            "status": "aligned"
+          },
+          {
+            "word": "शं",
+            "akshara": "शं",
+            "start_ms": 4844.1,
+            "end_ms": 5304.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9788,
+            "status": "aligned"
+          },
+          {
+            "word": "नो",
+            "akshara": "नो",
+            "start_ms": 5404.6,
+            "end_ms": 5504.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9989,
+            "status": "aligned"
+          },
+          {
+            "word": "भवत्वर्यमा",
+            "akshara": "भ",
+            "start_ms": 6345.3,
+            "end_ms": 6365.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9998,
+            "status": "aligned"
+          },
+          {
+            "word": "भवत्वर्यमा",
+            "akshara": "व",
+            "start_ms": 6565.5,
+            "end_ms": 6585.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9985,
+            "status": "aligned"
+          },
+          {
+            "word": "भवत्वर्यमा",
+            "akshara": "त्व",
+            "start_ms": 6865.8,
+            "end_ms": 7065.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9113,
+            "status": "aligned"
+          },
+          {
+            "word": "भवत्वर्यमा",
+            "akshara": "र्य",
+            "start_ms": 7246.1,
+            "end_ms": 7466.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9873,
+            "status": "aligned"
+          },
+          {
+            "word": "भवत्वर्यमा",
+            "akshara": "मा",
+            "start_ms": 7666.5,
+            "end_ms": 7786.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.8915,
+            "status": "aligned"
+          },
+          {
+            "word": "शं",
+            "akshara": "शं",
+            "start_ms": 9247.8,
+            "end_ms": 9628.1,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9969,
+            "status": "aligned"
+          },
+          {
+            "word": "न",
+            "akshara": "न",
+            "start_ms": 9728.2,
+            "end_ms": 9748.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9991,
+            "status": "aligned"
+          },
+          {
+            "word": "इन्द्रो",
+            "akshara": "इ",
+            "start_ms": 10008.4,
+            "end_ms": 10028.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9997,
+            "status": "aligned"
+          },
+          {
+            "word": "इन्द्रो",
+            "akshara": "न्द्रो",
+            "start_ms": 10308.7,
+            "end_ms": 10548.9,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.6615,
+            "status": "aligned"
+          },
+          {
+            "word": "बृहस्पतिः",
+            "akshara": "बृ",
+            "start_ms": 10929.2,
+            "end_ms": 11009.3,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.5181,
+            "status": "aligned"
+          },
+          {
+            "word": "बृहस्पतिः",
+            "akshara": "ह",
+            "start_ms": 11169.4,
+            "end_ms": 11189.4,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9999,
+            "status": "aligned"
+          },
+          {
+            "word": "बृहस्पतिः",
+            "akshara": "स्प",
+            "start_ms": 11409.6,
+            "end_ms": 11649.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.941,
+            "status": "aligned"
+          },
+          {
+            "word": "बृहस्पतिः",
+            "akshara": "तिः",
+            "start_ms": 11890.0,
+            "end_ms": 12070.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9998,
+            "status": "aligned"
+          },
+          {
+            "word": "शं",
+            "akshara": "शं",
+            "start_ms": 12210.3,
+            "end_ms": 12650.7,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9056,
+            "status": "aligned"
+          },
+          {
+            "word": "नो",
+            "akshara": "नो",
+            "start_ms": 12730.7,
+            "end_ms": 12830.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9997,
+            "status": "aligned"
+          },
+          {
+            "word": "विष्णुरुरुक्रमः",
+            "akshara": "वि",
+            "start_ms": 13231.1,
+            "end_ms": 13291.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9999,
+            "status": "aligned"
+          },
+          {
+            "word": "विष्णुरुरुक्रमः",
+            "akshara": "ष्णु",
+            "start_ms": 13471.3,
+            "end_ms": 13751.6,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.7863,
+            "status": "aligned"
+          },
+          {
+            "word": "विष्णुरुरुक्रमः",
+            "akshara": "रु",
+            "start_ms": 14151.9,
+            "end_ms": 14212.0,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9827,
+            "status": "aligned"
+          },
+          {
+            "word": "विष्णुरुरुक्रमः",
+            "akshara": "रु",
+            "start_ms": 14372.1,
+            "end_ms": 14432.2,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9871,
+            "status": "aligned"
+          },
+          {
+            "word": "विष्णुरुरुक्रमः",
+            "akshara": "क्र",
+            "start_ms": 14712.4,
+            "end_ms": 14852.5,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.9839,
+            "status": "aligned"
+          },
+          {
+            "word": "विष्णुरुरुक्रमः",
+            "akshara": "मः",
+            "start_ms": 15012.6,
+            "end_ms": 15192.8,
+            "coverage": 1.0,
+            "mean_token_posterior": 0.998,
+            "status": "aligned"
+          }
+        ],
+        "interpretation": "Forced alignment fits the supplied text to the audio; low or high fit is not independently validated pronunciation accuracy."
+      },
+      "guru_transcript_review_status": "pending",
+      "manual_timing_review_status": "pending",
+      "pronunciation_score": null
+    }
+  ]
+}

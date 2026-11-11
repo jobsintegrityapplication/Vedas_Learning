@@ -1,0 +1,18 @@
+{
+  "purpose": "Opt-in local production-provider compatibility smoke test. Guru clips are references, not student examples.",
+  "status": "completed_with_unreviewed_candidates",
+  "candidate_review_status": "pending_guru_review",
+  "pronunciation_assessment": "unavailable",
+  "interpretation": "Suśrotā outputs are transcription candidates. Vedic aligner outputs are forced-fit word and orthographic-akshara timing candidates; no human alignment labels or calibrated pronunciation metrics were available.",
+  "results": [
+    {"lesson_id":"rigveda-01","duration_ms":18074,"asr_status":"completed","alignment_status":"completed","aligned_words":9,"aligned_aksharas":31},
+    {"lesson_id":"rigveda-02","duration_ms":8154,"asr_status":"completed","alignment_status":"completed","aligned_words":6,"aligned_aksharas":17},
+    {"lesson_id":"rigveda-03","duration_ms":13774,"asr_status":"completed","alignment_status":"completed","aligned_words":12,"aligned_aksharas":31},
+    {"lesson_id":"rigveda-04","duration_ms":6254,"asr_status":"completed","alignment_status":"completed","aligned_words":6,"aligned_aksharas":12},
+    {"lesson_id":"rigveda-05","duration_ms":8594,"asr_status":"completed","alignment_status":"completed","aligned_words":6,"aligned_aksharas":16},
+    {"lesson_id":"rigveda-06","duration_ms":6534,"asr_status":"completed","alignment_status":"completed","aligned_words":3,"aligned_aksharas":12},
+    {"lesson_id":"rigveda-07","duration_ms":12254,"asr_status":"completed","alignment_status":"completed","aligned_words":9,"aligned_aksharas":23},
+    {"lesson_id":"rigveda-08","duration_ms":10854,"asr_status":"completed","alignment_status":"completed","aligned_words":9,"aligned_aksharas":23},
+    {"lesson_id":"rigveda-09","duration_ms":16034,"asr_status":"completed","alignment_status":"completed","aligned_words":15,"aligned_aksharas":31}
+  ]
+}

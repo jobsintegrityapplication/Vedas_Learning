@@ -1,0 +1,373 @@
+{
+  "audit_status": "not_production_ready",
+  "source_files": {
+    "count": 20,
+    "count_by_profile": {
+      "Kanchi": 10,
+      "Sringeri": 10
+    },
+    "sha256_match_count": 20,
+    "all_10_mandalas_in_both_profiles": true,
+    "details": [
+      {
+        "profile": "Kanchi",
+        "mandala": 1,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_01_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "5ca6353a52e724dec733d20ce3c5258da946b5043c1c0588f70ba0c722444aba",
+        "observed_sha256": "5ca6353a52e724dec733d20ce3c5258da946b5043c1c0588f70ba0c722444aba",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 2,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_02_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "7b149fba3dd1b4398713f9049d40873fc1ca2bfff772521849d08d53ed625f46",
+        "observed_sha256": "7b149fba3dd1b4398713f9049d40873fc1ca2bfff772521849d08d53ed625f46",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 3,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_03_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "10890bea871626d0dbcc0450f1ffa3b2fe57080897d70f232876e01b80ca22a4",
+        "observed_sha256": "10890bea871626d0dbcc0450f1ffa3b2fe57080897d70f232876e01b80ca22a4",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 4,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_04_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "1a2f76d3069ad6cd32ac3541c40fe4456b41f7d22217439777141b5eaf4ff30f",
+        "observed_sha256": "1a2f76d3069ad6cd32ac3541c40fe4456b41f7d22217439777141b5eaf4ff30f",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 5,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_05_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "92e4c6a45076045cd9743f55343241937832776d11725bf8713d24160b2a8640",
+        "observed_sha256": "92e4c6a45076045cd9743f55343241937832776d11725bf8713d24160b2a8640",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 6,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_06_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "efdaee599fe728271cc8a95a676317f96931358b14835af2cdadfae0d63f4693",
+        "observed_sha256": "efdaee599fe728271cc8a95a676317f96931358b14835af2cdadfae0d63f4693",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 7,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_07_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "859675d01f4d8ae9dec92c2d1a1f74efa6222f64389dfc256738564bd0000a96",
+        "observed_sha256": "859675d01f4d8ae9dec92c2d1a1f74efa6222f64389dfc256738564bd0000a96",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 8,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_08_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "854613c9ff9b8c9ed1cae61dd945af52b942f50774a02a4b37e5b60e812f9a61",
+        "observed_sha256": "854613c9ff9b8c9ed1cae61dd945af52b942f50774a02a4b37e5b60e812f9a61",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 9,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_09_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "056aac4b6dcb5061ea0092a72dbe33424acced90df8a8001ad2482c3f7b94cf4",
+        "observed_sha256": "056aac4b6dcb5061ea0092a72dbe33424acced90df8a8001ad2482c3f7b94cf4",
+        "checksum_match": true
+      },
+      {
+        "profile": "Kanchi",
+        "mandala": 10,
+        "path": "C:\\Users\\ZMIT\\Downloads\\rigvedas\\maNDala_10_kp.pdf",
+        "exists": true,
+        "manifest_sha256": "1109d6a68378f438eb103554c63b96f4582e670b7959e1bde72cdc491342f9eb",
+        "observed_sha256": "1109d6a68378f438eb103554c63b96f4582e670b7959e1bde72cdc491342f9eb",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 1,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_01_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "acd1cbc1de4b384702e73c104323ae6de6ad948c6424df9f90ca731b4b482a84",
+        "observed_sha256": "acd1cbc1de4b384702e73c104323ae6de6ad948c6424df9f90ca731b4b482a84",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 2,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_02_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "3441a2450f4cf31dd24c23006aa3e94496df6dfd2afa894f3f58237263d381c5",
+        "observed_sha256": "3441a2450f4cf31dd24c23006aa3e94496df6dfd2afa894f3f58237263d381c5",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 3,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_03_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "3efdce78f3be118f4f6154e8a98ad80edeed32497fa37f86a8225d83852efe5a",
+        "observed_sha256": "3efdce78f3be118f4f6154e8a98ad80edeed32497fa37f86a8225d83852efe5a",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 4,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_04_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "7fc64926750e4b7eeed63d988852201ab1bd2e94aec669d2d03c8d376dc8b140",
+        "observed_sha256": "7fc64926750e4b7eeed63d988852201ab1bd2e94aec669d2d03c8d376dc8b140",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 5,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_05_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "8ac328653c180c925253d55c4ba8a449ea0fe2d26af72b1543937a4c31a621ff",
+        "observed_sha256": "8ac328653c180c925253d55c4ba8a449ea0fe2d26af72b1543937a4c31a621ff",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 6,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_06_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "9c95ef6ecd4f727639e7239713ff3424210e3ade5c372947dfb1c13b14a57d29",
+        "observed_sha256": "9c95ef6ecd4f727639e7239713ff3424210e3ade5c372947dfb1c13b14a57d29",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 7,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_07_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "d7089d4117215ae288e34afa07f7140de2e51bc17a8bb97a136a814d3510ebaf",
+        "observed_sha256": "d7089d4117215ae288e34afa07f7140de2e51bc17a8bb97a136a814d3510ebaf",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 8,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_08_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "a9eaa50e38977cde003567170b0776d28db53b6198f9f1d2011609c806b0e2f0",
+        "observed_sha256": "a9eaa50e38977cde003567170b0776d28db53b6198f9f1d2011609c806b0e2f0",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 9,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_09_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "69cda6f150ba68f835973b496309a4b43dbd88fda4ef2b8c943ff6739e71c6d9",
+        "observed_sha256": "69cda6f150ba68f835973b496309a4b43dbd88fda4ef2b8c943ff6739e71c6d9",
+        "checksum_match": true
+      },
+      {
+        "profile": "Sringeri",
+        "mandala": 10,
+        "path": "C:\\Users\\ZMIT\\Downloads\\sringeri\\maNDala_10_sp.pdf",
+        "exists": true,
+        "manifest_sha256": "0b72d7755857205fedc437d88a700cd0d55022a20b8061092e740faa1255997c",
+        "observed_sha256": "0b72d7755857205fedc437d88a700cd0d55022a20b8061092e740faa1255997c",
+        "checksum_match": true
+      }
+    ]
+  },
+  "documented_structure": {
+    "counts": {
+      "mandalas": 10,
+      "suktas": 1028,
+      "mantras": 10552
+    },
+    "matches_documented_total": true,
+    "per_mandala": {
+      "1": {
+        "suktas": 191,
+        "mantras": 2006
+      },
+      "2": {
+        "suktas": 43,
+        "mantras": 429
+      },
+      "3": {
+        "suktas": 62,
+        "mantras": 617
+      },
+      "4": {
+        "suktas": 58,
+        "mantras": 589
+      },
+      "5": {
+        "suktas": 87,
+        "mantras": 727
+      },
+      "6": {
+        "suktas": 75,
+        "mantras": 765
+      },
+      "7": {
+        "suktas": 104,
+        "mantras": 841
+      },
+      "8": {
+        "suktas": 103,
+        "mantras": 1716
+      },
+      "9": {
+        "suktas": 114,
+        "mantras": 1108
+      },
+      "10": {
+        "suktas": 191,
+        "mantras": 1754
+      }
+    }
+  },
+  "ingestion": {
+    "page_records": 4130,
+    "candidate_records": 21191,
+    "candidate_counts_by_profile": {
+      "Kanchi": 10617,
+      "Sringeri": 10574
+    },
+    "resolved_reference_candidates_by_profile": {
+      "Kanchi": 7000,
+      "Sringeri": 6975
+    },
+    "resolved_references_by_profile_mandala": {
+      "Kanchi": {
+        "1": 585,
+        "10": 474,
+        "2": 258,
+        "3": 251,
+        "4": 290,
+        "5": 723,
+        "6": 764,
+        "7": 836,
+        "8": 1713,
+        "9": 1106
+      },
+      "Sringeri": {
+        "1": 584,
+        "10": 455,
+        "2": 258,
+        "3": 251,
+        "4": 280,
+        "5": 725,
+        "6": 764,
+        "7": 837,
+        "8": 1714,
+        "9": 1107
+      }
+    },
+    "representative_provisional_references": {
+      "Kanchi": {
+        "1": "RV.01.001.01",
+        "10": "RV.10.001.01",
+        "2": "RV.02.001.01",
+        "3": "RV.03.001.01",
+        "4": "RV.04.001.01",
+        "5": "RV.05.001.01",
+        "6": "RV.06.001.01",
+        "7": "RV.07.001.01",
+        "8": "RV.08.001.01",
+        "9": "RV.09.001.01"
+      },
+      "Sringeri": {
+        "1": "RV.01.001.01",
+        "10": "RV.10.001.01",
+        "2": "RV.02.001.01",
+        "3": "RV.03.001.01",
+        "4": "RV.04.001.01",
+        "5": "RV.05.001.01",
+        "6": "RV.06.001.01",
+        "7": "RV.07.001.01",
+        "8": "RV.08.001.01",
+        "9": "RV.09.001.01"
+      }
+    },
+    "resolved_candidate_rows_by_profile": {
+      "Kanchi": 7213,
+      "Sringeri": 6978
+    },
+    "candidate_text_records_with_unicode": 21191,
+    "candidate_text_records_with_devanagari": 21129,
+    "candidate_text_records_with_broken_cid_placeholders": 21131,
+    "ocr_available": false,
+    "pages_marked_uncertain": 4130
+  },
+  "reconciliation": {
+    "summary": {
+      "source_pdf_count": 20,
+      "page_records": 4130,
+      "provisional_common_identities": 6963,
+      "provisional_profile_only_identities": 98,
+      "duplicate_identity_groups": 233,
+      "provisional_order_conflicts": 0,
+      "kendall_order_inversions_on_common_candidates": 0,
+      "text_comparisons_blocked": 6963,
+      "confirmed_textual_differences": 0,
+      "text_difference_status": "not_evaluated_due_uncertain_extraction",
+      "publishable_records": 0,
+      "publication_gate": "blocked_uncertain_extraction"
+    },
+    "identity_rows": 7061,
+    "variant_rows": 14260,
+    "variant_counts_by_profile": {
+      "Kanchi": 7282,
+      "Sringeri": 6978
+    },
+    "variants_with_missing_identity": 0,
+    "invalid_profile_variants": 0,
+    "identity_and_variant_profiles_separate": true
+  },
+  "padapatha": {
+    "record_count": 14260,
+    "reported_count": 14260,
+    "status_counts": {
+      "unavailable": 14260
+    },
+    "reported_status_counts": {
+      "unavailable": 14260
+    },
+    "rows_with_word_tokens": 0,
+    "bad_word_order_rows": 0,
+    "publishable_count": 0
+  },
+  "audio_and_evaluation": {
+    "local_nonfixture_audio_files": [],
+    "validated_profile_audio_count": 0,
+    "production_sanskrit_asr_configured": false,
+    "forced_alignment_provider_configured": false,
+    "pronunciation_feature_provider_configured": false,
+    "vedic_svara_provider_configured": false,
+    "evaluation_confidence_available": false,
+    "profile_audio_missing_is_reported_unavailable": true
+  },
+  "coverage_gaps": [
+    "All 4,130 pages need OCR/text review; OCR tooling/data was unavailable in the ingestion run.",
+    "Candidate references are heuristic and do not establish all 10,552 canonical mantra identities.",
+    "No verified source Padapāṭha segmentation exists; word order cannot be tested for unavailable rows.",
+    "No validated Kanchi/Sringeri reference audio assets are present.",
+    "No production Sanskrit speech, forced-alignment, phonetic, or Vedic svara engine is configured; confidence-based evaluation cannot be validated.",
+    "Rights/license and edition identification remain unresolved for the source PDFs."
+  ]
+}

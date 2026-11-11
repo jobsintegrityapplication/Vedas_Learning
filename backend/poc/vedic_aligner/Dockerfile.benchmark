@@ -1,0 +1,13 @@
+FROM python:3.11-slim
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /workspace
+COPY backend/poc/vedic_aligner/requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple \
+      torch==2.6.0+cpu torchaudio==2.6.0+cpu \
+    && pip install --no-cache-dir -r /tmp/requirements.txt
+
+ENTRYPOINT ["python", "backend/poc/vedic_aligner/evaluate.py"]
