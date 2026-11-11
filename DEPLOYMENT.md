@@ -40,7 +40,9 @@ Expected (default host ports; override with `HOST_*_PORT` in `.env` if 8000/5432
 - Mailhog: http://127.0.0.1:8025
 - S3 mock: http://127.0.0.1:9000 (S3 API; Docker Hub currently blocks `minio/minio` without login)
 
-Postgres, Redis, object storage, and Mailhog are bound to `127.0.0.1` only. The API is also bound to localhost. Android emulator reaches the host as `10.0.2.2:<HOST_API_PORT>`.
+Postgres, Redis, object storage, and Mailhog are bound to `127.0.0.1` only. The API is also bound to localhost by default. Android emulator reaches the host as `10.0.2.2:<HOST_API_PORT>`.
+
+For a physical Android phone on the same Wi-Fi, temporarily set `HOST_API_BIND_ADDRESS=0.0.0.0` in the local `.env`, restart the API service, and build the debug APK with `--dart-define=API_BASE_URL=http://<computer-LAN-IP>:<HOST_API_PORT>`. Restore `HOST_API_BIND_ADDRESS=127.0.0.1` after testing. This HTTP setup is for local debugging only; production releases must use an HTTPS API.
 
 Stop:
 

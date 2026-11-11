@@ -111,7 +111,7 @@ services:
       - ./mobile/assets/audio/guru_reference:/guru-reference-audio:ro
       - ./data/models:/models:ro
     ports:
-      - "127.0.0.1:${HOST_API_PORT:-8000}:8000"
+      - "${HOST_API_BIND_ADDRESS:-127.0.0.1}:${HOST_API_PORT:-8000}:8000"
     depends_on:
       db:
         condition: service_healthy
